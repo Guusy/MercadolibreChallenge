@@ -4,13 +4,61 @@ const requestPromise = require('request-promise');
 
 router.get('/items', function (req, res) {
     const item = req.query.q
-    console.log(item)
+    
     if (item === undefined) {
         res.status(400).json("Bad Request")
     } else {
-        requestPromise(`https://api.mercadolibre.com/sites/MLA/search?q=${item}`)
-            .then((result) => {
-                res.status(200).json(JSON.parse(result));
+        let optionsRequestPromise = {
+            method: 'GET',
+            uri: `https://api.mercadolibre.com/sites/MLA/search?q=${item}`,
+            resolveWithFullResponse: true
+        }
+        requestPromise(optionsRequestPromise)
+            .then(resultQuerySearchItem => {
+                //go to map result and get a new object to send to the front 
+                if (resultQuerySearchItem.statusCode === 200) {
+                    const bodyRequest = JSON.parse(resultQuerySearchItem.body)
+                    
+                    let objectCategories = bodyRequest.filters.find(filter => filter.id === 'category')
+                    let arrayCategories = objectCategories.values.map(value => {
+                        let arrayCategoriesToReturn = value.path_from_root.map(paths => paths.name);
+                        arrayCategoriesToReturn.push(value.name)
+                        return arrayCategoriesToReturn
+                    })
+                    let objectReturn = {
+                        author: {
+                            name: '',
+                            lastname: ''
+                        },
+                        categories: arrayCategories[0]
+                    }
+                    let arrayItemsToFront = bodyRequest.results.map(item => {
+                        let returnItem = {
+                            id: item.id,
+                            title: item.title,
+                            price: {
+                                currency: item.currency_id,
+                                amount: item.price,
+                                decimals: 0.0
+                            },
+                            picture: item.thumbnail,
+                            condition: item.condition,
+                            free_shipping: item.shipping.free_shipping
+
+                        }
+
+
+                        return returnItem
+                    })
+
+
+                    objectReturn.items =arrayItemsToFront;
+                    
+                    res.status(200).json(objectReturn);
+                } else {
+                    res.status(404).json("Not found")
+                }
+
             })
             .catch(e => res.status(503).json(e))
     }
@@ -44,7 +92,7 @@ router.get('/items/:id', function (req, res) {
                     requestPromise(optionsSecondPromise)
                         .then(descriptionDataItem => {
                             console.log(descriptionDataItem)
-                            if (descriptionDataItem.statusCode===200) {
+                            if (descriptionDataItem.statusCode === 200) {
                                 res.status(200).json(JSON.parse({
                                     principalData: principalDataItem,
                                     description: descriptionDataItem
