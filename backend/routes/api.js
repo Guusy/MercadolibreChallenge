@@ -1,6 +1,29 @@
 const express = require('express');
 const router = express.Router();
 const requestPromise = require('request-promise');
+const accessTokenMercadolibre= 'APP_USR-8465775776257699-030118-bed21d9398f3742d1db6e6c3990b4852__B_J__-192554493';
+
+
+const formatItem =  (arrayToGetData) =>{
+    return{
+    author:{
+        name: '',
+        lastname: ''
+    },
+        id: arrayToGetData.id,
+        title: arrayToGetData.title,
+        price: {
+            currency: arrayToGetData.currency_id,
+            amount: arrayToGetData.price,
+            decimals: 0.0
+        },
+        picture: arrayToGetData.pictures[0].url,
+        condition: arrayToGetData.condition,
+        sold_quantity:arrayToGetData.sold_quantity,
+        free_shipping: arrayToGetData.shipping.free_shipping
+
+    }
+}
 
 router.get('/items', function (req, res) {
     const item = req.query.q
@@ -10,7 +33,7 @@ router.get('/items', function (req, res) {
     } else {
         let optionsRequestPromise = {
             method: 'GET',
-            uri: `https://api.mercadolibre.com/sites/MLA/search?q=${item}`,
+            uri: `https://api.mercadolibre.com/sites/MLA/search?q=${item}&access_token=${accessTokenMercadolibre}`,
             resolveWithFullResponse: true
         }
         requestPromise(optionsRequestPromise)
@@ -65,7 +88,8 @@ router.get('/items', function (req, res) {
 
 });
 router.get('/items/:id', function (req, res) {
-    const id = req.params.id;
+    const id = (req.params.id).replace(/ /g,'');
+    console.log(id)
     if (id === undefined) {
         res.status(400).json("Bad Request")
     } else {
@@ -76,39 +100,50 @@ router.get('/items/:id', function (req, res) {
             resolveWithFullResponse: true
         };
 
+
+
         requestPromise(optionsFirstPromise)
             .then(principalDataItem => {
-                //TODO give format
-                console.log("el status code es ", principalDataItem.statusCode)
 
+
+                const principalDataItemJson = JSON.parse(principalDataItem.body)
 
                 if (principalDataItem.statusCode === 200) {
 
+                    let dataReturn =formatItem(principalDataItemJson)
+
                     let optionsSecondPromise = {
                         method: 'GET',
-                        uri: `https://api.mercadolibre.com/items/${id}​/description`,
+                        uri: `https://api.mercadolibre.com/items/${id}/description`,
                         resolveWithFullResponse: true
                     };
+
+
+
                     requestPromise(optionsSecondPromise)
                         .then(descriptionDataItem => {
-                            console.log(descriptionDataItem)
+
+
+                            const descriptionDataJson = JSON.parse(descriptionDataItem.body);
+
                             if (descriptionDataItem.statusCode === 200) {
-                                res.status(200).json(JSON.parse({
-                                    principalData: principalDataItem,
-                                    description: descriptionDataItem
-                                }));
+
+                                dataReturn.description= descriptionDataJson.plain_text;
+
+                                console.log('dataToReturn',dataReturn)
+                                res.status(200).json(dataReturn);
                             } else {
                                 res.status(200).json(JSON.parse({
-                                    principalData: principalDataItem
+                                    principalData: principalDataItem.body
                                 }));
                             }
 
                         })
                         .catch(e => res.status(503).json(e))
 
-                    res.status(200).json(JSON.parse(principalDataItem.body))
-                } else {
-
+                    
+                } else if(principalDataItem.statusCode===404){
+                    res.status(404).json("not found")
                 }
 
 
