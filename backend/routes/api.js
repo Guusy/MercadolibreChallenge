@@ -4,7 +4,7 @@ const express = require('express');
 const router = express.Router();
 const requestPromise = require('request-promise');
 const accessTokenMercadolibre= 'APP_USR-8465775776257699-030310-f0c776fe9c385bd2c0db11f4c684af56__M_G__-192554493';
-
+const aceptableSizeImage='499';
 const parsePrice = (amount,currency) =>{
 
    let arrayAmount=amount.toString().split(".");
@@ -16,8 +16,22 @@ const parsePrice = (amount,currency) =>{
         decimals:(arrayAmount[1]===undefined) ? '00':arrayAmount[1]
     }
 };
+const getTheBestPicture = (arrayPictures) =>{
 
-const formatItem =  (arrayToGetData,picture) =>{
+  let niceImage=  arrayPictures.find(picture=>{
+     let arraySize =picture.size.split("x");
+        return arraySize[0] > aceptableSizeImage && arraySize[1] > aceptableSizeImage
+});
+    if(niceImage===undefined){
+        return arrayPictures[0].secure_url
+    }else{
+        return niceImage.secure_url
+
+    }
+
+};
+
+const formatItem =  (arrayToGetData,individualItem) =>{
 
     return{
     author:{
@@ -27,10 +41,11 @@ const formatItem =  (arrayToGetData,picture) =>{
         id: arrayToGetData.id,
         title: arrayToGetData.title,
         price: parsePrice(arrayToGetData.price,arrayToGetData.currency_id),
-        picture: (picture) ? arrayToGetData.pictures[0].url : arrayToGetData.thumbnail,
-        condition: arrayToGetData.condition,
+        picture: (individualItem) ? getTheBestPicture(arrayToGetData.pictures) : arrayToGetData.thumbnail,
+        condition: (arrayToGetData.condition==='new')? "Nuevo" : (arrayToGetData.condition==='used' ) ? "Usado":"No especificado",
         sold_quantity:arrayToGetData.sold_quantity,
-        free_shipping: arrayToGetData.shipping.free_shipping
+        free_shipping: arrayToGetData.shipping.free_shipping,
+        state_name: (!individualItem) ? arrayToGetData.address.state_name :''
 
     }
 };
@@ -48,12 +63,14 @@ router.get('/items', function (req, res) {
             method: 'GET',
             uri: `${config.apiMercadoLibre}/sites/MLA/search?q=${item}`,
             resolveWithFullResponse: true
-        }
+        };
         requestPromise(optionsRequestPromise)
             .then(resultQuerySearchItem => {
-                //go to map result and get a new object to send to the front 
-                if (resultQuerySearchItem.statusCode === 200) {
-                    const bodyRequest = JSON.parse(resultQuerySearchItem.body)
+                //go to map result and get a new object to send to the front
+
+                const bodyRequest = JSON.parse(resultQuerySearchItem.body)
+                if (bodyRequest.results.length>0) {
+
                     
                     let objectCategories = bodyRequest.filters.find(filter => filter.id === 'category');
 
@@ -102,7 +119,7 @@ router.get('/items/:id', function (req, res) {
 
                 if (principalDataItem.statusCode === 200) {
 
-                    console.log("works")
+
                     let dataReturn =formatItem(principalDataItemJson,true),
                         optionsSecondPromiseCategories ={
                         method: 'GET',
@@ -114,7 +131,7 @@ router.get('/items/:id', function (req, res) {
                         uri: `${config.apiMercadoLibre}/items/${id}/description`,
                         resolveWithFullResponse: true
                     };
-                    console.log("works2")
+
 
                     requestPromise(optionsSecondPromiseCategories)
                         .then(categoriesItem => {
@@ -133,10 +150,10 @@ router.get('/items/:id', function (req, res) {
 
                                         dataReturn.description= descriptionDataJson.plain_text;
 
-                                        console.log('404 description dataToReturn',dataReturn)
                                         res.status(200).json(dataReturn);
                                     } else {
-                                        console.log('200 all data find dataToReturn',dataReturn)
+                                        dataReturn.description=false;
+
                                         res.status(200).json(dataReturn);
                                     }
 

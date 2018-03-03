@@ -7,6 +7,7 @@
 #title-item-box-list{
   font-size:$pixel18;}
 #box-item-list{
+  position: relative;
   background-color:white;
   margin-left:5px;
   margin-right:5px;
@@ -25,4 +26,10 @@
 #title-item-box-list{
   color:black;
   font-size:$pixel18
+}
+#adrress-item-box-list{
+  color:black;
+  position: absolute;
+  top: 45px;
+  right: 50px;
 }

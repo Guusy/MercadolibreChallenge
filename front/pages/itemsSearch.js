@@ -7,58 +7,77 @@ import {PrettyLink} from '../components/tools/PrettyLink'
 import {BoxitemList} from '../components/items/dumbs/BoxItemList';
 import {CategoryBox} from '../components/items/dumbs/CategoryBox';
 
+import {Router} from '../routes';
+
 
 export default class itemSearch extends React.Component {
 
     static async getInitialProps(request) {
         const search = request.query.search;
 
-        /*fetch(`${configFile.apiExpress}/api/items?q=${search}`)
-            .then(response=>{
-                if(response.status===200){
-                    return response.json()
-                }else if(response.status===404){
-                    //TODO 404
-                }
-            })
-            .then(data=>{
-                dataSearch=data
-            })*/
+
 
         let req = await fetch(`${configFile.apiExpress}/api/items?q=${search}`);
-        let dataSearch = await req.json()
-
-        return {search: dataSearch}
 
 
+        let dataSearch = await req.json();
+        if(req.status!==200){
+            dataSearch = false;
+        }
+
+        return {search: dataSearch,querySearch:search}
+    }
+
+    componentDidMount(){
+        if(this.props.querySearch===undefined){
+            Router.pushRoute(`/`)
+        }
     }
 
     render() {
-        return <PrincipalLayout title="Mercadolibre">
+        return <PrincipalLayout title={`Mercadolibre - Busqueda de ${this.props.querySearch}`}>
 
+            {this.props.search ?
 
-            <div className='row'>
-                <div className="col-12">
-                    <CategoryBox categories={this.props.search.categories}/>
+                <div>
+                    <div className='row'>
+                        <div className="col-12">
+                            <CategoryBox categories={this.props.search.categories}/>
+                        </div>
+                    </div>
+
+                    <div className="row">
+                        <div id="super-box-list-items-search">
+
+                            {this.props.search.items.slice(1,5).map(item=>
+
+                                <PrettyLink href={`/items/${item.id}`}>
+
+                                    <BoxitemList {...item}/>
+
+                                </PrettyLink>
+                            )}
+                        </div>
+                    </div>
                 </div>
-            </div>
 
-            <div className="row">
-                <div id="super-box-list-items-search">
+                :
 
-                    {this.props.search.items.slice(1,5).map(item=>
-
-                        <PrettyLink href={`/items/${item.id}`}>
-
-                            <BoxitemList {...item}/>
-
-                        </PrettyLink>
-                        )}
+                <div>
+                    <div id="box-item-not-found">
+                        Lo sentimos, no encontramos ningun resultado para la busqueda : {this.props.querySearch}
+                    </div>
                 </div>
-            </div>
+
+
+            }
+
+
 
             <style jsx>{
                 `
+
+                #box-item-not-found{background-color:white;padding:15px;text-align:center;margin-top:2%}
 
         #super-box-list-items-search{
         background: white;

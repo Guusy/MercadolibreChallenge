@@ -135,7 +135,7 @@ var PrincipalLayout = function (_React$Component) {
             return __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(
                 'div',
                 {
-                    className: 'jsx-1007032748',
+                    className: 'jsx-903516201',
                     __source: {
                         fileName: _jsxFileName,
                         lineNumber: 9
@@ -152,7 +152,7 @@ var PrincipalLayout = function (_React$Component) {
                     __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(
                         'title',
                         {
-                            className: 'jsx-1007032748',
+                            className: 'jsx-903516201',
                             __source: {
                                 fileName: _jsxFileName,
                                 lineNumber: 11
@@ -160,50 +160,62 @@ var PrincipalLayout = function (_React$Component) {
                         },
                         this.props.title
                     ),
-                    __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement('meta', { name: 'viewport', content: 'width=device-width; initial-scale=1.0;', className: 'jsx-1007032748',
+                    __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement('meta', { name: 'viewport', content: 'width=device-width; initial-scale=1.0;', className: 'jsx-903516201',
                         __source: {
                             fileName: _jsxFileName,
                             lineNumber: 13
                         }
                     }),
-                    __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement('link', { rel: 'stylesheet', type: 'text/css', href: 'https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css', className: 'jsx-1007032748',
+                    __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement('link', { rel: 'shortcut icon', href: '../../static/favicon2.ico', type: 'image/x-icon', className: 'jsx-903516201',
+                        __source: {
+                            fileName: _jsxFileName,
+                            lineNumber: 14
+                        }
+                    }),
+                    __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement('link', { rel: 'icon', href: '../../static/favicon2.ico', type: 'image/x-icon', className: 'jsx-903516201',
                         __source: {
                             fileName: _jsxFileName,
                             lineNumber: 15
+                        }
+                    }),
+                    __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement('link', { rel: 'stylesheet', type: 'text/css', href: 'https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css', className: 'jsx-903516201',
+                        __source: {
+                            fileName: _jsxFileName,
+                            lineNumber: 16
                         }
                     })
                 ),
                 __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_3__navbar_dumbs_SearchNavbar__["a" /* SearchNavbar */], {
                     __source: {
                         fileName: _jsxFileName,
-                        lineNumber: 18
+                        lineNumber: 19
                     }
                 }),
                 __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(
                     'div',
                     {
-                        className: 'jsx-1007032748' + ' ' + 'container',
+                        className: 'jsx-903516201' + ' ' + 'container',
                         __source: {
                             fileName: _jsxFileName,
-                            lineNumber: 21
+                            lineNumber: 22
                         }
                     },
                     __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(
                         'div',
                         {
-                            className: 'jsx-1007032748' + ' ' + 'row',
+                            className: 'jsx-903516201' + ' ' + 'row',
                             __source: {
                                 fileName: _jsxFileName,
-                                lineNumber: 22
+                                lineNumber: 23
                             }
                         },
                         __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(
                             'div',
                             {
-                                className: 'jsx-1007032748' + ' ' + 'col-12',
+                                className: 'jsx-903516201' + ' ' + 'col-12',
                                 __source: {
                                     fileName: _jsxFileName,
-                                    lineNumber: 23
+                                    lineNumber: 24
                                 }
                             },
                             this.props.children
@@ -211,12 +223,8 @@ var PrincipalLayout = function (_React$Component) {
                     )
                 ),
                 __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_0_styled_jsx_style___default.a, {
-                    styleId: '3823995084',
-                    css: 'body.jsx-1007032748{background-color:red;heigth:100%;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImNvbXBvbmVudHNcXGxheW91dHNcXFByaW5jaXBhbExheW91dC5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFnQ1ksQUFFd0IscUJBQ1QsWUFBQyIsImZpbGUiOiJjb21wb25lbnRzXFxsYXlvdXRzXFxQcmluY2lwYWxMYXlvdXQuanMiLCJzb3VyY2VSb290IjoiQzovVXNlcnMvSFAvRGVza3RvcC9kZXYvTWVyY2FkbyBMaWJyZS9kZXYvZnJvbnQiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgSGVhZCBmcm9tICduZXh0L2hlYWQnO1xyXG5pbXBvcnQge1NlYXJjaE5hdmJhcn0gZnJvbSBcIi4uL25hdmJhci9kdW1icy9TZWFyY2hOYXZiYXJcIjtcclxuXHJcbmltcG9ydCAnLi4vLi4vc3R5bGVzL3N0eWxlLnNjc3MnO1xyXG5cclxuZXhwb3J0IGRlZmF1bHQgY2xhc3MgUHJpbmNpcGFsTGF5b3V0IGV4dGVuZHMgUmVhY3QuQ29tcG9uZW50e1xyXG5cclxuICAgIHJlbmRlcigpe1xyXG4gICAgICAgIHJldHVybiA8ZGl2PlxyXG4gICAgICAgIDxIZWFkPlxyXG4gICAgICAgICAgICAgICAgPHRpdGxlPnt0aGlzLnByb3BzLnRpdGxlfTwvdGl0bGU+XHJcblxyXG4gICAgICAgICAgICAgICA8bWV0YSBuYW1lPVwidmlld3BvcnRcIiBjb250ZW50PVwid2lkdGg9ZGV2aWNlLXdpZHRoOyBpbml0aWFsLXNjYWxlPTEuMDtcIi8+XHJcbiAgICAgICAgICAgXHJcbiAgICAgICAgICAgICAgIDxsaW5rIHJlbD1cInN0eWxlc2hlZXRcIiB0eXBlPVwidGV4dC9jc3NcIiBocmVmPVwiaHR0cHM6Ly9tYXhjZG4uYm9vdHN0cmFwY2RuLmNvbS9ib290c3RyYXAvNC4wLjAvY3NzL2Jvb3RzdHJhcC5taW4uY3NzXCIvPlxyXG5cclxuICAgICAgICAgICAgPC9IZWFkPlxyXG4gICAgICAgICAgICA8U2VhcmNoTmF2YmFyLz5cclxuXHJcblxyXG4gICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cImNvbnRhaW5lclwiPlxyXG4gICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJyb3dcIj5cclxuICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cImNvbC0xMlwiPlxyXG4gICAgICAgICAgICAgICAgICAgICAgICB7dGhpcy5wcm9wcy5jaGlsZHJlbn1cclxuICAgICAgICAgICAgICAgICAgICA8L2Rpdj5cclxuICAgICAgICAgICAgICAgIDwvZGl2PlxyXG5cclxuICAgICAgICAgICAgPC9kaXY+XHJcblxyXG5cclxuICAgICAgICAgICAgPHN0eWxlIGpzeD57XHJcbiAgICAgICAgICAgICAgICBcclxuICAgICAgICAgICAgYFxyXG5cclxuYm9keXtcclxuYmFja2dyb3VuZC1jb2xvcjpyZWQ7XHJcbmhlaWd0aDoxMDAlO1xyXG59XHJcbiAgICAgICAgXHJcbiAgICAgICAgICAgIGB9XHJcbiAgICAgICAgICAgIDwvc3R5bGU+XHJcbiAgICAgICAgICAgIDxzdHlsZSBqc3ggZ2xvYmFsPlxyXG5cclxuICAgICAgICAgICAgICAgIHtcclxuICAgICAgICAgICAgICAgICAgICBgXHJcblxyXG5cclxuICAgICAgICAgICAgYm9keXtcclxuICAgICAgICAgICAgICAgIGJhY2tncm91bmQtY29sb3I6I0VFRUVFRTtcclxuICAgICAgICAgICAgfVxyXG5cclxuICAgICAgICAgICAgYFxyXG4gICAgICAgICAgICAgICAgfVxyXG4gICAgICAgICAgICA8L3N0eWxlPlxyXG5cclxuXHJcbiAgICAgICAgIFxyXG4gICAgICAgIDwvZGl2PlxyXG4gICAgfVxyXG59Il19 */\n/*@ sourceURL=components\\layouts\\PrincipalLayout.js */'
-                }),
-                __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_0_styled_jsx_style___default.a, {
                     styleId: '903516201',
-                    css: 'body{background-color:#EEEEEE;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImNvbXBvbmVudHNcXGxheW91dHNcXFByaW5jaXBhbExheW91dC5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUE0Q29CLEFBRTRCLHlCQUFDIiwiZmlsZSI6ImNvbXBvbmVudHNcXGxheW91dHNcXFByaW5jaXBhbExheW91dC5qcyIsInNvdXJjZVJvb3QiOiJDOi9Vc2Vycy9IUC9EZXNrdG9wL2Rldi9NZXJjYWRvIExpYnJlL2Rldi9mcm9udCIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBIZWFkIGZyb20gJ25leHQvaGVhZCc7XHJcbmltcG9ydCB7U2VhcmNoTmF2YmFyfSBmcm9tIFwiLi4vbmF2YmFyL2R1bWJzL1NlYXJjaE5hdmJhclwiO1xyXG5cclxuaW1wb3J0ICcuLi8uLi9zdHlsZXMvc3R5bGUuc2Nzcyc7XHJcblxyXG5leHBvcnQgZGVmYXVsdCBjbGFzcyBQcmluY2lwYWxMYXlvdXQgZXh0ZW5kcyBSZWFjdC5Db21wb25lbnR7XHJcblxyXG4gICAgcmVuZGVyKCl7XHJcbiAgICAgICAgcmV0dXJuIDxkaXY+XHJcbiAgICAgICAgPEhlYWQ+XHJcbiAgICAgICAgICAgICAgICA8dGl0bGU+e3RoaXMucHJvcHMudGl0bGV9PC90aXRsZT5cclxuXHJcbiAgICAgICAgICAgICAgIDxtZXRhIG5hbWU9XCJ2aWV3cG9ydFwiIGNvbnRlbnQ9XCJ3aWR0aD1kZXZpY2Utd2lkdGg7IGluaXRpYWwtc2NhbGU9MS4wO1wiLz5cclxuICAgICAgICAgICBcclxuICAgICAgICAgICAgICAgPGxpbmsgcmVsPVwic3R5bGVzaGVldFwiIHR5cGU9XCJ0ZXh0L2Nzc1wiIGhyZWY9XCJodHRwczovL21heGNkbi5ib290c3RyYXBjZG4uY29tL2Jvb3RzdHJhcC80LjAuMC9jc3MvYm9vdHN0cmFwLm1pbi5jc3NcIi8+XHJcblxyXG4gICAgICAgICAgICA8L0hlYWQ+XHJcbiAgICAgICAgICAgIDxTZWFyY2hOYXZiYXIvPlxyXG5cclxuXHJcbiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwiY29udGFpbmVyXCI+XHJcbiAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cInJvd1wiPlxyXG4gICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwiY29sLTEyXCI+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgIHt0aGlzLnByb3BzLmNoaWxkcmVufVxyXG4gICAgICAgICAgICAgICAgICAgIDwvZGl2PlxyXG4gICAgICAgICAgICAgICAgPC9kaXY+XHJcblxyXG4gICAgICAgICAgICA8L2Rpdj5cclxuXHJcblxyXG4gICAgICAgICAgICA8c3R5bGUganN4PntcclxuICAgICAgICAgICAgICAgIFxyXG4gICAgICAgICAgICBgXHJcblxyXG5ib2R5e1xyXG5iYWNrZ3JvdW5kLWNvbG9yOnJlZDtcclxuaGVpZ3RoOjEwMCU7XHJcbn1cclxuICAgICAgICBcclxuICAgICAgICAgICAgYH1cclxuICAgICAgICAgICAgPC9zdHlsZT5cclxuICAgICAgICAgICAgPHN0eWxlIGpzeCBnbG9iYWw+XHJcblxyXG4gICAgICAgICAgICAgICAge1xyXG4gICAgICAgICAgICAgICAgICAgIGBcclxuXHJcblxyXG4gICAgICAgICAgICBib2R5e1xyXG4gICAgICAgICAgICAgICAgYmFja2dyb3VuZC1jb2xvcjojRUVFRUVFO1xyXG4gICAgICAgICAgICB9XHJcblxyXG4gICAgICAgICAgICBgXHJcbiAgICAgICAgICAgICAgICB9XHJcbiAgICAgICAgICAgIDwvc3R5bGU+XHJcblxyXG5cclxuICAgICAgICAgXHJcbiAgICAgICAgPC9kaXY+XHJcbiAgICB9XHJcbn0iXX0= */\n/*@ sourceURL=components\\layouts\\PrincipalLayout.js */'
+                    css: 'body{background-color:#EEEEEE;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImNvbXBvbmVudHNcXGxheW91dHNcXFByaW5jaXBhbExheW91dC5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFtQ29CLEFBRTRCLHlCQUFDIiwiZmlsZSI6ImNvbXBvbmVudHNcXGxheW91dHNcXFByaW5jaXBhbExheW91dC5qcyIsInNvdXJjZVJvb3QiOiJDOi9Vc2Vycy9IUC9EZXNrdG9wL2Rldi9NZXJjYWRvIExpYnJlL2Rldi9mcm9udCIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBIZWFkIGZyb20gJ25leHQvaGVhZCc7XHJcbmltcG9ydCB7U2VhcmNoTmF2YmFyfSBmcm9tIFwiLi4vbmF2YmFyL2R1bWJzL1NlYXJjaE5hdmJhclwiO1xyXG5cclxuaW1wb3J0ICcuLi8uLi9zdHlsZXMvc3R5bGUuc2Nzcyc7XHJcblxyXG5leHBvcnQgZGVmYXVsdCBjbGFzcyBQcmluY2lwYWxMYXlvdXQgZXh0ZW5kcyBSZWFjdC5Db21wb25lbnR7XHJcblxyXG4gICAgcmVuZGVyKCl7XHJcbiAgICAgICAgcmV0dXJuIDxkaXY+XHJcbiAgICAgICAgPEhlYWQ+XHJcbiAgICAgICAgICAgICAgICA8dGl0bGU+e3RoaXMucHJvcHMudGl0bGV9PC90aXRsZT5cclxuXHJcbiAgICAgICAgICAgICAgIDxtZXRhIG5hbWU9XCJ2aWV3cG9ydFwiIGNvbnRlbnQ9XCJ3aWR0aD1kZXZpY2Utd2lkdGg7IGluaXRpYWwtc2NhbGU9MS4wO1wiLz5cclxuICAgICAgICAgICAgPGxpbmsgcmVsPVwic2hvcnRjdXQgaWNvblwiIGhyZWY9XCIuLi8uLi9zdGF0aWMvZmF2aWNvbjIuaWNvXCIgdHlwZT1cImltYWdlL3gtaWNvblwiLz5cclxuICAgICAgICAgICAgICAgIDxsaW5rIHJlbD1cImljb25cIiBocmVmPVwiLi4vLi4vc3RhdGljL2Zhdmljb24yLmljb1wiIHR5cGU9XCJpbWFnZS94LWljb25cIi8+XHJcbiAgICAgICAgICAgICAgIDxsaW5rIHJlbD1cInN0eWxlc2hlZXRcIiB0eXBlPVwidGV4dC9jc3NcIiBocmVmPVwiaHR0cHM6Ly9tYXhjZG4uYm9vdHN0cmFwY2RuLmNvbS9ib290c3RyYXAvNC4wLjAvY3NzL2Jvb3RzdHJhcC5taW4uY3NzXCIvPlxyXG5cclxuICAgICAgICAgICAgPC9IZWFkPlxyXG4gICAgICAgICAgICA8U2VhcmNoTmF2YmFyLz5cclxuXHJcblxyXG4gICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cImNvbnRhaW5lclwiPlxyXG4gICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJyb3dcIj5cclxuICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cImNvbC0xMlwiPlxyXG4gICAgICAgICAgICAgICAgICAgICAgICB7dGhpcy5wcm9wcy5jaGlsZHJlbn1cclxuICAgICAgICAgICAgICAgICAgICA8L2Rpdj5cclxuICAgICAgICAgICAgICAgIDwvZGl2PlxyXG5cclxuICAgICAgICAgICAgPC9kaXY+XHJcblxyXG5cclxuXHJcbiAgICAgICAgICAgIDxzdHlsZSBqc3ggZ2xvYmFsPlxyXG5cclxuICAgICAgICAgICAgICAgIHtcclxuICAgICAgICAgICAgICAgICAgICBgXHJcblxyXG5cclxuICAgICAgICAgICAgYm9keXtcclxuICAgICAgICAgICAgICAgIGJhY2tncm91bmQtY29sb3I6I0VFRUVFRTtcclxuICAgICAgICAgICAgfVxyXG5cclxuICAgICAgICAgICAgYFxyXG4gICAgICAgICAgICAgICAgfVxyXG4gICAgICAgICAgICA8L3N0eWxlPlxyXG5cclxuXHJcbiAgICAgICAgIFxyXG4gICAgICAgIDwvZGl2PlxyXG4gICAgfVxyXG59Il19 */\n/*@ sourceURL=components\\layouts\\PrincipalLayout.js */'
                 })
             );
         }
@@ -265,6 +273,7 @@ var _default = PrincipalLayout;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__smarts_InputSearchNavbar__ = __webpack_require__("./components/navbar/smarts/InputSearchNavbar.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__styles_style_scss__ = __webpack_require__("./styles/style.scss");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__styles_style_scss___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3__styles_style_scss__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__tools_PrettyLink__ = __webpack_require__("./components/tools/PrettyLink.js");
 var _jsxFileName = 'C:\\Users\\HP\\Desktop\\dev\\Mercado Libre\\dev\\front\\components\\navbar\\dumbs\\SearchNavbar.js';
 
 
@@ -334,19 +343,27 @@ var SearchNavbar = function SearchNavbar(props) {
                                 }
                             },
                             __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(
-                                'div',
-                                { id: 'box-logo-navbar', className: 'jsx-1180220344',
-                                    __source: {
+                                __WEBPACK_IMPORTED_MODULE_4__tools_PrettyLink__["a" /* PrettyLink */],
+                                { href: '/', __source: {
                                         fileName: _jsxFileName,
                                         lineNumber: 16
                                     }
                                 },
-                                __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement('img', { src: '../static/Logo_ML.png', className: 'jsx-1180220344',
-                                    __source: {
-                                        fileName: _jsxFileName,
-                                        lineNumber: 17
-                                    }
-                                })
+                                __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(
+                                    'div',
+                                    { id: 'box-logo-navbar', className: 'jsx-1180220344',
+                                        __source: {
+                                            fileName: _jsxFileName,
+                                            lineNumber: 17
+                                        }
+                                    },
+                                    __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement('img', { src: '../static/Logo_ML.png', className: 'jsx-1180220344',
+                                        __source: {
+                                            fileName: _jsxFileName,
+                                            lineNumber: 18
+                                        }
+                                    })
+                                )
                             )
                         ),
                         __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(
@@ -355,13 +372,13 @@ var SearchNavbar = function SearchNavbar(props) {
                                 className: 'jsx-1180220344' + ' ' + 'col-11',
                                 __source: {
                                     fileName: _jsxFileName,
-                                    lineNumber: 21
+                                    lineNumber: 23
                                 }
                             },
                             __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2__smarts_InputSearchNavbar__["a" /* default */], {
                                 __source: {
                                     fileName: _jsxFileName,
-                                    lineNumber: 22
+                                    lineNumber: 24
                                 }
                             })
                         )
@@ -371,7 +388,7 @@ var SearchNavbar = function SearchNavbar(props) {
         ),
         __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_0_styled_jsx_style___default.a, {
             styleId: '1180220344',
-            css: '#box-logo-navbar.jsx-1180220344{margin-right:15px;}#navbar-ml.jsx-1180220344{background-color:yellow;width:100%;padding:12px;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImNvbXBvbmVudHNcXG5hdmJhclxcZHVtYnNcXFNlYXJjaE5hdmJhci5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFtQ2dCLEFBRXFCLEFBR00sa0JBSEwsTUFJUixXQUNFLGFBQUMiLCJmaWxlIjoiY29tcG9uZW50c1xcbmF2YmFyXFxkdW1ic1xcU2VhcmNoTmF2YmFyLmpzIiwic291cmNlUm9vdCI6IkM6L1VzZXJzL0hQL0Rlc2t0b3AvZGV2L01lcmNhZG8gTGlicmUvZGV2L2Zyb250Iiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IFJlYWN0IGZyb20gXCJyZWFjdFwiO1xyXG5pbXBvcnQgSW5wdXRTZWFyY2hOYXZiYXIgZnJvbSAnLi4vc21hcnRzL0lucHV0U2VhcmNoTmF2YmFyJztcclxuaW1wb3J0ICcuLi8uLi8uLi9zdHlsZXMvc3R5bGUuc2Nzcyc7XHJcblxyXG5leHBvcnQgY29uc3QgU2VhcmNoTmF2YmFyID0gKHByb3BzKSA9PiB7XHJcblxyXG4gICAgcmV0dXJuIChcclxuXHJcbiAgICAgICAgPG5hdiBpZD1cIm5hdmJhci1tbFwiPlxyXG4gICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cImNvbnRhaW5lclwiPlxyXG4gICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJyb3dcIj5cclxuICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cImNvbC0xMlwiPlxyXG5cclxuICAgICAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJyb3dcIj5cclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwiY29sLTFcIj5cclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGlkPSdib3gtbG9nby1uYXZiYXInPlxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8aW1nIHNyYz1cIi4uL3N0YXRpYy9Mb2dvX01MLnBuZ1wiLz5cclxuXHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9kaXY+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L2Rpdj5cclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwiY29sLTExXCI+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPElucHV0U2VhcmNoTmF2YmFyLz5cclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvZGl2PlxyXG4gICAgICAgICAgICAgICAgICAgICAgICA8L2Rpdj5cclxuICAgICAgICAgICAgICAgICAgICA8L2Rpdj5cclxuICAgICAgICAgICAgICAgIDwvZGl2PlxyXG5cclxuXHJcblxyXG5cclxuICAgICAgICAgICAgPC9kaXY+XHJcblxyXG5cclxuICAgICAgICAgICAgPHN0eWxlIGpzeD57XHJcblxyXG4gICAgICAgICAgICAgICAgYFxyXG4gICAgICAgICAgICAjYm94LWxvZ28tbmF2YmFye1xyXG4gICAgICAgICAgICBtYXJnaW4tcmlnaHQ6MTVweH1cclxuI25hdmJhci1tbCB7XHJcbiAgYmFja2dyb3VuZC1jb2xvcjogeWVsbG93O1xyXG4gIHdpZHRoOjEwMCU7XHJcbiAgcGFkZGluZzoxMnB4O1xyXG59XHJcblxyXG5cclxuICAgICAgICAgICAgYH1cclxuICAgICAgICAgICAgPC9zdHlsZT5cclxuICAgICAgICA8L25hdj5cclxuXHJcblxyXG4gICAgKVxyXG5cclxuXHJcbn07Il19 */\n/*@ sourceURL=components\\navbar\\dumbs\\SearchNavbar.js */'
+            css: '#box-logo-navbar.jsx-1180220344{margin-right:15px;}#navbar-ml.jsx-1180220344{background-color:yellow;width:100%;padding:12px;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImNvbXBvbmVudHNcXG5hdmJhclxcZHVtYnNcXFNlYXJjaE5hdmJhci5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFxQ2dCLEFBRXFCLEFBR00sa0JBSEwsTUFJUixXQUNFLGFBQUMiLCJmaWxlIjoiY29tcG9uZW50c1xcbmF2YmFyXFxkdW1ic1xcU2VhcmNoTmF2YmFyLmpzIiwic291cmNlUm9vdCI6IkM6L1VzZXJzL0hQL0Rlc2t0b3AvZGV2L01lcmNhZG8gTGlicmUvZGV2L2Zyb250Iiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IFJlYWN0IGZyb20gXCJyZWFjdFwiO1xyXG5pbXBvcnQgSW5wdXRTZWFyY2hOYXZiYXIgZnJvbSAnLi4vc21hcnRzL0lucHV0U2VhcmNoTmF2YmFyJztcclxuaW1wb3J0ICcuLi8uLi8uLi9zdHlsZXMvc3R5bGUuc2Nzcyc7XHJcbmltcG9ydCB7UHJldHR5TGlua30gZnJvbSAnLi4vLi4vdG9vbHMvUHJldHR5TGluayc7XHJcbmV4cG9ydCBjb25zdCBTZWFyY2hOYXZiYXIgPSAocHJvcHMpID0+IHtcclxuXHJcbiAgICByZXR1cm4gKFxyXG5cclxuICAgICAgICA8bmF2IGlkPVwibmF2YmFyLW1sXCI+XHJcbiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwiY29udGFpbmVyXCI+XHJcbiAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cInJvd1wiPlxyXG4gICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwiY29sLTEyXCI+XHJcblxyXG4gICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cInJvd1wiPlxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJjb2wtMVwiPlxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxQcmV0dHlMaW5rIGhyZWY9Jy8nPlxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxkaXYgaWQ9J2JveC1sb2dvLW5hdmJhcic+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxpbWcgc3JjPVwiLi4vc3RhdGljL0xvZ29fTUwucG5nXCIvPlxyXG5cclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L2Rpdj5cclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L1ByZXR0eUxpbms+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L2Rpdj5cclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwiY29sLTExXCI+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPElucHV0U2VhcmNoTmF2YmFyLz5cclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvZGl2PlxyXG4gICAgICAgICAgICAgICAgICAgICAgICA8L2Rpdj5cclxuICAgICAgICAgICAgICAgICAgICA8L2Rpdj5cclxuICAgICAgICAgICAgICAgIDwvZGl2PlxyXG5cclxuXHJcblxyXG5cclxuICAgICAgICAgICAgPC9kaXY+XHJcblxyXG5cclxuICAgICAgICAgICAgPHN0eWxlIGpzeD57XHJcblxyXG4gICAgICAgICAgICAgICAgYFxyXG4gICAgICAgICAgICAjYm94LWxvZ28tbmF2YmFye1xyXG4gICAgICAgICAgICBtYXJnaW4tcmlnaHQ6MTVweH1cclxuI25hdmJhci1tbCB7XHJcbiAgYmFja2dyb3VuZC1jb2xvcjogeWVsbG93O1xyXG4gIHdpZHRoOjEwMCU7XHJcbiAgcGFkZGluZzoxMnB4O1xyXG59XHJcblxyXG5cclxuICAgICAgICAgICAgYH1cclxuICAgICAgICAgICAgPC9zdHlsZT5cclxuICAgICAgICA8L25hdj5cclxuXHJcblxyXG4gICAgKVxyXG5cclxuXHJcbn07Il19 */\n/*@ sourceURL=components\\navbar\\dumbs\\SearchNavbar.js */'
         })
     );
 };
@@ -536,6 +553,75 @@ var _default = InputSearchNavbar;
 
     reactHotLoader.register(InputSearchNavbar, 'InputSearchNavbar', 'C:/Users/HP/Desktop/dev/Mercado Libre/dev/front/components/navbar/smarts/InputSearchNavbar.js');
     reactHotLoader.register(_default, 'default', 'C:/Users/HP/Desktop/dev/Mercado Libre/dev/front/components/navbar/smarts/InputSearchNavbar.js');
+    leaveModule(module);
+})();
+
+;
+/* WEBPACK VAR INJECTION */}.call(__webpack_exports__, __webpack_require__("./node_modules/webpack/buildin/harmony-module.js")(module)))
+
+/***/ }),
+
+/***/ "./components/tools/PrettyLink.js":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(module) {/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return PrettyLink; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_styled_jsx_style__ = __webpack_require__("./node_modules/styled-jsx/style.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_styled_jsx_style___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_styled_jsx_style__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_next_link__ = __webpack_require__("./node_modules/next/link.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_next_link___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_next_link__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_react__ = __webpack_require__("./node_modules/react/cjs/react.development.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_react__);
+var _jsxFileName = "C:\\Users\\HP\\Desktop\\dev\\Mercado Libre\\dev\\front\\components\\tools\\PrettyLink.js";
+
+
+(function () {
+    var enterModule = __webpack_require__("./node_modules/react-hot-loader/patch.js").enterModule;
+
+    enterModule && enterModule(module);
+})();
+
+
+
+
+var PrettyLink = function PrettyLink(props) {
+
+    return __WEBPACK_IMPORTED_MODULE_2_react___default.a.createElement(
+        __WEBPACK_IMPORTED_MODULE_1_next_link___default.a,
+        { prefetch: true, href: props.href, __source: {
+                fileName: _jsxFileName,
+                lineNumber: 8
+            }
+        },
+        __WEBPACK_IMPORTED_MODULE_2_react___default.a.createElement(
+            "a",
+            {
+                className: "jsx-1657254941",
+                __source: {
+                    fileName: _jsxFileName,
+                    lineNumber: 9
+                }
+            },
+            props.children,
+            __WEBPACK_IMPORTED_MODULE_2_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_0_styled_jsx_style___default.a, {
+                styleId: "1657254941",
+                css: "a.jsx-1657254941{text-decoration:none;color:transparent;}a.jsx-1657254941:hove{color:transparent;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImNvbXBvbmVudHNcXHRvb2xzXFxQcmV0dHlMaW5rLmpzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQVl3QixBQUV3QixBQUlILGtCQUFDLEdBSEQsa0JBQUMiLCJmaWxlIjoiY29tcG9uZW50c1xcdG9vbHNcXFByZXR0eUxpbmsuanMiLCJzb3VyY2VSb290IjoiQzovVXNlcnMvSFAvRGVza3RvcC9kZXYvTWVyY2FkbyBMaWJyZS9kZXYvZnJvbnQiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgTGluayBmcm9tICduZXh0L2xpbmsnO1xyXG5pbXBvcnQgUmVhY3QgZnJvbSBcInJlYWN0XCI7XHJcblxyXG5leHBvcnQgY29uc3QgUHJldHR5TGluayA9IChwcm9wcykgPT4ge1xyXG5cclxuXHJcbiAgICAgICAgcmV0dXJuIChcclxuICAgICAgICAgICAgPExpbmsgcHJlZmV0Y2ggIGhyZWY9e3Byb3BzLmhyZWZ9PlxyXG4gICAgICAgICAgICAgICAgPGE+XHJcbiAgICAgICAgICAgICAgICAgICAge3Byb3BzLmNoaWxkcmVufVxyXG5cclxuICAgICAgICAgICAgICAgICAgICA8c3R5bGUganN4PntcclxuICAgICAgICAgICAgICAgICAgICAgICAgYFxyXG4gICAgICAgIGF7XHJcbiAgICAgICAgICAgIHRleHQtZGVjb3JhdGlvbjpub25lO1xyXG4gICAgICAgICAgICBjb2xvcjp0cmFuc3BhcmVudDtcclxuICAgICAgICB9XHJcbiAgICAgICAgYTpob3Zle1xyXG4gICAgICAgIGNvbG9yOnRyYW5zcGFyZW50O1xyXG4gICAgICAgIH1cclxuXHJcblxyXG4gICAgICAgICAgICBgXHJcbiAgICAgICAgICAgICAgICAgICAgfVxyXG5cclxuICAgICAgICAgICAgICAgICAgICA8L3N0eWxlPlxyXG4gICAgICAgICAgICAgICAgPC9hPlxyXG5cclxuICAgICAgICAgICAgPC9MaW5rPlxyXG4gICAgICAgIClcclxuXHJcblxyXG5cclxufSJdfQ== */\n/*@ sourceURL=components\\tools\\PrettyLink.js */"
+            })
+        )
+    );
+};
+;
+
+(function () {
+    var reactHotLoader = __webpack_require__("./node_modules/react-hot-loader/patch.js").default;
+
+    var leaveModule = __webpack_require__("./node_modules/react-hot-loader/patch.js").leaveModule;
+
+    if (!reactHotLoader) {
+        return;
+    }
+
+    reactHotLoader.register(PrettyLink, "PrettyLink", "C:/Users/HP/Desktop/dev/Mercado Libre/dev/front/components/tools/PrettyLink.js");
     leaveModule(module);
 })();
 
@@ -4059,6 +4145,21 @@ for (var i = 0; i < DOMIterables.length; i++) {
   if (proto && !proto[TO_STRING_TAG]) hide(proto, TO_STRING_TAG, NAME);
   Iterators[NAME] = Iterators.Array;
 }
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/index.js?{\"modules\":false,\"minimize\":false,\"sourceMap\":true,\"importLoaders\":1}!./node_modules/sass-loader/lib/loader.js!./styles/Item.scss":
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__("./node_modules/css-loader/lib/css-base.js")(true);
+// imports
+
+
+// module
+exports.push([module.i, "#box-price-item > span > span {\n  font-size: 23px;\n  vertical-align: super; }\n\n#content-item {\n  background-color: white;\n  padding: 32px; }\n\n#img-item {\n  width: 680px; }\n\n#box-condition-and-selled-item {\n  margin-top: 32px;\n  margin-bottom: 16px; }\n\n#box-title-item {\n  color: #333333;\n  font-weight: bold;\n  font-size: 24px; }\n\n#box-price-item {\n  font-weight: bold;\n  margin-top: 32px;\n  font-size: 46px;\n  margin-bottom: 32px;\n  color: #333333; }\n\n#content-image-and-price {\n  display: flex;\n  -ms-flex-wrap: wrap;\n  flex-wrap: wrap; }\n\n#box-data-item {\n  width: 396px;\n  padding-left: 20px; }\n\n#btn-buy-item {\n  color: white;\n  background-color: #3483FA;\n  width: 100%;\n  border: none;\n  border-radius: 4px;\n  padding: 9px;\n  cursor: pointer; }\n\n#sub-box-data-item {\n  max-width: 70%; }\n\n#box-description-item {\n  width: 680px;\n  margin-top: 8%; }\n\n#title-description-item {\n  color: #333333;\n  font-size: 28px; }\n\n#content-description-item {\n  font-size: 16px;\n  color: #999999;\n  padding-top: 32px;\n  padding-bottom: 32px; }\n", "", {"version":3,"sources":["C:/Users/HP/Desktop/dev/Mercado Libre/dev/front/styles/Item.scss"],"names":[],"mappings":"AAAA;EACE,gBAAgB;EAChB,sBAAsB,EAAE;;AAE1B;EACE,wBAAwB;EACxB,cAAc,EAAE;;AAElB;EACE,aAAa,EAAE;;AAEjB;EACE,iBAAiB;EACjB,oBAAoB,EAAE;;AAExB;EACE,eAAe;EACf,kBAAkB;EAClB,gBAAgB,EAAE;;AAEpB;EACE,kBAAkB;EAClB,iBAAiB;EACjB,gBAAgB;EAChB,oBAAoB;EACpB,eAAe,EAAE;;AAEnB;EACE,cAAc;EACd,oBAAoB;EACpB,gBAAgB,EAAE;;AAEpB;EACE,aAAa;EACb,mBAAmB,EAAE;;AAEvB;EACE,aAAa;EACb,0BAA0B;EAC1B,YAAY;EACZ,aAAa;EACb,mBAAmB;EACnB,aAAa;EACb,gBAAgB,EAAE;;AAEpB;EACE,eAAe,EAAE;;AAEnB;EACE,aAAa;EACb,eAAe,EAAE;;AAEnB;EACE,eAAe;EACf,gBAAgB,EAAE;;AAEpB;EACE,gBAAgB;EAChB,eAAe;EACf,kBAAkB;EAClB,qBAAqB,EAAE","file":"Item.scss","sourcesContent":["#box-price-item > span > span {\n  font-size: 23px;\n  vertical-align: super; }\n\n#content-item {\n  background-color: white;\n  padding: 32px; }\n\n#img-item {\n  width: 680px; }\n\n#box-condition-and-selled-item {\n  margin-top: 32px;\n  margin-bottom: 16px; }\n\n#box-title-item {\n  color: #333333;\n  font-weight: bold;\n  font-size: 24px; }\n\n#box-price-item {\n  font-weight: bold;\n  margin-top: 32px;\n  font-size: 46px;\n  margin-bottom: 32px;\n  color: #333333; }\n\n#content-image-and-price {\n  display: flex;\n  -ms-flex-wrap: wrap;\n  flex-wrap: wrap; }\n\n#box-data-item {\n  width: 396px;\n  padding-left: 20px; }\n\n#btn-buy-item {\n  color: white;\n  background-color: #3483FA;\n  width: 100%;\n  border: none;\n  border-radius: 4px;\n  padding: 9px;\n  cursor: pointer; }\n\n#sub-box-data-item {\n  max-width: 70%; }\n\n#box-description-item {\n  width: 680px;\n  margin-top: 8%; }\n\n#title-description-item {\n  color: #333333;\n  font-size: 28px; }\n\n#content-description-item {\n  font-size: 16px;\n  color: #999999;\n  padding-top: 32px;\n  padding-bottom: 32px; }\n"],"sourceRoot":""}]);
+
+// exports
 
 
 /***/ }),
@@ -13903,20 +14004,19 @@ module.exports = function(module) {
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* WEBPACK VAR INJECTION */(function(module) {/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_regenerator__ = __webpack_require__("./node_modules/babel-runtime/regenerator/index.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_regenerator___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_babel_runtime_regenerator__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_styled_jsx_style__ = __webpack_require__("./node_modules/styled-jsx/style.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_styled_jsx_style___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_styled_jsx_style__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_react__ = __webpack_require__("./node_modules/react/cjs/react.development.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_react__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_isomorphic_fetch__ = __webpack_require__("./node_modules/isomorphic-fetch/fetch-npm-browserify.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_isomorphic_fetch___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_isomorphic_fetch__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_layouts_PrincipalLayout__ = __webpack_require__("./components/layouts/PrincipalLayout.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__configFile__ = __webpack_require__("./configFile.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__components_items_dumbs_CategoryBox__ = __webpack_require__("./components/items/dumbs/CategoryBox.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react__ = __webpack_require__("./node_modules/react/cjs/react.development.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_react__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_isomorphic_fetch__ = __webpack_require__("./node_modules/isomorphic-fetch/fetch-npm-browserify.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_isomorphic_fetch___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_isomorphic_fetch__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_layouts_PrincipalLayout__ = __webpack_require__("./components/layouts/PrincipalLayout.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__configFile__ = __webpack_require__("./configFile.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__components_items_dumbs_CategoryBox__ = __webpack_require__("./components/items/dumbs/CategoryBox.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__styles_Item_scss__ = __webpack_require__("./styles/Item.scss");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__styles_Item_scss___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6__styles_Item_scss__);
 
 var _jsxFileName = 'C:\\Users\\HP\\Desktop\\dev\\Mercado Libre\\dev\\front\\pages\\items.js';
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
 
 
 
@@ -13940,6 +14040,8 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
 
 
 
+
+
 var _default = function (_React$Component) {
     _inherits(_default, _React$Component);
 
@@ -13953,215 +14055,228 @@ var _default = function (_React$Component) {
         key: 'render',
         value: function render() {
             var item = this.props.dataItem;
-            return __WEBPACK_IMPORTED_MODULE_2_react___default.a.createElement(
-                __WEBPACK_IMPORTED_MODULE_4__components_layouts_PrincipalLayout__["a" /* default */],
-                { title: 'Mercadolibre', __source: {
+            return __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(
+                __WEBPACK_IMPORTED_MODULE_3__components_layouts_PrincipalLayout__["a" /* default */],
+                { title: 'Mercadolibre - ' + item.title, __source: {
                         fileName: _jsxFileName,
-                        lineNumber: 24
+                        lineNumber: 29
                     }
                 },
-                __WEBPACK_IMPORTED_MODULE_2_react___default.a.createElement(
+                this.props.dataItem ? __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(
                     'div',
                     {
-                        className: 'jsx-2443584356' + ' ' + 'row',
                         __source: {
                             fileName: _jsxFileName,
-                            lineNumber: 26
+                            lineNumber: 31
                         }
                     },
-                    __WEBPACK_IMPORTED_MODULE_2_react___default.a.createElement(
+                    __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(
                         'div',
-                        {
-                            className: 'jsx-2443584356' + ' ' + 'col-12',
-                            __source: {
+                        { className: 'row', __source: {
                                 fileName: _jsxFileName,
-                                lineNumber: 27
+                                lineNumber: 34
                             }
                         },
-                        __WEBPACK_IMPORTED_MODULE_2_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_6__components_items_dumbs_CategoryBox__["a" /* CategoryBox */], { categories: this.props.dataItem.categories, __source: {
-                                fileName: _jsxFileName,
-                                lineNumber: 28
-                            }
-                        })
-                    )
-                ),
-                __WEBPACK_IMPORTED_MODULE_2_react___default.a.createElement(
-                    'div',
-                    {
-                        className: 'jsx-2443584356' + ' ' + 'row',
-                        __source: {
-                            fileName: _jsxFileName,
-                            lineNumber: 32
-                        }
-                    },
-                    __WEBPACK_IMPORTED_MODULE_2_react___default.a.createElement(
-                        'div',
-                        { id: 'content-item', className: 'jsx-2443584356' + ' ' + 'col-12',
-                            __source: {
-                                fileName: _jsxFileName,
-                                lineNumber: 33
-                            }
-                        },
-                        __WEBPACK_IMPORTED_MODULE_2_react___default.a.createElement(
+                        __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(
                             'div',
-                            {
-                                className: 'jsx-2443584356' + ' ' + 'row',
-                                __source: {
+                            { className: 'col-12', __source: {
                                     fileName: _jsxFileName,
-                                    lineNumber: 34
+                                    lineNumber: 35
                                 }
                             },
-                            __WEBPACK_IMPORTED_MODULE_2_react___default.a.createElement(
+                            __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_5__components_items_dumbs_CategoryBox__["a" /* CategoryBox */], { categories: this.props.dataItem.categories, __source: {
+                                    fileName: _jsxFileName,
+                                    lineNumber: 36
+                                }
+                            })
+                        )
+                    ),
+                    __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(
+                        'div',
+                        { className: 'row', __source: {
+                                fileName: _jsxFileName,
+                                lineNumber: 40
+                            }
+                        },
+                        __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(
+                            'div',
+                            { className: 'col-12', id: 'content-item', __source: {
+                                    fileName: _jsxFileName,
+                                    lineNumber: 41
+                                }
+                            },
+                            __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(
                                 'div',
-                                {
-                                    className: 'jsx-2443584356',
-                                    __source: {
+                                { id: 'content-image-and-price', __source: {
                                         fileName: _jsxFileName,
-                                        lineNumber: 35
+                                        lineNumber: 42
                                     }
                                 },
-                                __WEBPACK_IMPORTED_MODULE_2_react___default.a.createElement('img', { id: 'img-item', src: item.picture, alt: '', className: 'jsx-2443584356',
-                                    __source: {
-                                        fileName: _jsxFileName,
-                                        lineNumber: 36
-                                    }
-                                })
+                                __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(
+                                    'div',
+                                    {
+                                        __source: {
+                                            fileName: _jsxFileName,
+                                            lineNumber: 43
+                                        }
+                                    },
+                                    __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement('img', { id: 'img-item', src: item.picture, alt: '', __source: {
+                                            fileName: _jsxFileName,
+                                            lineNumber: 44
+                                        }
+                                    })
+                                ),
+                                __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(
+                                    'div',
+                                    { id: 'box-data-item', __source: {
+                                            fileName: _jsxFileName,
+                                            lineNumber: 46
+                                        }
+                                    },
+                                    __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(
+                                        'div',
+                                        { id: 'sub-box-data-item', __source: {
+                                                fileName: _jsxFileName,
+                                                lineNumber: 47
+                                            }
+                                        },
+                                        __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(
+                                            'div',
+                                            { id: 'box-condition-and-selled-item', __source: {
+                                                    fileName: _jsxFileName,
+                                                    lineNumber: 49
+                                                }
+                                            },
+                                            item.condition,
+                                            ' - ',
+                                            item.sold_quantity,
+                                            ' Vendidos'
+                                        ),
+                                        __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(
+                                            'div',
+                                            { id: 'box-title-item', __source: {
+                                                    fileName: _jsxFileName,
+                                                    lineNumber: 52
+                                                }
+                                            },
+                                            item.title
+                                        ),
+                                        __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(
+                                            'div',
+                                            { id: 'box-price-item', __source: {
+                                                    fileName: _jsxFileName,
+                                                    lineNumber: 55
+                                                }
+                                            },
+                                            __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(
+                                                'span',
+                                                {
+                                                    __source: {
+                                                        fileName: _jsxFileName,
+                                                        lineNumber: 56
+                                                    }
+                                                },
+                                                '$ ',
+                                                item.price.amount,
+                                                ' ',
+                                                __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(
+                                                    'span',
+                                                    {
+                                                        __source: {
+                                                            fileName: _jsxFileName,
+                                                            lineNumber: 57
+                                                        }
+                                                    },
+                                                    item.price.decimals
+                                                )
+                                            )
+                                        )
+                                    ),
+                                    __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(
+                                        'div',
+                                        {
+                                            __source: {
+                                                fileName: _jsxFileName,
+                                                lineNumber: 63
+                                            }
+                                        },
+                                        __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(
+                                            'button',
+                                            { id: 'btn-buy-item', __source: {
+                                                    fileName: _jsxFileName,
+                                                    lineNumber: 64
+                                                }
+                                            },
+                                            'Comprar'
+                                        )
+                                    )
+                                )
                             ),
-                            __WEBPACK_IMPORTED_MODULE_2_react___default.a.createElement(
+                            item.description ? __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(
                                 'div',
-                                { id: 'box-data-item', className: 'jsx-2443584356',
-                                    __source: {
+                                { id: 'box-description-item', __source: {
                                         fileName: _jsxFileName,
-                                        lineNumber: 38
+                                        lineNumber: 69
                                     }
                                 },
-                                __WEBPACK_IMPORTED_MODULE_2_react___default.a.createElement(
-                                    'div',
-                                    { id: 'box-condition-and-selled-item', className: 'jsx-2443584356',
-                                        __source: {
-                                            fileName: _jsxFileName,
-                                            lineNumber: 39
-                                        }
-                                    },
-                                    item.condition,
-                                    ' - ',
-                                    item.sold_quantity,
-                                    ' Vendidos'
-                                ),
-                                __WEBPACK_IMPORTED_MODULE_2_react___default.a.createElement(
-                                    'div',
-                                    { id: 'box-title-item', className: 'jsx-2443584356',
-                                        __source: {
-                                            fileName: _jsxFileName,
-                                            lineNumber: 42
-                                        }
-                                    },
-                                    item.title
-                                ),
-                                __WEBPACK_IMPORTED_MODULE_2_react___default.a.createElement(
-                                    'div',
-                                    { id: 'box-price-item', className: 'jsx-2443584356',
-                                        __source: {
-                                            fileName: _jsxFileName,
-                                            lineNumber: 45
-                                        }
-                                    },
-                                    '$ ',
-                                    item.price.amount,
-                                    ' ',
-                                    item.price.decimals
-                                ),
-                                __WEBPACK_IMPORTED_MODULE_2_react___default.a.createElement(
+                                __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(
                                     'div',
                                     {
-                                        className: 'jsx-2443584356',
                                         __source: {
                                             fileName: _jsxFileName,
-                                            lineNumber: 48
+                                            lineNumber: 70
                                         }
                                     },
-                                    __WEBPACK_IMPORTED_MODULE_2_react___default.a.createElement(
-                                        'button',
+                                    __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(
+                                        'div',
                                         {
-                                            className: 'jsx-2443584356',
                                             __source: {
                                                 fileName: _jsxFileName,
-                                                lineNumber: 49
+                                                lineNumber: 71
                                             }
                                         },
-                                        'Comprar'
+                                        __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(
+                                            'div',
+                                            { id: 'title-description-item', __source: {
+                                                    fileName: _jsxFileName,
+                                                    lineNumber: 72
+                                                }
+                                            },
+                                            'Descripci\xF3n del producto'
+                                        )
+                                    ),
+                                    __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(
+                                        'div',
+                                        {
+                                            __source: {
+                                                fileName: _jsxFileName,
+                                                lineNumber: 74
+                                            }
+                                        },
+                                        __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(
+                                            'div',
+                                            { id: 'content-description-item', __source: {
+                                                    fileName: _jsxFileName,
+                                                    lineNumber: 75
+                                                }
+                                            },
+                                            item.description
+                                        )
                                     )
                                 )
-                            )
-                        ),
-                        __WEBPACK_IMPORTED_MODULE_2_react___default.a.createElement(
-                            'div',
-                            {
-                                className: 'jsx-2443584356' + ' ' + 'row',
-                                __source: {
-                                    fileName: _jsxFileName,
-                                    lineNumber: 54
-                                }
-                            },
-                            __WEBPACK_IMPORTED_MODULE_2_react___default.a.createElement(
+                            ) : __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(
                                 'div',
                                 {
-                                    className: 'jsx-2443584356' + ' ' + 'col-12',
                                     __source: {
                                         fileName: _jsxFileName,
-                                        lineNumber: 55
+                                        lineNumber: 80
                                     }
                                 },
-                                __WEBPACK_IMPORTED_MODULE_2_react___default.a.createElement(
-                                    'div',
-                                    {
-                                        className: 'jsx-2443584356' + ' ' + 'row',
-                                        __source: {
-                                            fileName: _jsxFileName,
-                                            lineNumber: 56
-                                        }
-                                    },
-                                    __WEBPACK_IMPORTED_MODULE_2_react___default.a.createElement(
-                                        'div',
-                                        {
-                                            className: 'jsx-2443584356' + ' ' + 'col-12',
-                                            __source: {
-                                                fileName: _jsxFileName,
-                                                lineNumber: 57
-                                            }
-                                        },
-                                        'Descripcion del producto'
-                                    )
-                                ),
-                                __WEBPACK_IMPORTED_MODULE_2_react___default.a.createElement(
-                                    'div',
-                                    {
-                                        className: 'jsx-2443584356' + ' ' + 'row',
-                                        __source: {
-                                            fileName: _jsxFileName,
-                                            lineNumber: 59
-                                        }
-                                    },
-                                    __WEBPACK_IMPORTED_MODULE_2_react___default.a.createElement(
-                                        'div',
-                                        {
-                                            className: 'jsx-2443584356' + ' ' + 'col-12',
-                                            __source: {
-                                                fileName: _jsxFileName,
-                                                lineNumber: 60
-                                            }
-                                        },
-                                        item.description
-                                    )
-                                )
+                                'Este producto no tiene descripcion'
                             )
                         )
                     )
-                ),
-                __WEBPACK_IMPORTED_MODULE_2_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_styled_jsx_style___default.a, {
-                    styleId: '2443584356',
-                    css: '#content-item.jsx-2443584356{background-color:white;}#img-item.jsx-2443584356{width:680px;}#box-condition-and-selled-item.jsx-2443584356{margin-top:32px;margin-bottom:16px;}#box-title-item.jsx-2443584356{font-size:24px;}#box-price-item.jsx-2443584356{margin-top:32px;font-size:46px;margin-bottom:32px;}#box-data-item.jsx-2443584356{padding-left:32px;padding-right:32px;width:460px;}button.jsx-2443584356{color:white;background-color:#3483FA;width:100%;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInBhZ2VzXFxpdGVtcy5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFzRVksQUFFMEIsQUFHWCxBQUdJLEFBSUQsQUFHQyxBQUtFLEFBS04sWUFwQkMsQUFxQlksR0FkVCxDQUhHLEFBT0osRUFLSSxLQW5CSyxRQWVMLElBUkMsRUFhUixBQUtELFdBQUMsQ0FMQyxDQUxPIiwiZmlsZSI6InBhZ2VzXFxpdGVtcy5qcyIsInNvdXJjZVJvb3QiOiJDOi9Vc2Vycy9IUC9EZXNrdG9wL2Rldi9NZXJjYWRvIExpYnJlL2Rldi9mcm9udCIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCAnaXNvbW9ycGhpYy1mZXRjaCc7XHJcblxyXG5pbXBvcnQgUHJpbmNpcGFsTGF5b3V0IGZyb20gJy4uL2NvbXBvbmVudHMvbGF5b3V0cy9QcmluY2lwYWxMYXlvdXQnO1xyXG5pbXBvcnQgY29uZmlnRmlsZSBmcm9tIFwiLi4vY29uZmlnRmlsZVwiO1xyXG5pbXBvcnQge0NhdGVnb3J5Qm94fSBmcm9tICcuLi9jb21wb25lbnRzL2l0ZW1zL2R1bWJzL0NhdGVnb3J5Qm94JztcclxuXHJcblxyXG5cclxuZXhwb3J0IGRlZmF1bHQgY2xhc3MgZXh0ZW5kcyBSZWFjdC5Db21wb25lbnR7XHJcbiAgICBzdGF0aWMgYXN5bmMgZ2V0SW5pdGlhbFByb3BzKHJlcXVlc3QpIHtcclxuICAgICAgICBjb25zdCBpZEl0ZW0gPXJlcXVlc3QucXVlcnkuaWQ7XHJcblxyXG4gICAgICAgIGNvbnNvbGUubG9nKGlkSXRlbSlcclxuICAgICAgICBsZXQgcmVxID0gYXdhaXQgZmV0Y2goYCR7Y29uZmlnRmlsZS5hcGlFeHByZXNzfS9hcGkvaXRlbXMvJHtpZEl0ZW19YCk7XHJcbiAgICAgICAgbGV0IGRhdGFJdGVtID0gYXdhaXQgcmVxLmpzb24oKTtcclxuICAgICAgICBjb25zb2xlLmxvZyhkYXRhSXRlbSlcclxuICAgICAgICByZXR1cm4geyBkYXRhSXRlbSA6ZGF0YUl0ZW19XHJcblxyXG5cclxuICAgIH1cclxuICAgIFxyXG4gICAgcmVuZGVyKCl7XHJcbiAgICAgICAgY29uc3QgaXRlbSA9dGhpcy5wcm9wcy5kYXRhSXRlbVxyXG4gICAgICAgIHJldHVybiA8UHJpbmNpcGFsTGF5b3V0IHRpdGxlPVwiTWVyY2Fkb2xpYnJlXCI+XHJcblxyXG4gICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ncm93Jz5cclxuICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwiY29sLTEyXCI+XHJcbiAgICAgICAgICAgICAgICAgICAgPENhdGVnb3J5Qm94IGNhdGVnb3JpZXM9e3RoaXMucHJvcHMuZGF0YUl0ZW0uY2F0ZWdvcmllc30vPlxyXG4gICAgICAgICAgICAgICAgPC9kaXY+XHJcbiAgICAgICAgICAgIDwvZGl2PlxyXG5cclxuICAgICAgIDxkaXYgY2xhc3NOYW1lPVwicm93XCI+XHJcbiAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJjb2wtMTJcIiBpZD1cImNvbnRlbnQtaXRlbVwiPlxyXG4gICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cInJvd1wiPlxyXG4gICAgICAgICAgICAgICAgICAgPGRpdj5cclxuICAgICAgICAgICAgICAgICAgICAgICA8aW1nIGlkPVwiaW1nLWl0ZW1cIiBzcmM9e2l0ZW0ucGljdHVyZX0gYWx0PVwiXCIvPlxyXG4gICAgICAgICAgICAgICAgICAgPC9kaXY+XHJcbiAgICAgICAgICAgICAgICAgICA8ZGl2IGlkPSdib3gtZGF0YS1pdGVtJz5cclxuICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGlkPVwiYm94LWNvbmRpdGlvbi1hbmQtc2VsbGVkLWl0ZW1cIj5cclxuICAgICAgICAgICAgICAgICAgICAgICAgICAge2l0ZW0uY29uZGl0aW9ufSAtIHtpdGVtLnNvbGRfcXVhbnRpdHl9IFZlbmRpZG9zXHJcbiAgICAgICAgICAgICAgICAgICAgICAgPC9kaXY+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgPGRpdiBpZD1cImJveC10aXRsZS1pdGVtXCI+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgIHtpdGVtLnRpdGxlfVxyXG4gICAgICAgICAgICAgICAgICAgICAgIDwvZGl2PlxyXG4gICAgICAgICAgICAgICAgICAgICAgIDxkaXYgaWQ9XCJib3gtcHJpY2UtaXRlbVwiPlxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgJCB7aXRlbS5wcmljZS5hbW91bnR9IHtpdGVtLnByaWNlLmRlY2ltYWxzfVxyXG4gICAgICAgICAgICAgICAgICAgICAgIDwvZGl2PlxyXG4gICAgICAgICAgICAgICAgICAgICAgIDxkaXY+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgIDxidXR0b24+Q29tcHJhcjwvYnV0dG9uPlxyXG4gICAgICAgICAgICAgICAgICAgICAgIDwvZGl2PlxyXG4gICAgICAgICAgICAgICAgICAgPC9kaXY+XHJcbiAgICAgICAgICAgICAgIDwvZGl2PlxyXG5cclxuICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJyb3dcIj5cclxuICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwiY29sLTEyXCI+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJyb3dcIj5cclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJjb2wtMTJcIj5EZXNjcmlwY2lvbiBkZWwgcHJvZHVjdG88L2Rpdj5cclxuICAgICAgICAgICAgICAgICAgICAgICA8L2Rpdj5cclxuICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cInJvd1wiPlxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cImNvbC0xMlwiPlxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAge2l0ZW0uZGVzY3JpcHRpb259XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvZGl2PlxyXG4gICAgICAgICAgICAgICAgICAgICAgIDwvZGl2PlxyXG4gICAgICAgICAgICAgICAgICAgPC9kaXY+XHJcbiAgICAgICAgICAgICAgIDwvZGl2PlxyXG4gICAgICAgICAgIDwvZGl2PlxyXG4gICAgICAgPC9kaXY+XHJcblxyXG5cclxuICAgICAgICAgICAgPHN0eWxlIGpzeD57XHJcbiAgICAgICAgICAgIGBcclxuICAgICAgICAgICAgJHBpeGVsMzI6MzJweDtcclxuICAgICAgICAgICAgJHBpeGVsMTY6MTZweDtcclxuICAgICAgICAgICAgJHBpeGVsMjQ6MjRweDtcclxuICAgICAgICAgICAgJHBpeGVsNDY6NDZweDtcclxuICAgICAgICAgICAgJGxpZ2h0Qmx1ZUNvbG9yOiMzNDgzRkE7XHJcblxyXG4jY29udGVudC1pdGVte2JhY2tncm91bmQtY29sb3I6d2hpdGV9XHJcbiAgICAgICAgICAgICNpbWctaXRlbXtcclxuICAgICAgICB3aWR0aDo2ODBweDtcclxuICAgICAgICB9XHJcbiAgICAgICAgI2JveC1jb25kaXRpb24tYW5kLXNlbGxlZC1pdGVte1xyXG4gICAgICAgIG1hcmdpbi10b3A6JHBpeGVsMzI7XHJcbiAgICAgICAgbWFyZ2luLWJvdHRvbTokcGl4ZWwxNjtcclxuXHJcbiAgICAgICAgfVxyXG4gICAgICAgICNib3gtdGl0bGUtaXRlbXtcclxuXHJcbiAgICAgICAgZm9udC1zaXplOiRwaXhlbDI0O1xyXG4gICAgICAgIH1cclxuICAgICAgICAjYm94LXByaWNlLWl0ZW17XHJcbiAgICAgICAgbWFyZ2luLXRvcDokcGl4ZWwzMjtcclxuZm9udC1zaXplOiRwaXhlbDQ2O1xyXG4gICAgICAgICBtYXJnaW4tYm90dG9tOiRwaXhlbDMyO1xyXG4gICAgICAgIH1cclxuXHJcbiAgICAgICAgI2JveC1kYXRhLWl0ZW17XHJcbiAgICAgICAgcGFkZGluZy1sZWZ0OiRwaXhlbDMyO1xyXG4gICAgICAgIHBhZGRpbmctcmlnaHQ6JHBpeGVsMzI7XHJcbiAgICAgICAgd2lkdGg6MTE0MHB4LTY4MHB4O1xyXG4gICAgICAgIH1cclxuICAgICAgICBidXR0b257XHJcbiAgICAgICAgY29sb3I6d2hpdGU7XHJcbiAgICAgICAgYmFja2dyb3VuZC1jb2xvcjokbGlnaHRCbHVlQ29sb3I7XHJcbiAgICAgICAgd2lkdGg6MTAwJTtcclxuICAgICAgICB9XHJcbiAgICAgICAgICAgIFxyXG4gICAgICAgICAgICBcclxuICAgICAgICAgICAgYFxyXG4gICAgICAgIH1cclxuXHJcbiAgICAgICAgPC9zdHlsZT5cclxuICAgICAgIFxyXG5cclxuXHJcbiAgICAgICAgICAgICAgIFxyXG4gICAgICAgICAgICBcclxuICAgICAgIFxyXG4gICAgICAgIDwvUHJpbmNpcGFsTGF5b3V0PlxyXG4gICAgfVxyXG59Il19 */\n/*@ sourceURL=pages\\items.js */'
-                })
+                ) : "problem"
             );
         }
     }, {
@@ -14179,21 +14294,21 @@ var _default = function (_React$Component) {
                         switch (_context.prev = _context.next) {
                             case 0:
                                 idItem = request.query.id;
+                                _context.next = 3;
+                                return fetch(__WEBPACK_IMPORTED_MODULE_4__configFile__["a" /* default */].apiExpress + '/api/items/' + idItem);
 
-
-                                console.log(idItem);
-                                _context.next = 4;
-                                return fetch(__WEBPACK_IMPORTED_MODULE_5__configFile__["a" /* default */].apiExpress + '/api/items/' + idItem);
-
-                            case 4:
+                            case 3:
                                 req = _context.sent;
-                                _context.next = 7;
+                                _context.next = 6;
                                 return req.json();
 
-                            case 7:
+                            case 6:
                                 dataItem = _context.sent;
 
                                 console.log(dataItem);
+                                if (req.status !== 200) {
+                                    dataItem = false;
+                                }
                                 return _context.abrupt('return', { dataItem: dataItem });
 
                             case 10:
@@ -14213,7 +14328,7 @@ var _default = function (_React$Component) {
     }]);
 
     return _default;
-}(__WEBPACK_IMPORTED_MODULE_2_react___default.a.Component);
+}(__WEBPACK_IMPORTED_MODULE_1_react___default.a.Component);
 
 /* harmony default export */ __webpack_exports__["default"] = (_default);
 ;
@@ -14285,6 +14400,38 @@ module.exports = routes;
 
 ;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__("./node_modules/webpack/buildin/module.js")(module)))
+
+/***/ }),
+
+/***/ "./styles/Item.scss":
+/***/ (function(module, exports, __webpack_require__) {
+
+// style-loader: Adds some css to the DOM by adding a <style> tag
+
+// load the styles
+var content = __webpack_require__("./node_modules/css-loader/index.js?{\"modules\":false,\"minimize\":false,\"sourceMap\":true,\"importLoaders\":1}!./node_modules/sass-loader/lib/loader.js!./styles/Item.scss");
+if(typeof content === 'string') content = [[module.i, content, '']];
+// Prepare cssTransformation
+var transform;
+
+var options = {"sourceMap":true,"importLoaders":1,"hmr":true}
+options.transform = transform
+// add the styles to the DOM
+var update = __webpack_require__("./node_modules/style-loader/lib/addStyles.js")(content, options);
+if(content.locals) module.exports = content.locals;
+// Hot Module Replacement
+if(true) {
+	// When the styles change, update the <style> tags
+	if(!content.locals) {
+		module.hot.accept("./node_modules/css-loader/index.js?{\"modules\":false,\"minimize\":false,\"sourceMap\":true,\"importLoaders\":1}!./node_modules/sass-loader/lib/loader.js!./styles/Item.scss", function() {
+			var newContent = __webpack_require__("./node_modules/css-loader/index.js?{\"modules\":false,\"minimize\":false,\"sourceMap\":true,\"importLoaders\":1}!./node_modules/sass-loader/lib/loader.js!./styles/Item.scss");
+			if(typeof newContent === 'string') newContent = [[module.i, newContent, '']];
+			update(newContent);
+		});
+	}
+	// When the module is disposed, remove the <style> tags
+	module.hot.dispose(function() { update(); });
+}
 
 /***/ }),
 
