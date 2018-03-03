@@ -1,10 +1,24 @@
+const config = require("../config/configFile");
+
 const express = require('express');
 const router = express.Router();
 const requestPromise = require('request-promise');
-const accessTokenMercadolibre= 'APP_USR-8465775776257699-030118-bed21d9398f3742d1db6e6c3990b4852__B_J__-192554493';
+const accessTokenMercadolibre= 'APP_USR-8465775776257699-030310-f0c776fe9c385bd2c0db11f4c684af56__M_G__-192554493';
+
+const parsePrice = (amount,currency) =>{
+
+   let arrayAmount=amount.toString().split(".");
 
 
-const formatItem =  (arrayToGetData) =>{
+    return{
+        currency:currency,
+        amount:arrayAmount[0].replace(/(\d)(?=(\d{3})+(?!\d))/g, "$1."),
+        decimals:(arrayAmount[1]===undefined) ? '00':arrayAmount[1]
+    }
+};
+
+const formatItem =  (arrayToGetData,picture) =>{
+
     return{
     author:{
         name: '',
@@ -12,28 +26,27 @@ const formatItem =  (arrayToGetData) =>{
     },
         id: arrayToGetData.id,
         title: arrayToGetData.title,
-        price: {
-            currency: arrayToGetData.currency_id,
-            amount: arrayToGetData.price,
-            decimals: 0.0
-        },
-        picture: arrayToGetData.pictures[0].url,
+        price: parsePrice(arrayToGetData.price,arrayToGetData.currency_id),
+        picture: (picture) ? arrayToGetData.pictures[0].url : arrayToGetData.thumbnail,
         condition: arrayToGetData.condition,
         sold_quantity:arrayToGetData.sold_quantity,
         free_shipping: arrayToGetData.shipping.free_shipping
 
     }
-}
+};
+
+const disarmCategories = (arrayCategories) =>arrayCategories.map(category=> category.name);
+
 
 router.get('/items', function (req, res) {
-    const item = req.query.q
+    const item = req.query.q;
     
     if (item === undefined) {
         res.status(400).json("Bad Request")
     } else {
         let optionsRequestPromise = {
             method: 'GET',
-            uri: `https://api.mercadolibre.com/sites/MLA/search?q=${item}&access_token=${accessTokenMercadolibre}`,
+            uri: `${config.apiMercadoLibre}/sites/MLA/search?q=${item}`,
             resolveWithFullResponse: true
         }
         requestPromise(optionsRequestPromise)
@@ -42,40 +55,19 @@ router.get('/items', function (req, res) {
                 if (resultQuerySearchItem.statusCode === 200) {
                     const bodyRequest = JSON.parse(resultQuerySearchItem.body)
                     
-                    let objectCategories = bodyRequest.filters.find(filter => filter.id === 'category')
-                    let arrayCategories = objectCategories.values.map(value => {
-                        let arrayCategoriesToReturn = value.path_from_root.map(paths => paths.name);
-                        arrayCategoriesToReturn.push(value.name)
-                        return arrayCategoriesToReturn
-                    })
+                    let objectCategories = bodyRequest.filters.find(filter => filter.id === 'category');
+
+                    let arrayCategories = objectCategories.values.map(value =>disarmCategories(value.path_from_root));
+
                     let objectReturn = {
                         author: {
                             name: '',
                             lastname: ''
                         },
-                        categories: arrayCategories[0]
-                    }
-                    let arrayItemsToFront = bodyRequest.results.map(item => {
-                        let returnItem = {
-                            id: item.id,
-                            title: item.title,
-                            price: {
-                                currency: item.currency_id,
-                                amount: item.price,
-                                decimals: 0.0
-                            },
-                            picture: item.thumbnail,
-                            condition: item.condition,
-                            free_shipping: item.shipping.free_shipping
+                        categories: arrayCategories[0],
+                        items :bodyRequest.results.map(item => formatItem(item,false))
+                    };
 
-                        }
-
-
-                        return returnItem
-                    })
-
-
-                    objectReturn.items =arrayItemsToFront;
                     
                     res.status(200).json(objectReturn);
                 } else {
@@ -89,14 +81,14 @@ router.get('/items', function (req, res) {
 });
 router.get('/items/:id', function (req, res) {
     const id = (req.params.id).replace(/ /g,'');
-    console.log(id)
+
     if (id === undefined) {
         res.status(400).json("Bad Request")
     } else {
 
         let optionsFirstPromise = {
             method: 'GET',
-            uri: `https://api.mercadolibre.com/items/${id}`,
+            uri: `${config.apiMercadoLibre}/items/${id}`,
             resolveWithFullResponse: true
         };
 
@@ -106,40 +98,56 @@ router.get('/items/:id', function (req, res) {
             .then(principalDataItem => {
 
 
-                const principalDataItemJson = JSON.parse(principalDataItem.body)
+                const principalDataItemJson = JSON.parse(principalDataItem.body);
 
                 if (principalDataItem.statusCode === 200) {
 
-                    let dataReturn =formatItem(principalDataItemJson)
-
-                    let optionsSecondPromise = {
+                    console.log("works")
+                    let dataReturn =formatItem(principalDataItemJson,true),
+                        optionsSecondPromiseCategories ={
                         method: 'GET',
-                        uri: `https://api.mercadolibre.com/items/${id}/description`,
+                        uri: `${config.apiMercadoLibre}/categories/${principalDataItemJson.category_id}`,
+                        resolveWithFullResponse: true
+                    },
+                        optionsThirdPromiseDescription = {
+                        method: 'GET',
+                        uri: `${config.apiMercadoLibre}/items/${id}/description`,
                         resolveWithFullResponse: true
                     };
+                    console.log("works2")
+
+                    requestPromise(optionsSecondPromiseCategories)
+                        .then(categoriesItem => {
 
 
+                            const categoriesItemJson = JSON.parse(categoriesItem.body);
 
-                    requestPromise(optionsSecondPromise)
-                        .then(descriptionDataItem => {
+                            dataReturn.categories = disarmCategories(categoriesItemJson.path_from_root);
 
+                            requestPromise(optionsThirdPromiseDescription)
+                                .then(descriptionDataItem => {
 
-                            const descriptionDataJson = JSON.parse(descriptionDataItem.body);
+                                    const descriptionDataJson = JSON.parse(descriptionDataItem.body);
 
-                            if (descriptionDataItem.statusCode === 200) {
+                                    if (descriptionDataItem.statusCode === 200) {
 
-                                dataReturn.description= descriptionDataJson.plain_text;
+                                        dataReturn.description= descriptionDataJson.plain_text;
 
-                                console.log('dataToReturn',dataReturn)
-                                res.status(200).json(dataReturn);
-                            } else {
-                                res.status(200).json(JSON.parse({
-                                    principalData: principalDataItem.body
-                                }));
-                            }
+                                        console.log('404 description dataToReturn',dataReturn)
+                                        res.status(200).json(dataReturn);
+                                    } else {
+                                        console.log('200 all data find dataToReturn',dataReturn)
+                                        res.status(200).json(dataReturn);
+                                    }
+
+                                })
+                                .catch(e => res.status(503).json(e))
 
                         })
-                        .catch(e => res.status(503).json(e))
+
+
+
+
 
                     
                 } else if(principalDataItem.statusCode===404){

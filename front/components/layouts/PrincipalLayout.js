@@ -1,15 +1,9 @@
 import Head from 'next/head';
-import InputSearchNavbar from '../navbar/smarts/InputSearchNavbar';
+import {SearchNavbar} from "../navbar/dumbs/SearchNavbar";
 
-import {Router} from '../../routes';
+import '../../styles/style.scss';
 
 export default class PrincipalLayout extends React.Component{
-
-
-    pushRouter = (urlToPush) =>{
-
-        Router.pushRoute(urlToPush)
-    };
 
     render(){
         return <div>
@@ -21,33 +15,42 @@ export default class PrincipalLayout extends React.Component{
                <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"/>
 
             </Head>
+            <SearchNavbar/>
 
-            <nav id="navbar-ml">
-         <div className="container">
-         <img src="../static/Logo_ML.png"/>
-        
-        <InputSearchNavbar pushRouterFather={this.pushRouter}/>
-         
-         </div>
-               
-            </nav>
 
             <div className="container">
-                {this.props.children}
+                <div className="row">
+                    <div className="col-12">
+                        {this.props.children}
+                    </div>
+                </div>
+
             </div>
 
 
             <style jsx>{
                 
             `
-            $yellowMl: #FFE600;
-#navbar-ml {
-  background-color: #FFE600;
-  width:100%;
-  height:80px;
+
+body{
+background-color:red;
+heigth:100%;
 }
         
             `}
+            </style>
+            <style jsx global>
+
+                {
+                    `
+
+
+            body{
+                background-color:#EEEEEE;
+            }
+
+            `
+                }
             </style>
 
 

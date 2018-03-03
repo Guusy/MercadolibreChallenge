@@ -1,8 +1,8 @@
-const routes = require('next-routes')()
+const routes = require('next-routes')();
  
 routes
 .add('itemsSearch', '/items', 'itemsSearch')
-.add('items', '/items/:id','item')
+.add('items', '/items/:id','items');
 
 
-module.exports= routes
+module.exports= routes;

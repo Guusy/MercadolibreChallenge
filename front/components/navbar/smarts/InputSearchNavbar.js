@@ -1,3 +1,4 @@
+import {Router} from "../../../routes";
 
 export default  class InputSearchNavbar extends React.Component{
 
@@ -29,30 +30,34 @@ export default  class InputSearchNavbar extends React.Component{
         //TODO message error
 
         }else{
-            this.props.pushRouterFather(`/items?search=${this.state.inputs.search}`)
+                Router.pushRoute(`/items?search=${this.state.inputs.search}`)
 
         }
 
     }
     render(){
-        return <div>
-
-
-        <div>
+        return <div id="box-input-search">
             <form onSubmit={this.searchItem}>
-           <input onChange={this.changeInput} type="text" name="search" placeholder="Nunca dejes de buscar" value={this.state.inputs.search}/>
-                
+           <input onChange={this.changeInput} type="text" name="search" className="form-control" placeholder="Nunca dejes de buscar" value={this.state.inputs.search}/>
+                <button id="button-search"><img src="../../../static/ic_Search.png" alt=""/></button>
+
                 </form>    
-        </div>    
+
 
             <style jsx>{
             `
-        
-            div>input{
-                border-radius:5px;
-                font-size:18px;
+            form{
+            position:relative;
             }
-            
+            button{
+            position: absolute;
+right: 0; top: 0;     padding: 6px 10px;
+border: 1px solid #ccc; background-color: #fff; background-image: -webkit-gradient(linear,left top,left bottom,from(#fff),to(#f1f1f1));
+background-image: -webkit-linear-gradient(#fff,#f1f1f1); background-image: linear-gradient(#fff,#f1f1f1);
+border-radius: 0px 3px 3px 0px; cursor: pointer;
+  }
+        #box-input-search{width:100%}
+
             `
         }
 

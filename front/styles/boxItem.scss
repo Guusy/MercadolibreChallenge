@@ -1,0 +1,28 @@
+@import "variables";
+
+#price-item-box-list{
+  font-size:$pixel24;
+  margin-bottom:$pixel32;
+}
+#title-item-box-list{
+  font-size:$pixel18;}
+#box-item-list{
+  background-color:white;
+  margin-left:5px;
+  margin-right:5px;
+  border-bottom: 2px solid $bodyColor;
+}
+#box-item-list>div{
+  display:inline-block;}
+
+.content-picture-item{
+  padding:$pixel16;
+}
+.content-picture-item>img{
+  width:$pixel180;
+  border-radius:$pixel4;
+}
+#title-item-box-list{
+  color:black;
+  font-size:$pixel18
+}

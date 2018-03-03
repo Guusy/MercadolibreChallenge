@@ -2,9 +2,10 @@ import 'isomorphic-fetch';
 import Link from 'next/link';
 import PrincipalLayout from '../components/layouts/PrincipalLayout';
 import React from 'react'
-
 import configFile from '../configFile';
-
+import {PrettyLink} from '../components/tools/PrettyLink'
+import {BoxitemList} from '../components/items/dumbs/BoxItemList';
+import {CategoryBox} from '../components/items/dumbs/CategoryBox';
 
 
 export default class itemSearch extends React.Component {
@@ -24,7 +25,7 @@ export default class itemSearch extends React.Component {
                 dataSearch=data
             })*/
 
-        let req = await fetch(`${configFile.apiExpress}/api/items?q=${search}`)
+        let req = await fetch(`${configFile.apiExpress}/api/items?q=${search}`);
         let dataSearch = await req.json()
 
         return {search: dataSearch}
@@ -38,34 +39,34 @@ export default class itemSearch extends React.Component {
 
             <div className='row'>
                 <div className="col-12">
-                    {this.props.search.categories.map(category=><span>{category} ></span>)}
+                    <CategoryBox categories={this.props.search.categories}/>
                 </div>
             </div>
 
             <div className="row">
-                <div className="col-12">
+                <div id="super-box-list-items-search">
 
                     {this.props.search.items.slice(1,5).map(item=>
 
-                        <Link href={`/items/${item.id}`}>
-                            <a>
-                                <div className="content-picture-item">
-                                    <img src={item.picture} alt=""/></div>
-                                <div>
-                                    {item.title}
-                                </div>
-                            </a>
-                        </Link>
+                        <PrettyLink href={`/items/${item.id}`}>
+
+                            <BoxitemList {...item}/>
+
+                        </PrettyLink>
                         )}
                 </div>
             </div>
 
             <style jsx>{
                 `
-        .content-picture-item>img{
-        width:180px;
-        border-radius:4px;
-        }
+
+        #super-box-list-items-search{
+        background: white;
+
+    width: 100%;
+
+    padding-right: 15px;
+    padding-left: 15px;}
             
             
             `

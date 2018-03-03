@@ -1,0 +1,10 @@
+@import "variables";
+
+#selected-category{color:$gray; font-weight:bold}
+#normal-category{color:$lightGray}
+#box-category-list{
+  font-size:$pixel14;
+  padding-top:$pixel16;
+  padding-bottom:$pixel16;
+  background-color: $bodyColor;
+}
