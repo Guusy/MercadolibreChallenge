@@ -55,6 +55,7 @@ font-weight: bold;
   color: $lightGray;
   padding-top: $pixel32;
   padding-bottom: $pixel32;
+  overflow: hidden;
 }
 
 @media (min-width: 1202px){
