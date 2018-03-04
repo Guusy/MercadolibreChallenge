@@ -1,8 +1,6 @@
 @import "gridSystem";
 
-//Media Queries
-$break-big-phone:425px;
-$laptop-xs:1024px;
+
 
 //Pixels
 $pixel32:32px;
@@ -29,5 +27,27 @@ body{
   font-family: sans-serif;
   margin: 0;
 }
+//Media Queries
+$break-big-phone:425px;
+$laptop-xs:1024px;
+$break-small-phone:320px;
+$break-tablet:768px;
 
-@import "mediaQueries";
+
+@media (max-width: 425px)
+{
+  .no-padd-phone{
+    padding: 0!important;
+  }
+  .text-align-center-phone{
+    text-align: center;
+  }
+  .w-100-phone{
+    width: 100%!important;
+  }
+}
+@media (max-width: $break-small-phone){
+  .no-padd-xs-phone{
+    padding: 0!important;
+  }
+}

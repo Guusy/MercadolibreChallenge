@@ -1,87 +1,8 @@
 module.exports =
 
-        __NEXT_REGISTER_PAGE('/items', function() {
+        __NEXT_REGISTER_PAGE('/', function() {
           var comp = 
       webpackJsonp([4],{
-
-/***/ "./components/items/dumbs/CategoryBox.js":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* WEBPACK VAR INJECTION */(function(module) {/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return CategoryBox; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__("./node_modules/react/cjs/react.development.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__styles_categoryBox_scss__ = __webpack_require__("./styles/categoryBox.scss");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__styles_categoryBox_scss___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__styles_categoryBox_scss__);
-var _jsxFileName = 'C:\\Users\\HP\\Desktop\\dev\\Mercado Libre\\dev\\front\\components\\items\\dumbs\\CategoryBox.js';
-
-(function () {
-    var enterModule = __webpack_require__("./node_modules/react-hot-loader/patch.js").enterModule;
-
-    enterModule && enterModule(module);
-})();
-
-
-
-
-
-var CategoryBox = function CategoryBox(props) {
-    var arrayLength = props.categories.length;
-    var i = 0;
-    return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-        'div',
-        { id: 'box-category-list', className: 'text-align-center-phone', __source: {
-                fileName: _jsxFileName,
-                lineNumber: 9
-            }
-        },
-        props.categories.map(function (category) {
-            var htmlReturn = __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                'span',
-                { id: 'normal-category', __source: {
-                        fileName: _jsxFileName,
-                        lineNumber: 13
-                    }
-                },
-                category,
-                ' > '
-            );
-            if (i === arrayLength - 1) {
-                htmlReturn = __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                    'span',
-                    { id: 'selected-category', __source: {
-                            fileName: _jsxFileName,
-                            lineNumber: 15
-                        }
-                    },
-                    category,
-                    ' '
-                );
-            }
-            i++;
-            return htmlReturn;
-        })
-    );
-};
-;
-
-(function () {
-    var reactHotLoader = __webpack_require__("./node_modules/react-hot-loader/patch.js").default;
-
-    var leaveModule = __webpack_require__("./node_modules/react-hot-loader/patch.js").leaveModule;
-
-    if (!reactHotLoader) {
-        return;
-    }
-
-    reactHotLoader.register(CategoryBox, 'CategoryBox', 'C:/Users/HP/Desktop/dev/Mercado Libre/dev/front/components/items/dumbs/CategoryBox.js');
-    leaveModule(module);
-})();
-
-;
-/* WEBPACK VAR INJECTION */}.call(__webpack_exports__, __webpack_require__("./node_modules/webpack/buildin/harmony-module.js")(module)))
-
-/***/ }),
 
 /***/ "./components/layouts/PrincipalLayout.js":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -312,7 +233,7 @@ var SearchNavbar = function SearchNavbar(props) {
                         __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(
                             'div',
                             {
-                                className: 'jsx-1180220344' + ' ' + ' col-2 col-sm-2 col-md-1',
+                                className: 'jsx-1180220344' + ' ' + ' col-3 col-sm-2 col-md-1 no-padd-xs-phone',
                                 __source: {
                                     fileName: _jsxFileName,
                                     lineNumber: 15
@@ -345,7 +266,7 @@ var SearchNavbar = function SearchNavbar(props) {
                         __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(
                             'div',
                             {
-                                className: 'jsx-1180220344' + ' ' + ' col-10 col-sm-10 col-md-11',
+                                className: 'jsx-1180220344' + ' ' + ' col-9 col-sm-10 col-md-11 no-padd-xs-phone',
                                 __source: {
                                     fileName: _jsxFileName,
                                     lineNumber: 23
@@ -364,7 +285,7 @@ var SearchNavbar = function SearchNavbar(props) {
         ),
         __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_0_styled_jsx_style___default.a, {
             styleId: '1180220344',
-            css: '#box-logo-navbar.jsx-1180220344{margin-right:15px;}#navbar-ml.jsx-1180220344{background-color:yellow;width:100%;padding:12px;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImNvbXBvbmVudHNcXG5hdmJhclxcZHVtYnNcXFNlYXJjaE5hdmJhci5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFxQ2dCLEFBRXFCLEFBR00sa0JBSEwsTUFJUixXQUNFLGFBQUMiLCJmaWxlIjoiY29tcG9uZW50c1xcbmF2YmFyXFxkdW1ic1xcU2VhcmNoTmF2YmFyLmpzIiwic291cmNlUm9vdCI6IkM6L1VzZXJzL0hQL0Rlc2t0b3AvZGV2L01lcmNhZG8gTGlicmUvZGV2L2Zyb250Iiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IFJlYWN0IGZyb20gXCJyZWFjdFwiO1xyXG5pbXBvcnQgSW5wdXRTZWFyY2hOYXZiYXIgZnJvbSAnLi4vc21hcnRzL0lucHV0U2VhcmNoTmF2YmFyJztcclxuaW1wb3J0ICcuLi8uLi8uLi9zdHlsZXMvbmF2YmFyLnNjc3MnO1xyXG5pbXBvcnQge1ByZXR0eUxpbmt9IGZyb20gJy4uLy4uL3Rvb2xzL1ByZXR0eUxpbmsnO1xyXG5leHBvcnQgY29uc3QgU2VhcmNoTmF2YmFyID0gKHByb3BzKSA9PiB7XHJcblxyXG4gICAgcmV0dXJuIChcclxuXHJcbiAgICAgICAgPG5hdiBpZD1cIm5hdmJhci1tbFwiPlxyXG4gICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cImNvbnRhaW5lclwiPlxyXG4gICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJyb3dcIj5cclxuICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cImNvbC0xMlwiPlxyXG5cclxuICAgICAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJyb3dcIj5cclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwiIGNvbC0yIGNvbC1zbS0yIGNvbC1tZC0xXCI+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPFByZXR0eUxpbmsgaHJlZj0nLyc+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPGRpdiBpZD0nYm94LWxvZ28tbmF2YmFyJz5cclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPGltZyBzcmM9XCIuLi9zdGF0aWMvTG9nb19NTC5wbmdcIi8+XHJcblxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvZGl2PlxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvUHJldHR5TGluaz5cclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvZGl2PlxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCIgY29sLTEwIGNvbC1zbS0xMCBjb2wtbWQtMTFcIj5cclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8SW5wdXRTZWFyY2hOYXZiYXIvPlxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9kaXY+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgIDwvZGl2PlxyXG4gICAgICAgICAgICAgICAgICAgIDwvZGl2PlxyXG4gICAgICAgICAgICAgICAgPC9kaXY+XHJcblxyXG5cclxuXHJcblxyXG4gICAgICAgICAgICA8L2Rpdj5cclxuXHJcblxyXG4gICAgICAgICAgICA8c3R5bGUganN4PntcclxuXHJcbiAgICAgICAgICAgICAgICBgXHJcbiAgICAgICAgICAgICNib3gtbG9nby1uYXZiYXJ7XHJcbiAgICAgICAgICAgIG1hcmdpbi1yaWdodDoxNXB4fVxyXG4jbmF2YmFyLW1sIHtcclxuICBiYWNrZ3JvdW5kLWNvbG9yOiB5ZWxsb3c7XHJcbiAgd2lkdGg6MTAwJTtcclxuICBwYWRkaW5nOjEycHg7XHJcbn1cclxuXHJcblxyXG4gICAgICAgICAgICBgfVxyXG4gICAgICAgICAgICA8L3N0eWxlPlxyXG4gICAgICAgIDwvbmF2PlxyXG5cclxuXHJcbiAgICApXHJcblxyXG5cclxufTsiXX0= */\n/*@ sourceURL=components\\navbar\\dumbs\\SearchNavbar.js */'
+            css: '#box-logo-navbar.jsx-1180220344{margin-right:15px;}#navbar-ml.jsx-1180220344{background-color:yellow;width:100%;padding:12px;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImNvbXBvbmVudHNcXG5hdmJhclxcZHVtYnNcXFNlYXJjaE5hdmJhci5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFxQ2dCLEFBRXFCLEFBR00sa0JBSEwsTUFJUixXQUNFLGFBQUMiLCJmaWxlIjoiY29tcG9uZW50c1xcbmF2YmFyXFxkdW1ic1xcU2VhcmNoTmF2YmFyLmpzIiwic291cmNlUm9vdCI6IkM6L1VzZXJzL0hQL0Rlc2t0b3AvZGV2L01lcmNhZG8gTGlicmUvZGV2L2Zyb250Iiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IFJlYWN0IGZyb20gXCJyZWFjdFwiO1xyXG5pbXBvcnQgSW5wdXRTZWFyY2hOYXZiYXIgZnJvbSAnLi4vc21hcnRzL0lucHV0U2VhcmNoTmF2YmFyJztcclxuaW1wb3J0ICcuLi8uLi8uLi9zdHlsZXMvbmF2YmFyLnNjc3MnO1xyXG5pbXBvcnQge1ByZXR0eUxpbmt9IGZyb20gJy4uLy4uL3Rvb2xzL1ByZXR0eUxpbmsnO1xyXG5leHBvcnQgY29uc3QgU2VhcmNoTmF2YmFyID0gKHByb3BzKSA9PiB7XHJcblxyXG4gICAgcmV0dXJuIChcclxuXHJcbiAgICAgICAgPG5hdiBpZD1cIm5hdmJhci1tbFwiPlxyXG4gICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cImNvbnRhaW5lclwiPlxyXG4gICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJyb3dcIj5cclxuICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cImNvbC0xMlwiPlxyXG5cclxuICAgICAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJyb3dcIj5cclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwiIGNvbC0zIGNvbC1zbS0yIGNvbC1tZC0xIG5vLXBhZGQteHMtcGhvbmVcIj5cclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8UHJldHR5TGluayBocmVmPScvJz5cclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGlkPSdib3gtbG9nby1uYXZiYXInPlxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8aW1nIHNyYz1cIi4uL3N0YXRpYy9Mb2dvX01MLnBuZ1wiLz5cclxuXHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9kaXY+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9QcmV0dHlMaW5rPlxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9kaXY+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cIiBjb2wtOSBjb2wtc20tMTAgY29sLW1kLTExIG5vLXBhZGQteHMtcGhvbmVcIj5cclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8SW5wdXRTZWFyY2hOYXZiYXIvPlxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9kaXY+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgIDwvZGl2PlxyXG4gICAgICAgICAgICAgICAgICAgIDwvZGl2PlxyXG4gICAgICAgICAgICAgICAgPC9kaXY+XHJcblxyXG5cclxuXHJcblxyXG4gICAgICAgICAgICA8L2Rpdj5cclxuXHJcblxyXG4gICAgICAgICAgICA8c3R5bGUganN4PntcclxuXHJcbiAgICAgICAgICAgICAgICBgXHJcbiAgICAgICAgICAgICNib3gtbG9nby1uYXZiYXJ7XHJcbiAgICAgICAgICAgIG1hcmdpbi1yaWdodDoxNXB4fVxyXG4jbmF2YmFyLW1sIHtcclxuICBiYWNrZ3JvdW5kLWNvbG9yOiB5ZWxsb3c7XHJcbiAgd2lkdGg6MTAwJTtcclxuICBwYWRkaW5nOjEycHg7XHJcbn1cclxuXHJcblxyXG4gICAgICAgICAgICBgfVxyXG4gICAgICAgICAgICA8L3N0eWxlPlxyXG4gICAgICAgIDwvbmF2PlxyXG5cclxuXHJcbiAgICApXHJcblxyXG5cclxufTsiXX0= */\n/*@ sourceURL=components\\navbar\\dumbs\\SearchNavbar.js */'
         })
     );
 };
@@ -598,44 +519,6 @@ var PrettyLink = function PrettyLink(props) {
     }
 
     reactHotLoader.register(PrettyLink, "PrettyLink", "C:/Users/HP/Desktop/dev/Mercado Libre/dev/front/components/tools/PrettyLink.js");
-    leaveModule(module);
-})();
-
-;
-/* WEBPACK VAR INJECTION */}.call(__webpack_exports__, __webpack_require__("./node_modules/webpack/buildin/harmony-module.js")(module)))
-
-/***/ }),
-
-/***/ "./configFile.js":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* WEBPACK VAR INJECTION */(function(module) {(function () {
-    var enterModule = __webpack_require__("./node_modules/react-hot-loader/patch.js").enterModule;
-
-    enterModule && enterModule(module);
-})();
-
-var config = {
-    apiExpress: "http://localhost:4000"
-
-};
-
-var _default = config;
-/* harmony default export */ __webpack_exports__["a"] = (_default);
-;
-
-(function () {
-    var reactHotLoader = __webpack_require__("./node_modules/react-hot-loader/patch.js").default;
-
-    var leaveModule = __webpack_require__("./node_modules/react-hot-loader/patch.js").leaveModule;
-
-    if (!reactHotLoader) {
-        return;
-    }
-
-    reactHotLoader.register(config, "config", "C:/Users/HP/Desktop/dev/Mercado Libre/dev/front/configFile.js");
-    reactHotLoader.register(_default, "default", "C:/Users/HP/Desktop/dev/Mercado Libre/dev/front/configFile.js");
     leaveModule(module);
 })();
 
@@ -4125,36 +4008,6 @@ for (var i = 0; i < DOMIterables.length; i++) {
 
 /***/ }),
 
-/***/ "./node_modules/css-loader/index.js?{\"modules\":false,\"minimize\":false,\"sourceMap\":true,\"importLoaders\":1}!./node_modules/sass-loader/lib/loader.js!./styles/Item.scss":
-/***/ (function(module, exports, __webpack_require__) {
-
-exports = module.exports = __webpack_require__("./node_modules/css-loader/lib/css-base.js")(true);
-// imports
-
-
-// module
-exports.push([module.i, "@-ms-viewport {\n  width: device-width; }\n\nhtml {\n  box-sizing: border-box;\n  -ms-overflow-style: scrollbar; }\n\n*, ::after, ::before {\n  box-sizing: inherit; }\n\n.container {\n  width: 100%;\n  padding-right: 15px;\n  padding-left: 15px;\n  margin-right: auto;\n  margin-left: auto; }\n\n@media (min-width: 576px) {\n  .container {\n    max-width: 540px; } }\n\n@media (min-width: 768px) {\n  .container {\n    max-width: 720px; } }\n\n@media (min-width: 992px) {\n  .container {\n    max-width: 960px; } }\n\n@media (min-width: 1200px) {\n  .container {\n    max-width: 1140px; } }\n\n.container-fluid {\n  width: 100%;\n  padding-right: 15px;\n  padding-left: 15px;\n  margin-right: auto;\n  margin-left: auto; }\n\n.row {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -ms-flex-wrap: wrap;\n  flex-wrap: wrap;\n  margin-right: -15px;\n  margin-left: -15px; }\n\n.no-gutters {\n  margin-right: 0;\n  margin-left: 0; }\n\n.no-gutters > .col, .no-gutters > [class*=col-] {\n  padding-right: 0;\n  padding-left: 0; }\n\n.col, .col-1, .col-10, .col-11, .col-12, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-auto, .col-lg, .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-auto, .col-md, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-auto, .col-sm, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-auto, .col-xl, .col-xl-1, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-auto {\n  position: relative;\n  width: 100%;\n  min-height: 1px;\n  padding-right: 15px;\n  padding-left: 15px; }\n\n.col {\n  -ms-flex-preferred-size: 0;\n  flex-basis: 0%;\n  -webkit-box-flex: 1;\n  -ms-flex-positive: 1;\n  flex-grow: 1;\n  max-width: 100%; }\n\n.col-auto {\n  -webkit-box-flex: 0;\n  -ms-flex: 0 0 auto;\n  flex: 0 0 auto;\n  width: auto;\n  max-width: none; }\n\n.col-1 {\n  -webkit-box-flex: 0;\n  -ms-flex: 0 0 8.333333%;\n  flex: 0 0 8.333333%;\n  max-width: 8.333333%; }\n\n.col-2 {\n  -webkit-box-flex: 0;\n  -ms-flex: 0 0 16.666667%;\n  flex: 0 0 16.666667%;\n  max-width: 16.666667%; }\n\n.col-3 {\n  -webkit-box-flex: 0;\n  -ms-flex: 0 0 25%;\n  flex: 0 0 25%;\n  max-width: 25%; }\n\n.col-4 {\n  -webkit-box-flex: 0;\n  -ms-flex: 0 0 33.333333%;\n  flex: 0 0 33.333333%;\n  max-width: 33.333333%; }\n\n.col-5 {\n  -webkit-box-flex: 0;\n  -ms-flex: 0 0 41.666667%;\n  flex: 0 0 41.666667%;\n  max-width: 41.666667%; }\n\n.col-6 {\n  -webkit-box-flex: 0;\n  -ms-flex: 0 0 50%;\n  flex: 0 0 50%;\n  max-width: 50%; }\n\n.col-7 {\n  -webkit-box-flex: 0;\n  -ms-flex: 0 0 58.333333%;\n  flex: 0 0 58.333333%;\n  max-width: 58.333333%; }\n\n.col-8 {\n  -webkit-box-flex: 0;\n  -ms-flex: 0 0 66.666667%;\n  flex: 0 0 66.666667%;\n  max-width: 66.666667%; }\n\n.col-9 {\n  -webkit-box-flex: 0;\n  -ms-flex: 0 0 75%;\n  flex: 0 0 75%;\n  max-width: 75%; }\n\n.col-10 {\n  -webkit-box-flex: 0;\n  -ms-flex: 0 0 83.333333%;\n  flex: 0 0 83.333333%;\n  max-width: 83.333333%; }\n\n.col-11 {\n  -webkit-box-flex: 0;\n  -ms-flex: 0 0 91.666667%;\n  flex: 0 0 91.666667%;\n  max-width: 91.666667%; }\n\n.col-12 {\n  -webkit-box-flex: 0;\n  -ms-flex: 0 0 100%;\n  flex: 0 0 100%;\n  max-width: 100%; }\n\n@media (min-width: 576px) {\n  .col-sm {\n    -ms-flex-preferred-size: 0;\n    flex-basis: 0%;\n    -webkit-box-flex: 1;\n    -ms-flex-positive: 1;\n    flex-grow: 1;\n    max-width: 100%; }\n  .col-sm-auto {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 auto;\n    flex: 0 0 auto;\n    width: auto;\n    max-width: none; }\n  .col-sm-1 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 8.333333%;\n    flex: 0 0 8.333333%;\n    max-width: 8.333333%; }\n  .col-sm-2 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 16.666667%;\n    flex: 0 0 16.666667%;\n    max-width: 16.666667%; }\n  .col-sm-3 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 25%;\n    flex: 0 0 25%;\n    max-width: 25%; }\n  .col-sm-4 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 33.333333%;\n    flex: 0 0 33.333333%;\n    max-width: 33.333333%; }\n  .col-sm-5 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 41.666667%;\n    flex: 0 0 41.666667%;\n    max-width: 41.666667%; }\n  .col-sm-6 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 50%;\n    flex: 0 0 50%;\n    max-width: 50%; }\n  .col-sm-7 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 58.333333%;\n    flex: 0 0 58.333333%;\n    max-width: 58.333333%; }\n  .col-sm-8 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 66.666667%;\n    flex: 0 0 66.666667%;\n    max-width: 66.666667%; }\n  .col-sm-9 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 75%;\n    flex: 0 0 75%;\n    max-width: 75%; }\n  .col-sm-10 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 83.333333%;\n    flex: 0 0 83.333333%;\n    max-width: 83.333333%; }\n  .col-sm-11 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 91.666667%;\n    flex: 0 0 91.666667%;\n    max-width: 91.666667%; }\n  .col-sm-12 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 100%;\n    flex: 0 0 100%;\n    max-width: 100%; } }\n\n@media (min-width: 768px) {\n  .col-md {\n    -ms-flex-preferred-size: 0;\n    flex-basis: 0%;\n    -webkit-box-flex: 1;\n    -ms-flex-positive: 1;\n    flex-grow: 1;\n    max-width: 100%; }\n  .col-md-auto {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 auto;\n    flex: 0 0 auto;\n    width: auto;\n    max-width: none; }\n  .col-md-1 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 8.333333%;\n    flex: 0 0 8.333333%;\n    max-width: 8.333333%; }\n  .col-md-2 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 16.666667%;\n    flex: 0 0 16.666667%;\n    max-width: 16.666667%; }\n  .col-md-3 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 25%;\n    flex: 0 0 25%;\n    max-width: 25%; }\n  .col-md-4 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 33.333333%;\n    flex: 0 0 33.333333%;\n    max-width: 33.333333%; }\n  .col-md-5 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 41.666667%;\n    flex: 0 0 41.666667%;\n    max-width: 41.666667%; }\n  .col-md-6 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 50%;\n    flex: 0 0 50%;\n    max-width: 50%; }\n  .col-md-7 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 58.333333%;\n    flex: 0 0 58.333333%;\n    max-width: 58.333333%; }\n  .col-md-8 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 66.666667%;\n    flex: 0 0 66.666667%;\n    max-width: 66.666667%; }\n  .col-md-9 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 75%;\n    flex: 0 0 75%;\n    max-width: 75%; }\n  .col-md-10 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 83.333333%;\n    flex: 0 0 83.333333%;\n    max-width: 83.333333%; }\n  .col-md-11 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 91.666667%;\n    flex: 0 0 91.666667%;\n    max-width: 91.666667%; }\n  .col-md-12 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 100%;\n    flex: 0 0 100%;\n    max-width: 100%; } }\n\n@media (min-width: 992px) {\n  .col-lg {\n    -ms-flex-preferred-size: 0;\n    flex-basis: 0%;\n    -webkit-box-flex: 1;\n    -ms-flex-positive: 1;\n    flex-grow: 1;\n    max-width: 100%; }\n  .col-lg-auto {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 auto;\n    flex: 0 0 auto;\n    width: auto;\n    max-width: none; }\n  .col-lg-1 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 8.333333%;\n    flex: 0 0 8.333333%;\n    max-width: 8.333333%; }\n  .col-lg-2 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 16.666667%;\n    flex: 0 0 16.666667%;\n    max-width: 16.666667%; }\n  .col-lg-3 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 25%;\n    flex: 0 0 25%;\n    max-width: 25%; }\n  .col-lg-4 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 33.333333%;\n    flex: 0 0 33.333333%;\n    max-width: 33.333333%; }\n  .col-lg-5 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 41.666667%;\n    flex: 0 0 41.666667%;\n    max-width: 41.666667%; }\n  .col-lg-6 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 50%;\n    flex: 0 0 50%;\n    max-width: 50%; }\n  .col-lg-7 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 58.333333%;\n    flex: 0 0 58.333333%;\n    max-width: 58.333333%; }\n  .col-lg-8 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 66.666667%;\n    flex: 0 0 66.666667%;\n    max-width: 66.666667%; }\n  .col-lg-9 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 75%;\n    flex: 0 0 75%;\n    max-width: 75%; }\n  .col-lg-10 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 83.333333%;\n    flex: 0 0 83.333333%;\n    max-width: 83.333333%; }\n  .col-lg-11 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 91.666667%;\n    flex: 0 0 91.666667%;\n    max-width: 91.666667%; }\n  .col-lg-12 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 100%;\n    flex: 0 0 100%;\n    max-width: 100%; } }\n\n@media (min-width: 1200px) {\n  .col-xl {\n    -ms-flex-preferred-size: 0;\n    flex-basis: 0%;\n    -webkit-box-flex: 1;\n    -ms-flex-positive: 1;\n    flex-grow: 1;\n    max-width: 100%; }\n  .col-xl-auto {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 auto;\n    flex: 0 0 auto;\n    width: auto;\n    max-width: none; }\n  .col-xl-1 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 8.333333%;\n    flex: 0 0 8.333333%;\n    max-width: 8.333333%; }\n  .col-xl-2 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 16.666667%;\n    flex: 0 0 16.666667%;\n    max-width: 16.666667%; }\n  .col-xl-3 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 25%;\n    flex: 0 0 25%;\n    max-width: 25%; }\n  .col-xl-4 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 33.333333%;\n    flex: 0 0 33.333333%;\n    max-width: 33.333333%; }\n  .col-xl-5 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 41.666667%;\n    flex: 0 0 41.666667%;\n    max-width: 41.666667%; }\n  .col-xl-6 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 50%;\n    flex: 0 0 50%;\n    max-width: 50%; }\n  .col-xl-7 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 58.333333%;\n    flex: 0 0 58.333333%;\n    max-width: 58.333333%; }\n  .col-xl-8 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 66.666667%;\n    flex: 0 0 66.666667%;\n    max-width: 66.666667%; }\n  .col-xl-9 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 75%;\n    flex: 0 0 75%;\n    max-width: 75%; } }\n\nbody {\n  background-color: #EEEEEE;\n  padding: 0;\n  font-family: sans-serif;\n  margin: 0; }\n\n@media (max-width: 425px) {\n  .no-padd-phone {\n    padding: 0 !important; }\n  .text-align-center-phone {\n    text-align: center; }\n  .w-100-phone {\n    width: 100% !important; } }\n\n#box-price-item > span > span {\n  font-size: 23px;\n  vertical-align: super; }\n\n#content-item {\n  background-color: white;\n  padding: 32px; }\n\n.img-item {\n  width: 680px; }\n\n#box-condition-and-selled-item {\n  margin-top: 32px;\n  margin-bottom: 16px; }\n\n#box-title-item {\n  color: #333333;\n  font-weight: bold;\n  font-size: 24px; }\n\n#box-price-item {\n  font-weight: bold;\n  margin-top: 32px;\n  font-size: 46px;\n  margin-bottom: 32px;\n  color: #333333; }\n\n#content-image-and-price {\n  display: flex;\n  -ms-flex-wrap: wrap;\n  flex-wrap: wrap; }\n\n#box-data-item {\n  width: 396px;\n  padding-left: 20px; }\n\n#btn-buy-item {\n  color: white;\n  background-color: #3483FA;\n  width: 100%;\n  border: none;\n  border-radius: 4px;\n  padding: 9px;\n  cursor: pointer; }\n\n#sub-box-data-item {\n  max-width: 70%; }\n\n#box-description-item {\n  width: 680px;\n  margin-top: 8%; }\n\n#title-description-item {\n  color: #333333;\n  font-size: 28px; }\n\n#content-description-item {\n  font-size: 16px;\n  color: #999999;\n  padding-top: 32px;\n  padding-bottom: 32px; }\n\n@media (max-width: 1024px) {\n  .img-item {\n    width: 100% !important; } }\n\n@media (max-width: 425px) {\n  #sub-box-data-item {\n    max-width: 100%; }\n  #box-data-item {\n    padding-left: 0px; } }\n", "", {"version":3,"sources":["C:/Users/HP/Desktop/dev/Mercado Libre/dev/front/styles/Item.scss"],"names":[],"mappings":"AAAA;EACE,oBAAoB,EAAE;;AAExB;EACE,uBAAuB;EACvB,8BAA8B,EAAE;;AAElC;EACE,oBAAoB,EAAE;;AAExB;EACE,YAAY;EACZ,oBAAoB;EACpB,mBAAmB;EACnB,mBAAmB;EACnB,kBAAkB,EAAE;;AAEtB;EACE;IACE,iBAAiB,EAAE,EAAE;;AAEzB;EACE;IACE,iBAAiB,EAAE,EAAE;;AAEzB;EACE;IACE,iBAAiB,EAAE,EAAE;;AAEzB;EACE;IACE,kBAAkB,EAAE,EAAE;;AAE1B;EACE,YAAY;EACZ,oBAAoB;EACpB,mBAAmB;EACnB,mBAAmB;EACnB,kBAAkB,EAAE;;AAEtB;EACE,qBAAqB;EACrB,qBAAqB;EACrB,cAAc;EACd,oBAAoB;EACpB,gBAAgB;EAChB,oBAAoB;EACpB,mBAAmB,EAAE;;AAEvB;EACE,gBAAgB;EAChB,eAAe,EAAE;;AAEnB;EACE,iBAAiB;EACjB,gBAAgB,EAAE;;AAEpB;EACE,mBAAmB;EACnB,YAAY;EACZ,gBAAgB;EAChB,oBAAoB;EACpB,mBAAmB,EAAE;;AAEvB;EACE,2BAA2B;EAC3B,eAAe;EACf,oBAAoB;EACpB,qBAAqB;EACrB,aAAa;EACb,gBAAgB,EAAE;;AAEpB;EACE,oBAAoB;EACpB,mBAAmB;EACnB,eAAe;EACf,YAAY;EACZ,gBAAgB,EAAE;;AAEpB;EACE,oBAAoB;EACpB,wBAAwB;EACxB,oBAAoB;EACpB,qBAAqB,EAAE;;AAEzB;EACE,oBAAoB;EACpB,yBAAyB;EACzB,qBAAqB;EACrB,sBAAsB,EAAE;;AAE1B;EACE,oBAAoB;EACpB,kBAAkB;EAClB,cAAc;EACd,eAAe,EAAE;;AAEnB;EACE,oBAAoB;EACpB,yBAAyB;EACzB,qBAAqB;EACrB,sBAAsB,EAAE;;AAE1B;EACE,oBAAoB;EACpB,yBAAyB;EACzB,qBAAqB;EACrB,sBAAsB,EAAE;;AAE1B;EACE,oBAAoB;EACpB,kBAAkB;EAClB,cAAc;EACd,eAAe,EAAE;;AAEnB;EACE,oBAAoB;EACpB,yBAAyB;EACzB,qBAAqB;EACrB,sBAAsB,EAAE;;AAE1B;EACE,oBAAoB;EACpB,yBAAyB;EACzB,qBAAqB;EACrB,sBAAsB,EAAE;;AAE1B;EACE,oBAAoB;EACpB,kBAAkB;EAClB,cAAc;EACd,eAAe,EAAE;;AAEnB;EACE,oBAAoB;EACpB,yBAAyB;EACzB,qBAAqB;EACrB,sBAAsB,EAAE;;AAE1B;EACE,oBAAoB;EACpB,yBAAyB;EACzB,qBAAqB;EACrB,sBAAsB,EAAE;;AAE1B;EACE,oBAAoB;EACpB,mBAAmB;EACnB,eAAe;EACf,gBAAgB,EAAE;;AAEpB;EACE;IACE,2BAA2B;IAC3B,eAAe;IACf,oBAAoB;IACpB,qBAAqB;IACrB,aAAa;IACb,gBAAgB,EAAE;EACpB;IACE,oBAAoB;IACpB,mBAAmB;IACnB,eAAe;IACf,YAAY;IACZ,gBAAgB,EAAE;EACpB;IACE,oBAAoB;IACpB,wBAAwB;IACxB,oBAAoB;IACpB,qBAAqB,EAAE;EACzB;IACE,oBAAoB;IACpB,yBAAyB;IACzB,qBAAqB;IACrB,sBAAsB,EAAE;EAC1B;IACE,oBAAoB;IACpB,kBAAkB;IAClB,cAAc;IACd,eAAe,EAAE;EACnB;IACE,oBAAoB;IACpB,yBAAyB;IACzB,qBAAqB;IACrB,sBAAsB,EAAE;EAC1B;IACE,oBAAoB;IACpB,yBAAyB;IACzB,qBAAqB;IACrB,sBAAsB,EAAE;EAC1B;IACE,oBAAoB;IACpB,kBAAkB;IAClB,cAAc;IACd,eAAe,EAAE;EACnB;IACE,oBAAoB;IACpB,yBAAyB;IACzB,qBAAqB;IACrB,sBAAsB,EAAE;EAC1B;IACE,oBAAoB;IACpB,yBAAyB;IACzB,qBAAqB;IACrB,sBAAsB,EAAE;EAC1B;IACE,oBAAoB;IACpB,kBAAkB;IAClB,cAAc;IACd,eAAe,EAAE;EACnB;IACE,oBAAoB;IACpB,yBAAyB;IACzB,qBAAqB;IACrB,sBAAsB,EAAE;EAC1B;IACE,oBAAoB;IACpB,yBAAyB;IACzB,qBAAqB;IACrB,sBAAsB,EAAE;EAC1B;IACE,oBAAoB;IACpB,mBAAmB;IACnB,eAAe;IACf,gBAAgB,EAAE,EAAE;;AAExB;EACE;IACE,2BAA2B;IAC3B,eAAe;IACf,oBAAoB;IACpB,qBAAqB;IACrB,aAAa;IACb,gBAAgB,EAAE;EACpB;IACE,oBAAoB;IACpB,mBAAmB;IACnB,eAAe;IACf,YAAY;IACZ,gBAAgB,EAAE;EACpB;IACE,oBAAoB;IACpB,wBAAwB;IACxB,oBAAoB;IACpB,qBAAqB,EAAE;EACzB;IACE,oBAAoB;IACpB,yBAAyB;IACzB,qBAAqB;IACrB,sBAAsB,EAAE;EAC1B;IACE,oBAAoB;IACpB,kBAAkB;IAClB,cAAc;IACd,eAAe,EAAE;EACnB;IACE,oBAAoB;IACpB,yBAAyB;IACzB,qBAAqB;IACrB,sBAAsB,EAAE;EAC1B;IACE,oBAAoB;IACpB,yBAAyB;IACzB,qBAAqB;IACrB,sBAAsB,EAAE;EAC1B;IACE,oBAAoB;IACpB,kBAAkB;IAClB,cAAc;IACd,eAAe,EAAE;EACnB;IACE,oBAAoB;IACpB,yBAAyB;IACzB,qBAAqB;IACrB,sBAAsB,EAAE;EAC1B;IACE,oBAAoB;IACpB,yBAAyB;IACzB,qBAAqB;IACrB,sBAAsB,EAAE;EAC1B;IACE,oBAAoB;IACpB,kBAAkB;IAClB,cAAc;IACd,eAAe,EAAE;EACnB;IACE,oBAAoB;IACpB,yBAAyB;IACzB,qBAAqB;IACrB,sBAAsB,EAAE;EAC1B;IACE,oBAAoB;IACpB,yBAAyB;IACzB,qBAAqB;IACrB,sBAAsB,EAAE;EAC1B;IACE,oBAAoB;IACpB,mBAAmB;IACnB,eAAe;IACf,gBAAgB,EAAE,EAAE;;AAExB;EACE;IACE,2BAA2B;IAC3B,eAAe;IACf,oBAAoB;IACpB,qBAAqB;IACrB,aAAa;IACb,gBAAgB,EAAE;EACpB;IACE,oBAAoB;IACpB,mBAAmB;IACnB,eAAe;IACf,YAAY;IACZ,gBAAgB,EAAE;EACpB;IACE,oBAAoB;IACpB,wBAAwB;IACxB,oBAAoB;IACpB,qBAAqB,EAAE;EACzB;IACE,oBAAoB;IACpB,yBAAyB;IACzB,qBAAqB;IACrB,sBAAsB,EAAE;EAC1B;IACE,oBAAoB;IACpB,kBAAkB;IAClB,cAAc;IACd,eAAe,EAAE;EACnB;IACE,oBAAoB;IACpB,yBAAyB;IACzB,qBAAqB;IACrB,sBAAsB,EAAE;EAC1B;IACE,oBAAoB;IACpB,yBAAyB;IACzB,qBAAqB;IACrB,sBAAsB,EAAE;EAC1B;IACE,oBAAoB;IACpB,kBAAkB;IAClB,cAAc;IACd,eAAe,EAAE;EACnB;IACE,oBAAoB;IACpB,yBAAyB;IACzB,qBAAqB;IACrB,sBAAsB,EAAE;EAC1B;IACE,oBAAoB;IACpB,yBAAyB;IACzB,qBAAqB;IACrB,sBAAsB,EAAE;EAC1B;IACE,oBAAoB;IACpB,kBAAkB;IAClB,cAAc;IACd,eAAe,EAAE;EACnB;IACE,oBAAoB;IACpB,yBAAyB;IACzB,qBAAqB;IACrB,sBAAsB,EAAE;EAC1B;IACE,oBAAoB;IACpB,yBAAyB;IACzB,qBAAqB;IACrB,sBAAsB,EAAE;EAC1B;IACE,oBAAoB;IACpB,mBAAmB;IACnB,eAAe;IACf,gBAAgB,EAAE,EAAE;;AAExB;EACE;IACE,2BAA2B;IAC3B,eAAe;IACf,oBAAoB;IACpB,qBAAqB;IACrB,aAAa;IACb,gBAAgB,EAAE;EACpB;IACE,oBAAoB;IACpB,mBAAmB;IACnB,eAAe;IACf,YAAY;IACZ,gBAAgB,EAAE;EACpB;IACE,oBAAoB;IACpB,wBAAwB;IACxB,oBAAoB;IACpB,qBAAqB,EAAE;EACzB;IACE,oBAAoB;IACpB,yBAAyB;IACzB,qBAAqB;IACrB,sBAAsB,EAAE;EAC1B;IACE,oBAAoB;IACpB,kBAAkB;IAClB,cAAc;IACd,eAAe,EAAE;EACnB;IACE,oBAAoB;IACpB,yBAAyB;IACzB,qBAAqB;IACrB,sBAAsB,EAAE;EAC1B;IACE,oBAAoB;IACpB,yBAAyB;IACzB,qBAAqB;IACrB,sBAAsB,EAAE;EAC1B;IACE,oBAAoB;IACpB,kBAAkB;IAClB,cAAc;IACd,eAAe,EAAE;EACnB;IACE,oBAAoB;IACpB,yBAAyB;IACzB,qBAAqB;IACrB,sBAAsB,EAAE;EAC1B;IACE,oBAAoB;IACpB,yBAAyB;IACzB,qBAAqB;IACrB,sBAAsB,EAAE;EAC1B;IACE,oBAAoB;IACpB,kBAAkB;IAClB,cAAc;IACd,eAAe,EAAE,EAAE;;AAEvB;EACE,0BAA0B;EAC1B,WAAW;EACX,wBAAwB;EACxB,UAAU,EAAE;;AAEd;EACE;IACE,sBAAsB,EAAE;EAC1B;IACE,mBAAmB,EAAE;EACvB;IACE,uBAAuB,EAAE,EAAE;;AAE/B;EACE,gBAAgB;EAChB,sBAAsB,EAAE;;AAE1B;EACE,wBAAwB;EACxB,cAAc,EAAE;;AAElB;EACE,aAAa,EAAE;;AAEjB;EACE,iBAAiB;EACjB,oBAAoB,EAAE;;AAExB;EACE,eAAe;EACf,kBAAkB;EAClB,gBAAgB,EAAE;;AAEpB;EACE,kBAAkB;EAClB,iBAAiB;EACjB,gBAAgB;EAChB,oBAAoB;EACpB,eAAe,EAAE;;AAEnB;EACE,cAAc;EACd,oBAAoB;EACpB,gBAAgB,EAAE;;AAEpB;EACE,aAAa;EACb,mBAAmB,EAAE;;AAEvB;EACE,aAAa;EACb,0BAA0B;EAC1B,YAAY;EACZ,aAAa;EACb,mBAAmB;EACnB,aAAa;EACb,gBAAgB,EAAE;;AAEpB;EACE,eAAe,EAAE;;AAEnB;EACE,aAAa;EACb,eAAe,EAAE;;AAEnB;EACE,eAAe;EACf,gBAAgB,EAAE;;AAEpB;EACE,gBAAgB;EAChB,eAAe;EACf,kBAAkB;EAClB,qBAAqB,EAAE;;AAEzB;EACE;IACE,uBAAuB,EAAE,EAAE;;AAE/B;EACE;IACE,gBAAgB,EAAE;EACpB;IACE,kBAAkB,EAAE,EAAE","file":"Item.scss","sourcesContent":["@-ms-viewport {\n  width: device-width; }\n\nhtml {\n  box-sizing: border-box;\n  -ms-overflow-style: scrollbar; }\n\n*, ::after, ::before {\n  box-sizing: inherit; }\n\n.container {\n  width: 100%;\n  padding-right: 15px;\n  padding-left: 15px;\n  margin-right: auto;\n  margin-left: auto; }\n\n@media (min-width: 576px) {\n  .container {\n    max-width: 540px; } }\n\n@media (min-width: 768px) {\n  .container {\n    max-width: 720px; } }\n\n@media (min-width: 992px) {\n  .container {\n    max-width: 960px; } }\n\n@media (min-width: 1200px) {\n  .container {\n    max-width: 1140px; } }\n\n.container-fluid {\n  width: 100%;\n  padding-right: 15px;\n  padding-left: 15px;\n  margin-right: auto;\n  margin-left: auto; }\n\n.row {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -ms-flex-wrap: wrap;\n  flex-wrap: wrap;\n  margin-right: -15px;\n  margin-left: -15px; }\n\n.no-gutters {\n  margin-right: 0;\n  margin-left: 0; }\n\n.no-gutters > .col, .no-gutters > [class*=col-] {\n  padding-right: 0;\n  padding-left: 0; }\n\n.col, .col-1, .col-10, .col-11, .col-12, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-auto, .col-lg, .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-auto, .col-md, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-auto, .col-sm, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-auto, .col-xl, .col-xl-1, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-auto {\n  position: relative;\n  width: 100%;\n  min-height: 1px;\n  padding-right: 15px;\n  padding-left: 15px; }\n\n.col {\n  -ms-flex-preferred-size: 0;\n  flex-basis: 0%;\n  -webkit-box-flex: 1;\n  -ms-flex-positive: 1;\n  flex-grow: 1;\n  max-width: 100%; }\n\n.col-auto {\n  -webkit-box-flex: 0;\n  -ms-flex: 0 0 auto;\n  flex: 0 0 auto;\n  width: auto;\n  max-width: none; }\n\n.col-1 {\n  -webkit-box-flex: 0;\n  -ms-flex: 0 0 8.333333%;\n  flex: 0 0 8.333333%;\n  max-width: 8.333333%; }\n\n.col-2 {\n  -webkit-box-flex: 0;\n  -ms-flex: 0 0 16.666667%;\n  flex: 0 0 16.666667%;\n  max-width: 16.666667%; }\n\n.col-3 {\n  -webkit-box-flex: 0;\n  -ms-flex: 0 0 25%;\n  flex: 0 0 25%;\n  max-width: 25%; }\n\n.col-4 {\n  -webkit-box-flex: 0;\n  -ms-flex: 0 0 33.333333%;\n  flex: 0 0 33.333333%;\n  max-width: 33.333333%; }\n\n.col-5 {\n  -webkit-box-flex: 0;\n  -ms-flex: 0 0 41.666667%;\n  flex: 0 0 41.666667%;\n  max-width: 41.666667%; }\n\n.col-6 {\n  -webkit-box-flex: 0;\n  -ms-flex: 0 0 50%;\n  flex: 0 0 50%;\n  max-width: 50%; }\n\n.col-7 {\n  -webkit-box-flex: 0;\n  -ms-flex: 0 0 58.333333%;\n  flex: 0 0 58.333333%;\n  max-width: 58.333333%; }\n\n.col-8 {\n  -webkit-box-flex: 0;\n  -ms-flex: 0 0 66.666667%;\n  flex: 0 0 66.666667%;\n  max-width: 66.666667%; }\n\n.col-9 {\n  -webkit-box-flex: 0;\n  -ms-flex: 0 0 75%;\n  flex: 0 0 75%;\n  max-width: 75%; }\n\n.col-10 {\n  -webkit-box-flex: 0;\n  -ms-flex: 0 0 83.333333%;\n  flex: 0 0 83.333333%;\n  max-width: 83.333333%; }\n\n.col-11 {\n  -webkit-box-flex: 0;\n  -ms-flex: 0 0 91.666667%;\n  flex: 0 0 91.666667%;\n  max-width: 91.666667%; }\n\n.col-12 {\n  -webkit-box-flex: 0;\n  -ms-flex: 0 0 100%;\n  flex: 0 0 100%;\n  max-width: 100%; }\n\n@media (min-width: 576px) {\n  .col-sm {\n    -ms-flex-preferred-size: 0;\n    flex-basis: 0%;\n    -webkit-box-flex: 1;\n    -ms-flex-positive: 1;\n    flex-grow: 1;\n    max-width: 100%; }\n  .col-sm-auto {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 auto;\n    flex: 0 0 auto;\n    width: auto;\n    max-width: none; }\n  .col-sm-1 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 8.333333%;\n    flex: 0 0 8.333333%;\n    max-width: 8.333333%; }\n  .col-sm-2 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 16.666667%;\n    flex: 0 0 16.666667%;\n    max-width: 16.666667%; }\n  .col-sm-3 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 25%;\n    flex: 0 0 25%;\n    max-width: 25%; }\n  .col-sm-4 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 33.333333%;\n    flex: 0 0 33.333333%;\n    max-width: 33.333333%; }\n  .col-sm-5 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 41.666667%;\n    flex: 0 0 41.666667%;\n    max-width: 41.666667%; }\n  .col-sm-6 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 50%;\n    flex: 0 0 50%;\n    max-width: 50%; }\n  .col-sm-7 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 58.333333%;\n    flex: 0 0 58.333333%;\n    max-width: 58.333333%; }\n  .col-sm-8 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 66.666667%;\n    flex: 0 0 66.666667%;\n    max-width: 66.666667%; }\n  .col-sm-9 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 75%;\n    flex: 0 0 75%;\n    max-width: 75%; }\n  .col-sm-10 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 83.333333%;\n    flex: 0 0 83.333333%;\n    max-width: 83.333333%; }\n  .col-sm-11 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 91.666667%;\n    flex: 0 0 91.666667%;\n    max-width: 91.666667%; }\n  .col-sm-12 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 100%;\n    flex: 0 0 100%;\n    max-width: 100%; } }\n\n@media (min-width: 768px) {\n  .col-md {\n    -ms-flex-preferred-size: 0;\n    flex-basis: 0%;\n    -webkit-box-flex: 1;\n    -ms-flex-positive: 1;\n    flex-grow: 1;\n    max-width: 100%; }\n  .col-md-auto {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 auto;\n    flex: 0 0 auto;\n    width: auto;\n    max-width: none; }\n  .col-md-1 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 8.333333%;\n    flex: 0 0 8.333333%;\n    max-width: 8.333333%; }\n  .col-md-2 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 16.666667%;\n    flex: 0 0 16.666667%;\n    max-width: 16.666667%; }\n  .col-md-3 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 25%;\n    flex: 0 0 25%;\n    max-width: 25%; }\n  .col-md-4 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 33.333333%;\n    flex: 0 0 33.333333%;\n    max-width: 33.333333%; }\n  .col-md-5 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 41.666667%;\n    flex: 0 0 41.666667%;\n    max-width: 41.666667%; }\n  .col-md-6 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 50%;\n    flex: 0 0 50%;\n    max-width: 50%; }\n  .col-md-7 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 58.333333%;\n    flex: 0 0 58.333333%;\n    max-width: 58.333333%; }\n  .col-md-8 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 66.666667%;\n    flex: 0 0 66.666667%;\n    max-width: 66.666667%; }\n  .col-md-9 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 75%;\n    flex: 0 0 75%;\n    max-width: 75%; }\n  .col-md-10 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 83.333333%;\n    flex: 0 0 83.333333%;\n    max-width: 83.333333%; }\n  .col-md-11 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 91.666667%;\n    flex: 0 0 91.666667%;\n    max-width: 91.666667%; }\n  .col-md-12 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 100%;\n    flex: 0 0 100%;\n    max-width: 100%; } }\n\n@media (min-width: 992px) {\n  .col-lg {\n    -ms-flex-preferred-size: 0;\n    flex-basis: 0%;\n    -webkit-box-flex: 1;\n    -ms-flex-positive: 1;\n    flex-grow: 1;\n    max-width: 100%; }\n  .col-lg-auto {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 auto;\n    flex: 0 0 auto;\n    width: auto;\n    max-width: none; }\n  .col-lg-1 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 8.333333%;\n    flex: 0 0 8.333333%;\n    max-width: 8.333333%; }\n  .col-lg-2 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 16.666667%;\n    flex: 0 0 16.666667%;\n    max-width: 16.666667%; }\n  .col-lg-3 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 25%;\n    flex: 0 0 25%;\n    max-width: 25%; }\n  .col-lg-4 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 33.333333%;\n    flex: 0 0 33.333333%;\n    max-width: 33.333333%; }\n  .col-lg-5 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 41.666667%;\n    flex: 0 0 41.666667%;\n    max-width: 41.666667%; }\n  .col-lg-6 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 50%;\n    flex: 0 0 50%;\n    max-width: 50%; }\n  .col-lg-7 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 58.333333%;\n    flex: 0 0 58.333333%;\n    max-width: 58.333333%; }\n  .col-lg-8 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 66.666667%;\n    flex: 0 0 66.666667%;\n    max-width: 66.666667%; }\n  .col-lg-9 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 75%;\n    flex: 0 0 75%;\n    max-width: 75%; }\n  .col-lg-10 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 83.333333%;\n    flex: 0 0 83.333333%;\n    max-width: 83.333333%; }\n  .col-lg-11 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 91.666667%;\n    flex: 0 0 91.666667%;\n    max-width: 91.666667%; }\n  .col-lg-12 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 100%;\n    flex: 0 0 100%;\n    max-width: 100%; } }\n\n@media (min-width: 1200px) {\n  .col-xl {\n    -ms-flex-preferred-size: 0;\n    flex-basis: 0%;\n    -webkit-box-flex: 1;\n    -ms-flex-positive: 1;\n    flex-grow: 1;\n    max-width: 100%; }\n  .col-xl-auto {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 auto;\n    flex: 0 0 auto;\n    width: auto;\n    max-width: none; }\n  .col-xl-1 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 8.333333%;\n    flex: 0 0 8.333333%;\n    max-width: 8.333333%; }\n  .col-xl-2 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 16.666667%;\n    flex: 0 0 16.666667%;\n    max-width: 16.666667%; }\n  .col-xl-3 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 25%;\n    flex: 0 0 25%;\n    max-width: 25%; }\n  .col-xl-4 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 33.333333%;\n    flex: 0 0 33.333333%;\n    max-width: 33.333333%; }\n  .col-xl-5 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 41.666667%;\n    flex: 0 0 41.666667%;\n    max-width: 41.666667%; }\n  .col-xl-6 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 50%;\n    flex: 0 0 50%;\n    max-width: 50%; }\n  .col-xl-7 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 58.333333%;\n    flex: 0 0 58.333333%;\n    max-width: 58.333333%; }\n  .col-xl-8 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 66.666667%;\n    flex: 0 0 66.666667%;\n    max-width: 66.666667%; }\n  .col-xl-9 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 75%;\n    flex: 0 0 75%;\n    max-width: 75%; } }\n\nbody {\n  background-color: #EEEEEE;\n  padding: 0;\n  font-family: sans-serif;\n  margin: 0; }\n\n@media (max-width: 425px) {\n  .no-padd-phone {\n    padding: 0 !important; }\n  .text-align-center-phone {\n    text-align: center; }\n  .w-100-phone {\n    width: 100% !important; } }\n\n#box-price-item > span > span {\n  font-size: 23px;\n  vertical-align: super; }\n\n#content-item {\n  background-color: white;\n  padding: 32px; }\n\n.img-item {\n  width: 680px; }\n\n#box-condition-and-selled-item {\n  margin-top: 32px;\n  margin-bottom: 16px; }\n\n#box-title-item {\n  color: #333333;\n  font-weight: bold;\n  font-size: 24px; }\n\n#box-price-item {\n  font-weight: bold;\n  margin-top: 32px;\n  font-size: 46px;\n  margin-bottom: 32px;\n  color: #333333; }\n\n#content-image-and-price {\n  display: flex;\n  -ms-flex-wrap: wrap;\n  flex-wrap: wrap; }\n\n#box-data-item {\n  width: 396px;\n  padding-left: 20px; }\n\n#btn-buy-item {\n  color: white;\n  background-color: #3483FA;\n  width: 100%;\n  border: none;\n  border-radius: 4px;\n  padding: 9px;\n  cursor: pointer; }\n\n#sub-box-data-item {\n  max-width: 70%; }\n\n#box-description-item {\n  width: 680px;\n  margin-top: 8%; }\n\n#title-description-item {\n  color: #333333;\n  font-size: 28px; }\n\n#content-description-item {\n  font-size: 16px;\n  color: #999999;\n  padding-top: 32px;\n  padding-bottom: 32px; }\n\n@media (max-width: 1024px) {\n  .img-item {\n    width: 100% !important; } }\n\n@media (max-width: 425px) {\n  #sub-box-data-item {\n    max-width: 100%; }\n  #box-data-item {\n    padding-left: 0px; } }\n"],"sourceRoot":""}]);
-
-// exports
-
-
-/***/ }),
-
-/***/ "./node_modules/css-loader/index.js?{\"modules\":false,\"minimize\":false,\"sourceMap\":true,\"importLoaders\":1}!./node_modules/sass-loader/lib/loader.js!./styles/categoryBox.scss":
-/***/ (function(module, exports, __webpack_require__) {
-
-exports = module.exports = __webpack_require__("./node_modules/css-loader/lib/css-base.js")(true);
-// imports
-
-
-// module
-exports.push([module.i, "@-ms-viewport {\n  width: device-width; }\n\nhtml {\n  box-sizing: border-box;\n  -ms-overflow-style: scrollbar; }\n\n*, ::after, ::before {\n  box-sizing: inherit; }\n\n.container {\n  width: 100%;\n  padding-right: 15px;\n  padding-left: 15px;\n  margin-right: auto;\n  margin-left: auto; }\n\n@media (min-width: 576px) {\n  .container {\n    max-width: 540px; } }\n\n@media (min-width: 768px) {\n  .container {\n    max-width: 720px; } }\n\n@media (min-width: 992px) {\n  .container {\n    max-width: 960px; } }\n\n@media (min-width: 1200px) {\n  .container {\n    max-width: 1140px; } }\n\n.container-fluid {\n  width: 100%;\n  padding-right: 15px;\n  padding-left: 15px;\n  margin-right: auto;\n  margin-left: auto; }\n\n.row {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -ms-flex-wrap: wrap;\n  flex-wrap: wrap;\n  margin-right: -15px;\n  margin-left: -15px; }\n\n.no-gutters {\n  margin-right: 0;\n  margin-left: 0; }\n\n.no-gutters > .col, .no-gutters > [class*=col-] {\n  padding-right: 0;\n  padding-left: 0; }\n\n.col, .col-1, .col-10, .col-11, .col-12, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-auto, .col-lg, .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-auto, .col-md, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-auto, .col-sm, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-auto, .col-xl, .col-xl-1, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-auto {\n  position: relative;\n  width: 100%;\n  min-height: 1px;\n  padding-right: 15px;\n  padding-left: 15px; }\n\n.col {\n  -ms-flex-preferred-size: 0;\n  flex-basis: 0%;\n  -webkit-box-flex: 1;\n  -ms-flex-positive: 1;\n  flex-grow: 1;\n  max-width: 100%; }\n\n.col-auto {\n  -webkit-box-flex: 0;\n  -ms-flex: 0 0 auto;\n  flex: 0 0 auto;\n  width: auto;\n  max-width: none; }\n\n.col-1 {\n  -webkit-box-flex: 0;\n  -ms-flex: 0 0 8.333333%;\n  flex: 0 0 8.333333%;\n  max-width: 8.333333%; }\n\n.col-2 {\n  -webkit-box-flex: 0;\n  -ms-flex: 0 0 16.666667%;\n  flex: 0 0 16.666667%;\n  max-width: 16.666667%; }\n\n.col-3 {\n  -webkit-box-flex: 0;\n  -ms-flex: 0 0 25%;\n  flex: 0 0 25%;\n  max-width: 25%; }\n\n.col-4 {\n  -webkit-box-flex: 0;\n  -ms-flex: 0 0 33.333333%;\n  flex: 0 0 33.333333%;\n  max-width: 33.333333%; }\n\n.col-5 {\n  -webkit-box-flex: 0;\n  -ms-flex: 0 0 41.666667%;\n  flex: 0 0 41.666667%;\n  max-width: 41.666667%; }\n\n.col-6 {\n  -webkit-box-flex: 0;\n  -ms-flex: 0 0 50%;\n  flex: 0 0 50%;\n  max-width: 50%; }\n\n.col-7 {\n  -webkit-box-flex: 0;\n  -ms-flex: 0 0 58.333333%;\n  flex: 0 0 58.333333%;\n  max-width: 58.333333%; }\n\n.col-8 {\n  -webkit-box-flex: 0;\n  -ms-flex: 0 0 66.666667%;\n  flex: 0 0 66.666667%;\n  max-width: 66.666667%; }\n\n.col-9 {\n  -webkit-box-flex: 0;\n  -ms-flex: 0 0 75%;\n  flex: 0 0 75%;\n  max-width: 75%; }\n\n.col-10 {\n  -webkit-box-flex: 0;\n  -ms-flex: 0 0 83.333333%;\n  flex: 0 0 83.333333%;\n  max-width: 83.333333%; }\n\n.col-11 {\n  -webkit-box-flex: 0;\n  -ms-flex: 0 0 91.666667%;\n  flex: 0 0 91.666667%;\n  max-width: 91.666667%; }\n\n.col-12 {\n  -webkit-box-flex: 0;\n  -ms-flex: 0 0 100%;\n  flex: 0 0 100%;\n  max-width: 100%; }\n\n@media (min-width: 576px) {\n  .col-sm {\n    -ms-flex-preferred-size: 0;\n    flex-basis: 0%;\n    -webkit-box-flex: 1;\n    -ms-flex-positive: 1;\n    flex-grow: 1;\n    max-width: 100%; }\n  .col-sm-auto {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 auto;\n    flex: 0 0 auto;\n    width: auto;\n    max-width: none; }\n  .col-sm-1 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 8.333333%;\n    flex: 0 0 8.333333%;\n    max-width: 8.333333%; }\n  .col-sm-2 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 16.666667%;\n    flex: 0 0 16.666667%;\n    max-width: 16.666667%; }\n  .col-sm-3 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 25%;\n    flex: 0 0 25%;\n    max-width: 25%; }\n  .col-sm-4 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 33.333333%;\n    flex: 0 0 33.333333%;\n    max-width: 33.333333%; }\n  .col-sm-5 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 41.666667%;\n    flex: 0 0 41.666667%;\n    max-width: 41.666667%; }\n  .col-sm-6 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 50%;\n    flex: 0 0 50%;\n    max-width: 50%; }\n  .col-sm-7 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 58.333333%;\n    flex: 0 0 58.333333%;\n    max-width: 58.333333%; }\n  .col-sm-8 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 66.666667%;\n    flex: 0 0 66.666667%;\n    max-width: 66.666667%; }\n  .col-sm-9 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 75%;\n    flex: 0 0 75%;\n    max-width: 75%; }\n  .col-sm-10 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 83.333333%;\n    flex: 0 0 83.333333%;\n    max-width: 83.333333%; }\n  .col-sm-11 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 91.666667%;\n    flex: 0 0 91.666667%;\n    max-width: 91.666667%; }\n  .col-sm-12 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 100%;\n    flex: 0 0 100%;\n    max-width: 100%; } }\n\n@media (min-width: 768px) {\n  .col-md {\n    -ms-flex-preferred-size: 0;\n    flex-basis: 0%;\n    -webkit-box-flex: 1;\n    -ms-flex-positive: 1;\n    flex-grow: 1;\n    max-width: 100%; }\n  .col-md-auto {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 auto;\n    flex: 0 0 auto;\n    width: auto;\n    max-width: none; }\n  .col-md-1 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 8.333333%;\n    flex: 0 0 8.333333%;\n    max-width: 8.333333%; }\n  .col-md-2 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 16.666667%;\n    flex: 0 0 16.666667%;\n    max-width: 16.666667%; }\n  .col-md-3 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 25%;\n    flex: 0 0 25%;\n    max-width: 25%; }\n  .col-md-4 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 33.333333%;\n    flex: 0 0 33.333333%;\n    max-width: 33.333333%; }\n  .col-md-5 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 41.666667%;\n    flex: 0 0 41.666667%;\n    max-width: 41.666667%; }\n  .col-md-6 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 50%;\n    flex: 0 0 50%;\n    max-width: 50%; }\n  .col-md-7 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 58.333333%;\n    flex: 0 0 58.333333%;\n    max-width: 58.333333%; }\n  .col-md-8 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 66.666667%;\n    flex: 0 0 66.666667%;\n    max-width: 66.666667%; }\n  .col-md-9 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 75%;\n    flex: 0 0 75%;\n    max-width: 75%; }\n  .col-md-10 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 83.333333%;\n    flex: 0 0 83.333333%;\n    max-width: 83.333333%; }\n  .col-md-11 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 91.666667%;\n    flex: 0 0 91.666667%;\n    max-width: 91.666667%; }\n  .col-md-12 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 100%;\n    flex: 0 0 100%;\n    max-width: 100%; } }\n\n@media (min-width: 992px) {\n  .col-lg {\n    -ms-flex-preferred-size: 0;\n    flex-basis: 0%;\n    -webkit-box-flex: 1;\n    -ms-flex-positive: 1;\n    flex-grow: 1;\n    max-width: 100%; }\n  .col-lg-auto {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 auto;\n    flex: 0 0 auto;\n    width: auto;\n    max-width: none; }\n  .col-lg-1 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 8.333333%;\n    flex: 0 0 8.333333%;\n    max-width: 8.333333%; }\n  .col-lg-2 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 16.666667%;\n    flex: 0 0 16.666667%;\n    max-width: 16.666667%; }\n  .col-lg-3 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 25%;\n    flex: 0 0 25%;\n    max-width: 25%; }\n  .col-lg-4 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 33.333333%;\n    flex: 0 0 33.333333%;\n    max-width: 33.333333%; }\n  .col-lg-5 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 41.666667%;\n    flex: 0 0 41.666667%;\n    max-width: 41.666667%; }\n  .col-lg-6 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 50%;\n    flex: 0 0 50%;\n    max-width: 50%; }\n  .col-lg-7 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 58.333333%;\n    flex: 0 0 58.333333%;\n    max-width: 58.333333%; }\n  .col-lg-8 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 66.666667%;\n    flex: 0 0 66.666667%;\n    max-width: 66.666667%; }\n  .col-lg-9 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 75%;\n    flex: 0 0 75%;\n    max-width: 75%; }\n  .col-lg-10 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 83.333333%;\n    flex: 0 0 83.333333%;\n    max-width: 83.333333%; }\n  .col-lg-11 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 91.666667%;\n    flex: 0 0 91.666667%;\n    max-width: 91.666667%; }\n  .col-lg-12 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 100%;\n    flex: 0 0 100%;\n    max-width: 100%; } }\n\n@media (min-width: 1200px) {\n  .col-xl {\n    -ms-flex-preferred-size: 0;\n    flex-basis: 0%;\n    -webkit-box-flex: 1;\n    -ms-flex-positive: 1;\n    flex-grow: 1;\n    max-width: 100%; }\n  .col-xl-auto {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 auto;\n    flex: 0 0 auto;\n    width: auto;\n    max-width: none; }\n  .col-xl-1 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 8.333333%;\n    flex: 0 0 8.333333%;\n    max-width: 8.333333%; }\n  .col-xl-2 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 16.666667%;\n    flex: 0 0 16.666667%;\n    max-width: 16.666667%; }\n  .col-xl-3 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 25%;\n    flex: 0 0 25%;\n    max-width: 25%; }\n  .col-xl-4 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 33.333333%;\n    flex: 0 0 33.333333%;\n    max-width: 33.333333%; }\n  .col-xl-5 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 41.666667%;\n    flex: 0 0 41.666667%;\n    max-width: 41.666667%; }\n  .col-xl-6 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 50%;\n    flex: 0 0 50%;\n    max-width: 50%; }\n  .col-xl-7 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 58.333333%;\n    flex: 0 0 58.333333%;\n    max-width: 58.333333%; }\n  .col-xl-8 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 66.666667%;\n    flex: 0 0 66.666667%;\n    max-width: 66.666667%; }\n  .col-xl-9 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 75%;\n    flex: 0 0 75%;\n    max-width: 75%; } }\n\nbody {\n  background-color: #EEEEEE;\n  padding: 0;\n  font-family: sans-serif;\n  margin: 0; }\n\n@media (max-width: 425px) {\n  .no-padd-phone {\n    padding: 0 !important; }\n  .text-align-center-phone {\n    text-align: center; }\n  .w-100-phone {\n    width: 100% !important; } }\n\n#selected-category {\n  color: #666666;\n  font-weight: bold; }\n\n#normal-category {\n  color: #999999; }\n\n#box-category-list {\n  font-size: 14px;\n  padding-top: 16px;\n  padding-bottom: 16px;\n  background-color: #EEEEEE; }\n", "", {"version":3,"sources":["C:/Users/HP/Desktop/dev/Mercado Libre/dev/front/styles/categoryBox.scss"],"names":[],"mappings":"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","file":"categoryBox.scss","sourcesContent":["@-ms-viewport {\n  width: device-width; }\n\nhtml {\n  box-sizing: border-box;\n  -ms-overflow-style: scrollbar; }\n\n*, ::after, ::before {\n  box-sizing: inherit; }\n\n.container {\n  width: 100%;\n  padding-right: 15px;\n  padding-left: 15px;\n  margin-right: auto;\n  margin-left: auto; }\n\n@media (min-width: 576px) {\n  .container {\n    max-width: 540px; } }\n\n@media (min-width: 768px) {\n  .container {\n    max-width: 720px; } }\n\n@media (min-width: 992px) {\n  .container {\n    max-width: 960px; } }\n\n@media (min-width: 1200px) {\n  .container {\n    max-width: 1140px; } }\n\n.container-fluid {\n  width: 100%;\n  padding-right: 15px;\n  padding-left: 15px;\n  margin-right: auto;\n  margin-left: auto; }\n\n.row {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -ms-flex-wrap: wrap;\n  flex-wrap: wrap;\n  margin-right: -15px;\n  margin-left: -15px; }\n\n.no-gutters {\n  margin-right: 0;\n  margin-left: 0; }\n\n.no-gutters > .col, .no-gutters > [class*=col-] {\n  padding-right: 0;\n  padding-left: 0; }\n\n.col, .col-1, .col-10, .col-11, .col-12, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-auto, .col-lg, .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-auto, .col-md, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-auto, .col-sm, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-auto, .col-xl, .col-xl-1, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-auto {\n  position: relative;\n  width: 100%;\n  min-height: 1px;\n  padding-right: 15px;\n  padding-left: 15px; }\n\n.col {\n  -ms-flex-preferred-size: 0;\n  flex-basis: 0%;\n  -webkit-box-flex: 1;\n  -ms-flex-positive: 1;\n  flex-grow: 1;\n  max-width: 100%; }\n\n.col-auto {\n  -webkit-box-flex: 0;\n  -ms-flex: 0 0 auto;\n  flex: 0 0 auto;\n  width: auto;\n  max-width: none; }\n\n.col-1 {\n  -webkit-box-flex: 0;\n  -ms-flex: 0 0 8.333333%;\n  flex: 0 0 8.333333%;\n  max-width: 8.333333%; }\n\n.col-2 {\n  -webkit-box-flex: 0;\n  -ms-flex: 0 0 16.666667%;\n  flex: 0 0 16.666667%;\n  max-width: 16.666667%; }\n\n.col-3 {\n  -webkit-box-flex: 0;\n  -ms-flex: 0 0 25%;\n  flex: 0 0 25%;\n  max-width: 25%; }\n\n.col-4 {\n  -webkit-box-flex: 0;\n  -ms-flex: 0 0 33.333333%;\n  flex: 0 0 33.333333%;\n  max-width: 33.333333%; }\n\n.col-5 {\n  -webkit-box-flex: 0;\n  -ms-flex: 0 0 41.666667%;\n  flex: 0 0 41.666667%;\n  max-width: 41.666667%; }\n\n.col-6 {\n  -webkit-box-flex: 0;\n  -ms-flex: 0 0 50%;\n  flex: 0 0 50%;\n  max-width: 50%; }\n\n.col-7 {\n  -webkit-box-flex: 0;\n  -ms-flex: 0 0 58.333333%;\n  flex: 0 0 58.333333%;\n  max-width: 58.333333%; }\n\n.col-8 {\n  -webkit-box-flex: 0;\n  -ms-flex: 0 0 66.666667%;\n  flex: 0 0 66.666667%;\n  max-width: 66.666667%; }\n\n.col-9 {\n  -webkit-box-flex: 0;\n  -ms-flex: 0 0 75%;\n  flex: 0 0 75%;\n  max-width: 75%; }\n\n.col-10 {\n  -webkit-box-flex: 0;\n  -ms-flex: 0 0 83.333333%;\n  flex: 0 0 83.333333%;\n  max-width: 83.333333%; }\n\n.col-11 {\n  -webkit-box-flex: 0;\n  -ms-flex: 0 0 91.666667%;\n  flex: 0 0 91.666667%;\n  max-width: 91.666667%; }\n\n.col-12 {\n  -webkit-box-flex: 0;\n  -ms-flex: 0 0 100%;\n  flex: 0 0 100%;\n  max-width: 100%; }\n\n@media (min-width: 576px) {\n  .col-sm {\n    -ms-flex-preferred-size: 0;\n    flex-basis: 0%;\n    -webkit-box-flex: 1;\n    -ms-flex-positive: 1;\n    flex-grow: 1;\n    max-width: 100%; }\n  .col-sm-auto {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 auto;\n    flex: 0 0 auto;\n    width: auto;\n    max-width: none; }\n  .col-sm-1 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 8.333333%;\n    flex: 0 0 8.333333%;\n    max-width: 8.333333%; }\n  .col-sm-2 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 16.666667%;\n    flex: 0 0 16.666667%;\n    max-width: 16.666667%; }\n  .col-sm-3 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 25%;\n    flex: 0 0 25%;\n    max-width: 25%; }\n  .col-sm-4 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 33.333333%;\n    flex: 0 0 33.333333%;\n    max-width: 33.333333%; }\n  .col-sm-5 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 41.666667%;\n    flex: 0 0 41.666667%;\n    max-width: 41.666667%; }\n  .col-sm-6 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 50%;\n    flex: 0 0 50%;\n    max-width: 50%; }\n  .col-sm-7 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 58.333333%;\n    flex: 0 0 58.333333%;\n    max-width: 58.333333%; }\n  .col-sm-8 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 66.666667%;\n    flex: 0 0 66.666667%;\n    max-width: 66.666667%; }\n  .col-sm-9 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 75%;\n    flex: 0 0 75%;\n    max-width: 75%; }\n  .col-sm-10 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 83.333333%;\n    flex: 0 0 83.333333%;\n    max-width: 83.333333%; }\n  .col-sm-11 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 91.666667%;\n    flex: 0 0 91.666667%;\n    max-width: 91.666667%; }\n  .col-sm-12 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 100%;\n    flex: 0 0 100%;\n    max-width: 100%; } }\n\n@media (min-width: 768px) {\n  .col-md {\n    -ms-flex-preferred-size: 0;\n    flex-basis: 0%;\n    -webkit-box-flex: 1;\n    -ms-flex-positive: 1;\n    flex-grow: 1;\n    max-width: 100%; }\n  .col-md-auto {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 auto;\n    flex: 0 0 auto;\n    width: auto;\n    max-width: none; }\n  .col-md-1 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 8.333333%;\n    flex: 0 0 8.333333%;\n    max-width: 8.333333%; }\n  .col-md-2 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 16.666667%;\n    flex: 0 0 16.666667%;\n    max-width: 16.666667%; }\n  .col-md-3 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 25%;\n    flex: 0 0 25%;\n    max-width: 25%; }\n  .col-md-4 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 33.333333%;\n    flex: 0 0 33.333333%;\n    max-width: 33.333333%; }\n  .col-md-5 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 41.666667%;\n    flex: 0 0 41.666667%;\n    max-width: 41.666667%; }\n  .col-md-6 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 50%;\n    flex: 0 0 50%;\n    max-width: 50%; }\n  .col-md-7 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 58.333333%;\n    flex: 0 0 58.333333%;\n    max-width: 58.333333%; }\n  .col-md-8 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 66.666667%;\n    flex: 0 0 66.666667%;\n    max-width: 66.666667%; }\n  .col-md-9 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 75%;\n    flex: 0 0 75%;\n    max-width: 75%; }\n  .col-md-10 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 83.333333%;\n    flex: 0 0 83.333333%;\n    max-width: 83.333333%; }\n  .col-md-11 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 91.666667%;\n    flex: 0 0 91.666667%;\n    max-width: 91.666667%; }\n  .col-md-12 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 100%;\n    flex: 0 0 100%;\n    max-width: 100%; } }\n\n@media (min-width: 992px) {\n  .col-lg {\n    -ms-flex-preferred-size: 0;\n    flex-basis: 0%;\n    -webkit-box-flex: 1;\n    -ms-flex-positive: 1;\n    flex-grow: 1;\n    max-width: 100%; }\n  .col-lg-auto {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 auto;\n    flex: 0 0 auto;\n    width: auto;\n    max-width: none; }\n  .col-lg-1 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 8.333333%;\n    flex: 0 0 8.333333%;\n    max-width: 8.333333%; }\n  .col-lg-2 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 16.666667%;\n    flex: 0 0 16.666667%;\n    max-width: 16.666667%; }\n  .col-lg-3 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 25%;\n    flex: 0 0 25%;\n    max-width: 25%; }\n  .col-lg-4 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 33.333333%;\n    flex: 0 0 33.333333%;\n    max-width: 33.333333%; }\n  .col-lg-5 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 41.666667%;\n    flex: 0 0 41.666667%;\n    max-width: 41.666667%; }\n  .col-lg-6 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 50%;\n    flex: 0 0 50%;\n    max-width: 50%; }\n  .col-lg-7 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 58.333333%;\n    flex: 0 0 58.333333%;\n    max-width: 58.333333%; }\n  .col-lg-8 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 66.666667%;\n    flex: 0 0 66.666667%;\n    max-width: 66.666667%; }\n  .col-lg-9 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 75%;\n    flex: 0 0 75%;\n    max-width: 75%; }\n  .col-lg-10 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 83.333333%;\n    flex: 0 0 83.333333%;\n    max-width: 83.333333%; }\n  .col-lg-11 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 91.666667%;\n    flex: 0 0 91.666667%;\n    max-width: 91.666667%; }\n  .col-lg-12 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 100%;\n    flex: 0 0 100%;\n    max-width: 100%; } }\n\n@media (min-width: 1200px) {\n  .col-xl {\n    -ms-flex-preferred-size: 0;\n    flex-basis: 0%;\n    -webkit-box-flex: 1;\n    -ms-flex-positive: 1;\n    flex-grow: 1;\n    max-width: 100%; }\n  .col-xl-auto {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 auto;\n    flex: 0 0 auto;\n    width: auto;\n    max-width: none; }\n  .col-xl-1 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 8.333333%;\n    flex: 0 0 8.333333%;\n    max-width: 8.333333%; }\n  .col-xl-2 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 16.666667%;\n    flex: 0 0 16.666667%;\n    max-width: 16.666667%; }\n  .col-xl-3 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 25%;\n    flex: 0 0 25%;\n    max-width: 25%; }\n  .col-xl-4 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 33.333333%;\n    flex: 0 0 33.333333%;\n    max-width: 33.333333%; }\n  .col-xl-5 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 41.666667%;\n    flex: 0 0 41.666667%;\n    max-width: 41.666667%; }\n  .col-xl-6 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 50%;\n    flex: 0 0 50%;\n    max-width: 50%; }\n  .col-xl-7 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 58.333333%;\n    flex: 0 0 58.333333%;\n    max-width: 58.333333%; }\n  .col-xl-8 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 66.666667%;\n    flex: 0 0 66.666667%;\n    max-width: 66.666667%; }\n  .col-xl-9 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 75%;\n    flex: 0 0 75%;\n    max-width: 75%; } }\n\nbody {\n  background-color: #EEEEEE;\n  padding: 0;\n  font-family: sans-serif;\n  margin: 0; }\n\n@media (max-width: 425px) {\n  .no-padd-phone {\n    padding: 0 !important; }\n  .text-align-center-phone {\n    text-align: center; }\n  .w-100-phone {\n    width: 100% !important; } }\n\n#selected-category {\n  color: #666666;\n  font-weight: bold; }\n\n#normal-category {\n  color: #999999; }\n\n#box-category-list {\n  font-size: 14px;\n  padding-top: 16px;\n  padding-bottom: 16px;\n  background-color: #EEEEEE; }\n"],"sourceRoot":""}]);
-
-// exports
-
-
-/***/ }),
-
 /***/ "./node_modules/css-loader/index.js?{\"modules\":false,\"minimize\":false,\"sourceMap\":true,\"importLoaders\":1}!./node_modules/sass-loader/lib/loader.js!./styles/layouts.scss":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -4178,7 +4031,7 @@ exports = module.exports = __webpack_require__("./node_modules/css-loader/lib/cs
 
 
 // module
-exports.push([module.i, "@-ms-viewport {\n  width: device-width; }\n\nhtml {\n  box-sizing: border-box;\n  -ms-overflow-style: scrollbar; }\n\n*, ::after, ::before {\n  box-sizing: inherit; }\n\n.container {\n  width: 100%;\n  padding-right: 15px;\n  padding-left: 15px;\n  margin-right: auto;\n  margin-left: auto; }\n\n@media (min-width: 576px) {\n  .container {\n    max-width: 540px; } }\n\n@media (min-width: 768px) {\n  .container {\n    max-width: 720px; } }\n\n@media (min-width: 992px) {\n  .container {\n    max-width: 960px; } }\n\n@media (min-width: 1200px) {\n  .container {\n    max-width: 1140px; } }\n\n.container-fluid {\n  width: 100%;\n  padding-right: 15px;\n  padding-left: 15px;\n  margin-right: auto;\n  margin-left: auto; }\n\n.row {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -ms-flex-wrap: wrap;\n  flex-wrap: wrap;\n  margin-right: -15px;\n  margin-left: -15px; }\n\n.no-gutters {\n  margin-right: 0;\n  margin-left: 0; }\n\n.no-gutters > .col, .no-gutters > [class*=col-] {\n  padding-right: 0;\n  padding-left: 0; }\n\n.col, .col-1, .col-10, .col-11, .col-12, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-auto, .col-lg, .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-auto, .col-md, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-auto, .col-sm, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-auto, .col-xl, .col-xl-1, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-auto {\n  position: relative;\n  width: 100%;\n  min-height: 1px;\n  padding-right: 15px;\n  padding-left: 15px; }\n\n.col {\n  -ms-flex-preferred-size: 0;\n  flex-basis: 0%;\n  -webkit-box-flex: 1;\n  -ms-flex-positive: 1;\n  flex-grow: 1;\n  max-width: 100%; }\n\n.col-auto {\n  -webkit-box-flex: 0;\n  -ms-flex: 0 0 auto;\n  flex: 0 0 auto;\n  width: auto;\n  max-width: none; }\n\n.col-1 {\n  -webkit-box-flex: 0;\n  -ms-flex: 0 0 8.333333%;\n  flex: 0 0 8.333333%;\n  max-width: 8.333333%; }\n\n.col-2 {\n  -webkit-box-flex: 0;\n  -ms-flex: 0 0 16.666667%;\n  flex: 0 0 16.666667%;\n  max-width: 16.666667%; }\n\n.col-3 {\n  -webkit-box-flex: 0;\n  -ms-flex: 0 0 25%;\n  flex: 0 0 25%;\n  max-width: 25%; }\n\n.col-4 {\n  -webkit-box-flex: 0;\n  -ms-flex: 0 0 33.333333%;\n  flex: 0 0 33.333333%;\n  max-width: 33.333333%; }\n\n.col-5 {\n  -webkit-box-flex: 0;\n  -ms-flex: 0 0 41.666667%;\n  flex: 0 0 41.666667%;\n  max-width: 41.666667%; }\n\n.col-6 {\n  -webkit-box-flex: 0;\n  -ms-flex: 0 0 50%;\n  flex: 0 0 50%;\n  max-width: 50%; }\n\n.col-7 {\n  -webkit-box-flex: 0;\n  -ms-flex: 0 0 58.333333%;\n  flex: 0 0 58.333333%;\n  max-width: 58.333333%; }\n\n.col-8 {\n  -webkit-box-flex: 0;\n  -ms-flex: 0 0 66.666667%;\n  flex: 0 0 66.666667%;\n  max-width: 66.666667%; }\n\n.col-9 {\n  -webkit-box-flex: 0;\n  -ms-flex: 0 0 75%;\n  flex: 0 0 75%;\n  max-width: 75%; }\n\n.col-10 {\n  -webkit-box-flex: 0;\n  -ms-flex: 0 0 83.333333%;\n  flex: 0 0 83.333333%;\n  max-width: 83.333333%; }\n\n.col-11 {\n  -webkit-box-flex: 0;\n  -ms-flex: 0 0 91.666667%;\n  flex: 0 0 91.666667%;\n  max-width: 91.666667%; }\n\n.col-12 {\n  -webkit-box-flex: 0;\n  -ms-flex: 0 0 100%;\n  flex: 0 0 100%;\n  max-width: 100%; }\n\n@media (min-width: 576px) {\n  .col-sm {\n    -ms-flex-preferred-size: 0;\n    flex-basis: 0%;\n    -webkit-box-flex: 1;\n    -ms-flex-positive: 1;\n    flex-grow: 1;\n    max-width: 100%; }\n  .col-sm-auto {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 auto;\n    flex: 0 0 auto;\n    width: auto;\n    max-width: none; }\n  .col-sm-1 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 8.333333%;\n    flex: 0 0 8.333333%;\n    max-width: 8.333333%; }\n  .col-sm-2 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 16.666667%;\n    flex: 0 0 16.666667%;\n    max-width: 16.666667%; }\n  .col-sm-3 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 25%;\n    flex: 0 0 25%;\n    max-width: 25%; }\n  .col-sm-4 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 33.333333%;\n    flex: 0 0 33.333333%;\n    max-width: 33.333333%; }\n  .col-sm-5 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 41.666667%;\n    flex: 0 0 41.666667%;\n    max-width: 41.666667%; }\n  .col-sm-6 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 50%;\n    flex: 0 0 50%;\n    max-width: 50%; }\n  .col-sm-7 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 58.333333%;\n    flex: 0 0 58.333333%;\n    max-width: 58.333333%; }\n  .col-sm-8 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 66.666667%;\n    flex: 0 0 66.666667%;\n    max-width: 66.666667%; }\n  .col-sm-9 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 75%;\n    flex: 0 0 75%;\n    max-width: 75%; }\n  .col-sm-10 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 83.333333%;\n    flex: 0 0 83.333333%;\n    max-width: 83.333333%; }\n  .col-sm-11 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 91.666667%;\n    flex: 0 0 91.666667%;\n    max-width: 91.666667%; }\n  .col-sm-12 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 100%;\n    flex: 0 0 100%;\n    max-width: 100%; } }\n\n@media (min-width: 768px) {\n  .col-md {\n    -ms-flex-preferred-size: 0;\n    flex-basis: 0%;\n    -webkit-box-flex: 1;\n    -ms-flex-positive: 1;\n    flex-grow: 1;\n    max-width: 100%; }\n  .col-md-auto {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 auto;\n    flex: 0 0 auto;\n    width: auto;\n    max-width: none; }\n  .col-md-1 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 8.333333%;\n    flex: 0 0 8.333333%;\n    max-width: 8.333333%; }\n  .col-md-2 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 16.666667%;\n    flex: 0 0 16.666667%;\n    max-width: 16.666667%; }\n  .col-md-3 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 25%;\n    flex: 0 0 25%;\n    max-width: 25%; }\n  .col-md-4 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 33.333333%;\n    flex: 0 0 33.333333%;\n    max-width: 33.333333%; }\n  .col-md-5 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 41.666667%;\n    flex: 0 0 41.666667%;\n    max-width: 41.666667%; }\n  .col-md-6 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 50%;\n    flex: 0 0 50%;\n    max-width: 50%; }\n  .col-md-7 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 58.333333%;\n    flex: 0 0 58.333333%;\n    max-width: 58.333333%; }\n  .col-md-8 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 66.666667%;\n    flex: 0 0 66.666667%;\n    max-width: 66.666667%; }\n  .col-md-9 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 75%;\n    flex: 0 0 75%;\n    max-width: 75%; }\n  .col-md-10 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 83.333333%;\n    flex: 0 0 83.333333%;\n    max-width: 83.333333%; }\n  .col-md-11 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 91.666667%;\n    flex: 0 0 91.666667%;\n    max-width: 91.666667%; }\n  .col-md-12 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 100%;\n    flex: 0 0 100%;\n    max-width: 100%; } }\n\n@media (min-width: 992px) {\n  .col-lg {\n    -ms-flex-preferred-size: 0;\n    flex-basis: 0%;\n    -webkit-box-flex: 1;\n    -ms-flex-positive: 1;\n    flex-grow: 1;\n    max-width: 100%; }\n  .col-lg-auto {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 auto;\n    flex: 0 0 auto;\n    width: auto;\n    max-width: none; }\n  .col-lg-1 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 8.333333%;\n    flex: 0 0 8.333333%;\n    max-width: 8.333333%; }\n  .col-lg-2 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 16.666667%;\n    flex: 0 0 16.666667%;\n    max-width: 16.666667%; }\n  .col-lg-3 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 25%;\n    flex: 0 0 25%;\n    max-width: 25%; }\n  .col-lg-4 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 33.333333%;\n    flex: 0 0 33.333333%;\n    max-width: 33.333333%; }\n  .col-lg-5 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 41.666667%;\n    flex: 0 0 41.666667%;\n    max-width: 41.666667%; }\n  .col-lg-6 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 50%;\n    flex: 0 0 50%;\n    max-width: 50%; }\n  .col-lg-7 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 58.333333%;\n    flex: 0 0 58.333333%;\n    max-width: 58.333333%; }\n  .col-lg-8 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 66.666667%;\n    flex: 0 0 66.666667%;\n    max-width: 66.666667%; }\n  .col-lg-9 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 75%;\n    flex: 0 0 75%;\n    max-width: 75%; }\n  .col-lg-10 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 83.333333%;\n    flex: 0 0 83.333333%;\n    max-width: 83.333333%; }\n  .col-lg-11 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 91.666667%;\n    flex: 0 0 91.666667%;\n    max-width: 91.666667%; }\n  .col-lg-12 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 100%;\n    flex: 0 0 100%;\n    max-width: 100%; } }\n\n@media (min-width: 1200px) {\n  .col-xl {\n    -ms-flex-preferred-size: 0;\n    flex-basis: 0%;\n    -webkit-box-flex: 1;\n    -ms-flex-positive: 1;\n    flex-grow: 1;\n    max-width: 100%; }\n  .col-xl-auto {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 auto;\n    flex: 0 0 auto;\n    width: auto;\n    max-width: none; }\n  .col-xl-1 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 8.333333%;\n    flex: 0 0 8.333333%;\n    max-width: 8.333333%; }\n  .col-xl-2 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 16.666667%;\n    flex: 0 0 16.666667%;\n    max-width: 16.666667%; }\n  .col-xl-3 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 25%;\n    flex: 0 0 25%;\n    max-width: 25%; }\n  .col-xl-4 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 33.333333%;\n    flex: 0 0 33.333333%;\n    max-width: 33.333333%; }\n  .col-xl-5 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 41.666667%;\n    flex: 0 0 41.666667%;\n    max-width: 41.666667%; }\n  .col-xl-6 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 50%;\n    flex: 0 0 50%;\n    max-width: 50%; }\n  .col-xl-7 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 58.333333%;\n    flex: 0 0 58.333333%;\n    max-width: 58.333333%; }\n  .col-xl-8 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 66.666667%;\n    flex: 0 0 66.666667%;\n    max-width: 66.666667%; }\n  .col-xl-9 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 75%;\n    flex: 0 0 75%;\n    max-width: 75%; } }\n\nbody {\n  background-color: #EEEEEE;\n  padding: 0;\n  font-family: sans-serif;\n  margin: 0; }\n\n@media (max-width: 425px) {\n  .no-padd-phone {\n    padding: 0 !important; }\n  .text-align-center-phone {\n    text-align: center; }\n  .w-100-phone {\n    width: 100% !important; } }\n", "", {"version":3,"sources":["C:/Users/HP/Desktop/dev/Mercado Libre/dev/front/styles/navbar.scss"],"names":[],"mappings":"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","file":"navbar.scss","sourcesContent":["@-ms-viewport {\n  width: device-width; }\n\nhtml {\n  box-sizing: border-box;\n  -ms-overflow-style: scrollbar; }\n\n*, ::after, ::before {\n  box-sizing: inherit; }\n\n.container {\n  width: 100%;\n  padding-right: 15px;\n  padding-left: 15px;\n  margin-right: auto;\n  margin-left: auto; }\n\n@media (min-width: 576px) {\n  .container {\n    max-width: 540px; } }\n\n@media (min-width: 768px) {\n  .container {\n    max-width: 720px; } }\n\n@media (min-width: 992px) {\n  .container {\n    max-width: 960px; } }\n\n@media (min-width: 1200px) {\n  .container {\n    max-width: 1140px; } }\n\n.container-fluid {\n  width: 100%;\n  padding-right: 15px;\n  padding-left: 15px;\n  margin-right: auto;\n  margin-left: auto; }\n\n.row {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -ms-flex-wrap: wrap;\n  flex-wrap: wrap;\n  margin-right: -15px;\n  margin-left: -15px; }\n\n.no-gutters {\n  margin-right: 0;\n  margin-left: 0; }\n\n.no-gutters > .col, .no-gutters > [class*=col-] {\n  padding-right: 0;\n  padding-left: 0; }\n\n.col, .col-1, .col-10, .col-11, .col-12, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-auto, .col-lg, .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-auto, .col-md, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-auto, .col-sm, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-auto, .col-xl, .col-xl-1, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-auto {\n  position: relative;\n  width: 100%;\n  min-height: 1px;\n  padding-right: 15px;\n  padding-left: 15px; }\n\n.col {\n  -ms-flex-preferred-size: 0;\n  flex-basis: 0%;\n  -webkit-box-flex: 1;\n  -ms-flex-positive: 1;\n  flex-grow: 1;\n  max-width: 100%; }\n\n.col-auto {\n  -webkit-box-flex: 0;\n  -ms-flex: 0 0 auto;\n  flex: 0 0 auto;\n  width: auto;\n  max-width: none; }\n\n.col-1 {\n  -webkit-box-flex: 0;\n  -ms-flex: 0 0 8.333333%;\n  flex: 0 0 8.333333%;\n  max-width: 8.333333%; }\n\n.col-2 {\n  -webkit-box-flex: 0;\n  -ms-flex: 0 0 16.666667%;\n  flex: 0 0 16.666667%;\n  max-width: 16.666667%; }\n\n.col-3 {\n  -webkit-box-flex: 0;\n  -ms-flex: 0 0 25%;\n  flex: 0 0 25%;\n  max-width: 25%; }\n\n.col-4 {\n  -webkit-box-flex: 0;\n  -ms-flex: 0 0 33.333333%;\n  flex: 0 0 33.333333%;\n  max-width: 33.333333%; }\n\n.col-5 {\n  -webkit-box-flex: 0;\n  -ms-flex: 0 0 41.666667%;\n  flex: 0 0 41.666667%;\n  max-width: 41.666667%; }\n\n.col-6 {\n  -webkit-box-flex: 0;\n  -ms-flex: 0 0 50%;\n  flex: 0 0 50%;\n  max-width: 50%; }\n\n.col-7 {\n  -webkit-box-flex: 0;\n  -ms-flex: 0 0 58.333333%;\n  flex: 0 0 58.333333%;\n  max-width: 58.333333%; }\n\n.col-8 {\n  -webkit-box-flex: 0;\n  -ms-flex: 0 0 66.666667%;\n  flex: 0 0 66.666667%;\n  max-width: 66.666667%; }\n\n.col-9 {\n  -webkit-box-flex: 0;\n  -ms-flex: 0 0 75%;\n  flex: 0 0 75%;\n  max-width: 75%; }\n\n.col-10 {\n  -webkit-box-flex: 0;\n  -ms-flex: 0 0 83.333333%;\n  flex: 0 0 83.333333%;\n  max-width: 83.333333%; }\n\n.col-11 {\n  -webkit-box-flex: 0;\n  -ms-flex: 0 0 91.666667%;\n  flex: 0 0 91.666667%;\n  max-width: 91.666667%; }\n\n.col-12 {\n  -webkit-box-flex: 0;\n  -ms-flex: 0 0 100%;\n  flex: 0 0 100%;\n  max-width: 100%; }\n\n@media (min-width: 576px) {\n  .col-sm {\n    -ms-flex-preferred-size: 0;\n    flex-basis: 0%;\n    -webkit-box-flex: 1;\n    -ms-flex-positive: 1;\n    flex-grow: 1;\n    max-width: 100%; }\n  .col-sm-auto {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 auto;\n    flex: 0 0 auto;\n    width: auto;\n    max-width: none; }\n  .col-sm-1 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 8.333333%;\n    flex: 0 0 8.333333%;\n    max-width: 8.333333%; }\n  .col-sm-2 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 16.666667%;\n    flex: 0 0 16.666667%;\n    max-width: 16.666667%; }\n  .col-sm-3 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 25%;\n    flex: 0 0 25%;\n    max-width: 25%; }\n  .col-sm-4 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 33.333333%;\n    flex: 0 0 33.333333%;\n    max-width: 33.333333%; }\n  .col-sm-5 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 41.666667%;\n    flex: 0 0 41.666667%;\n    max-width: 41.666667%; }\n  .col-sm-6 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 50%;\n    flex: 0 0 50%;\n    max-width: 50%; }\n  .col-sm-7 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 58.333333%;\n    flex: 0 0 58.333333%;\n    max-width: 58.333333%; }\n  .col-sm-8 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 66.666667%;\n    flex: 0 0 66.666667%;\n    max-width: 66.666667%; }\n  .col-sm-9 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 75%;\n    flex: 0 0 75%;\n    max-width: 75%; }\n  .col-sm-10 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 83.333333%;\n    flex: 0 0 83.333333%;\n    max-width: 83.333333%; }\n  .col-sm-11 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 91.666667%;\n    flex: 0 0 91.666667%;\n    max-width: 91.666667%; }\n  .col-sm-12 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 100%;\n    flex: 0 0 100%;\n    max-width: 100%; } }\n\n@media (min-width: 768px) {\n  .col-md {\n    -ms-flex-preferred-size: 0;\n    flex-basis: 0%;\n    -webkit-box-flex: 1;\n    -ms-flex-positive: 1;\n    flex-grow: 1;\n    max-width: 100%; }\n  .col-md-auto {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 auto;\n    flex: 0 0 auto;\n    width: auto;\n    max-width: none; }\n  .col-md-1 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 8.333333%;\n    flex: 0 0 8.333333%;\n    max-width: 8.333333%; }\n  .col-md-2 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 16.666667%;\n    flex: 0 0 16.666667%;\n    max-width: 16.666667%; }\n  .col-md-3 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 25%;\n    flex: 0 0 25%;\n    max-width: 25%; }\n  .col-md-4 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 33.333333%;\n    flex: 0 0 33.333333%;\n    max-width: 33.333333%; }\n  .col-md-5 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 41.666667%;\n    flex: 0 0 41.666667%;\n    max-width: 41.666667%; }\n  .col-md-6 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 50%;\n    flex: 0 0 50%;\n    max-width: 50%; }\n  .col-md-7 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 58.333333%;\n    flex: 0 0 58.333333%;\n    max-width: 58.333333%; }\n  .col-md-8 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 66.666667%;\n    flex: 0 0 66.666667%;\n    max-width: 66.666667%; }\n  .col-md-9 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 75%;\n    flex: 0 0 75%;\n    max-width: 75%; }\n  .col-md-10 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 83.333333%;\n    flex: 0 0 83.333333%;\n    max-width: 83.333333%; }\n  .col-md-11 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 91.666667%;\n    flex: 0 0 91.666667%;\n    max-width: 91.666667%; }\n  .col-md-12 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 100%;\n    flex: 0 0 100%;\n    max-width: 100%; } }\n\n@media (min-width: 992px) {\n  .col-lg {\n    -ms-flex-preferred-size: 0;\n    flex-basis: 0%;\n    -webkit-box-flex: 1;\n    -ms-flex-positive: 1;\n    flex-grow: 1;\n    max-width: 100%; }\n  .col-lg-auto {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 auto;\n    flex: 0 0 auto;\n    width: auto;\n    max-width: none; }\n  .col-lg-1 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 8.333333%;\n    flex: 0 0 8.333333%;\n    max-width: 8.333333%; }\n  .col-lg-2 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 16.666667%;\n    flex: 0 0 16.666667%;\n    max-width: 16.666667%; }\n  .col-lg-3 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 25%;\n    flex: 0 0 25%;\n    max-width: 25%; }\n  .col-lg-4 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 33.333333%;\n    flex: 0 0 33.333333%;\n    max-width: 33.333333%; }\n  .col-lg-5 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 41.666667%;\n    flex: 0 0 41.666667%;\n    max-width: 41.666667%; }\n  .col-lg-6 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 50%;\n    flex: 0 0 50%;\n    max-width: 50%; }\n  .col-lg-7 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 58.333333%;\n    flex: 0 0 58.333333%;\n    max-width: 58.333333%; }\n  .col-lg-8 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 66.666667%;\n    flex: 0 0 66.666667%;\n    max-width: 66.666667%; }\n  .col-lg-9 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 75%;\n    flex: 0 0 75%;\n    max-width: 75%; }\n  .col-lg-10 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 83.333333%;\n    flex: 0 0 83.333333%;\n    max-width: 83.333333%; }\n  .col-lg-11 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 91.666667%;\n    flex: 0 0 91.666667%;\n    max-width: 91.666667%; }\n  .col-lg-12 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 100%;\n    flex: 0 0 100%;\n    max-width: 100%; } }\n\n@media (min-width: 1200px) {\n  .col-xl {\n    -ms-flex-preferred-size: 0;\n    flex-basis: 0%;\n    -webkit-box-flex: 1;\n    -ms-flex-positive: 1;\n    flex-grow: 1;\n    max-width: 100%; }\n  .col-xl-auto {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 auto;\n    flex: 0 0 auto;\n    width: auto;\n    max-width: none; }\n  .col-xl-1 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 8.333333%;\n    flex: 0 0 8.333333%;\n    max-width: 8.333333%; }\n  .col-xl-2 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 16.666667%;\n    flex: 0 0 16.666667%;\n    max-width: 16.666667%; }\n  .col-xl-3 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 25%;\n    flex: 0 0 25%;\n    max-width: 25%; }\n  .col-xl-4 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 33.333333%;\n    flex: 0 0 33.333333%;\n    max-width: 33.333333%; }\n  .col-xl-5 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 41.666667%;\n    flex: 0 0 41.666667%;\n    max-width: 41.666667%; }\n  .col-xl-6 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 50%;\n    flex: 0 0 50%;\n    max-width: 50%; }\n  .col-xl-7 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 58.333333%;\n    flex: 0 0 58.333333%;\n    max-width: 58.333333%; }\n  .col-xl-8 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 66.666667%;\n    flex: 0 0 66.666667%;\n    max-width: 66.666667%; }\n  .col-xl-9 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 75%;\n    flex: 0 0 75%;\n    max-width: 75%; } }\n\nbody {\n  background-color: #EEEEEE;\n  padding: 0;\n  font-family: sans-serif;\n  margin: 0; }\n\n@media (max-width: 425px) {\n  .no-padd-phone {\n    padding: 0 !important; }\n  .text-align-center-phone {\n    text-align: center; }\n  .w-100-phone {\n    width: 100% !important; } }\n"],"sourceRoot":""}]);
+exports.push([module.i, "@-ms-viewport {\n  width: device-width; }\n\nhtml {\n  box-sizing: border-box;\n  -ms-overflow-style: scrollbar; }\n\n*, ::after, ::before {\n  box-sizing: inherit; }\n\n.container {\n  width: 100%;\n  padding-right: 15px;\n  padding-left: 15px;\n  margin-right: auto;\n  margin-left: auto; }\n\n@media (min-width: 576px) {\n  .container {\n    max-width: 540px; } }\n\n@media (min-width: 768px) {\n  .container {\n    max-width: 720px; } }\n\n@media (min-width: 992px) {\n  .container {\n    max-width: 960px; } }\n\n@media (min-width: 1200px) {\n  .container {\n    max-width: 1140px; } }\n\n.container-fluid {\n  width: 100%;\n  padding-right: 15px;\n  padding-left: 15px;\n  margin-right: auto;\n  margin-left: auto; }\n\n.row {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -ms-flex-wrap: wrap;\n  flex-wrap: wrap;\n  margin-right: -15px;\n  margin-left: -15px; }\n\n.no-gutters {\n  margin-right: 0;\n  margin-left: 0; }\n\n.no-gutters > .col, .no-gutters > [class*=col-] {\n  padding-right: 0;\n  padding-left: 0; }\n\n.col, .col-1, .col-10, .col-11, .col-12, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-auto, .col-lg, .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-auto, .col-md, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-auto, .col-sm, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-auto, .col-xl, .col-xl-1, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-auto {\n  position: relative;\n  width: 100%;\n  min-height: 1px;\n  padding-right: 15px;\n  padding-left: 15px; }\n\n.col {\n  -ms-flex-preferred-size: 0;\n  flex-basis: 0%;\n  -webkit-box-flex: 1;\n  -ms-flex-positive: 1;\n  flex-grow: 1;\n  max-width: 100%; }\n\n.col-auto {\n  -webkit-box-flex: 0;\n  -ms-flex: 0 0 auto;\n  flex: 0 0 auto;\n  width: auto;\n  max-width: none; }\n\n.col-1 {\n  -webkit-box-flex: 0;\n  -ms-flex: 0 0 8.333333%;\n  flex: 0 0 8.333333%;\n  max-width: 8.333333%; }\n\n.col-2 {\n  -webkit-box-flex: 0;\n  -ms-flex: 0 0 16.666667%;\n  flex: 0 0 16.666667%;\n  max-width: 16.666667%; }\n\n.col-3 {\n  -webkit-box-flex: 0;\n  -ms-flex: 0 0 25%;\n  flex: 0 0 25%;\n  max-width: 25%; }\n\n.col-4 {\n  -webkit-box-flex: 0;\n  -ms-flex: 0 0 33.333333%;\n  flex: 0 0 33.333333%;\n  max-width: 33.333333%; }\n\n.col-5 {\n  -webkit-box-flex: 0;\n  -ms-flex: 0 0 41.666667%;\n  flex: 0 0 41.666667%;\n  max-width: 41.666667%; }\n\n.col-6 {\n  -webkit-box-flex: 0;\n  -ms-flex: 0 0 50%;\n  flex: 0 0 50%;\n  max-width: 50%; }\n\n.col-7 {\n  -webkit-box-flex: 0;\n  -ms-flex: 0 0 58.333333%;\n  flex: 0 0 58.333333%;\n  max-width: 58.333333%; }\n\n.col-8 {\n  -webkit-box-flex: 0;\n  -ms-flex: 0 0 66.666667%;\n  flex: 0 0 66.666667%;\n  max-width: 66.666667%; }\n\n.col-9 {\n  -webkit-box-flex: 0;\n  -ms-flex: 0 0 75%;\n  flex: 0 0 75%;\n  max-width: 75%; }\n\n.col-10 {\n  -webkit-box-flex: 0;\n  -ms-flex: 0 0 83.333333%;\n  flex: 0 0 83.333333%;\n  max-width: 83.333333%; }\n\n.col-11 {\n  -webkit-box-flex: 0;\n  -ms-flex: 0 0 91.666667%;\n  flex: 0 0 91.666667%;\n  max-width: 91.666667%; }\n\n.col-12 {\n  -webkit-box-flex: 0;\n  -ms-flex: 0 0 100%;\n  flex: 0 0 100%;\n  max-width: 100%; }\n\n@media (min-width: 576px) {\n  .col-sm {\n    -ms-flex-preferred-size: 0;\n    flex-basis: 0%;\n    -webkit-box-flex: 1;\n    -ms-flex-positive: 1;\n    flex-grow: 1;\n    max-width: 100%; }\n  .col-sm-auto {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 auto;\n    flex: 0 0 auto;\n    width: auto;\n    max-width: none; }\n  .col-sm-1 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 8.333333%;\n    flex: 0 0 8.333333%;\n    max-width: 8.333333%; }\n  .col-sm-2 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 16.666667%;\n    flex: 0 0 16.666667%;\n    max-width: 16.666667%; }\n  .col-sm-3 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 25%;\n    flex: 0 0 25%;\n    max-width: 25%; }\n  .col-sm-4 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 33.333333%;\n    flex: 0 0 33.333333%;\n    max-width: 33.333333%; }\n  .col-sm-5 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 41.666667%;\n    flex: 0 0 41.666667%;\n    max-width: 41.666667%; }\n  .col-sm-6 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 50%;\n    flex: 0 0 50%;\n    max-width: 50%; }\n  .col-sm-7 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 58.333333%;\n    flex: 0 0 58.333333%;\n    max-width: 58.333333%; }\n  .col-sm-8 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 66.666667%;\n    flex: 0 0 66.666667%;\n    max-width: 66.666667%; }\n  .col-sm-9 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 75%;\n    flex: 0 0 75%;\n    max-width: 75%; }\n  .col-sm-10 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 83.333333%;\n    flex: 0 0 83.333333%;\n    max-width: 83.333333%; }\n  .col-sm-11 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 91.666667%;\n    flex: 0 0 91.666667%;\n    max-width: 91.666667%; }\n  .col-sm-12 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 100%;\n    flex: 0 0 100%;\n    max-width: 100%; } }\n\n@media (min-width: 768px) {\n  .col-md {\n    -ms-flex-preferred-size: 0;\n    flex-basis: 0%;\n    -webkit-box-flex: 1;\n    -ms-flex-positive: 1;\n    flex-grow: 1;\n    max-width: 100%; }\n  .col-md-auto {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 auto;\n    flex: 0 0 auto;\n    width: auto;\n    max-width: none; }\n  .col-md-1 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 8.333333%;\n    flex: 0 0 8.333333%;\n    max-width: 8.333333%; }\n  .col-md-2 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 16.666667%;\n    flex: 0 0 16.666667%;\n    max-width: 16.666667%; }\n  .col-md-3 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 25%;\n    flex: 0 0 25%;\n    max-width: 25%; }\n  .col-md-4 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 33.333333%;\n    flex: 0 0 33.333333%;\n    max-width: 33.333333%; }\n  .col-md-5 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 41.666667%;\n    flex: 0 0 41.666667%;\n    max-width: 41.666667%; }\n  .col-md-6 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 50%;\n    flex: 0 0 50%;\n    max-width: 50%; }\n  .col-md-7 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 58.333333%;\n    flex: 0 0 58.333333%;\n    max-width: 58.333333%; }\n  .col-md-8 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 66.666667%;\n    flex: 0 0 66.666667%;\n    max-width: 66.666667%; }\n  .col-md-9 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 75%;\n    flex: 0 0 75%;\n    max-width: 75%; }\n  .col-md-10 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 83.333333%;\n    flex: 0 0 83.333333%;\n    max-width: 83.333333%; }\n  .col-md-11 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 91.666667%;\n    flex: 0 0 91.666667%;\n    max-width: 91.666667%; }\n  .col-md-12 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 100%;\n    flex: 0 0 100%;\n    max-width: 100%; } }\n\n@media (min-width: 992px) {\n  .col-lg {\n    -ms-flex-preferred-size: 0;\n    flex-basis: 0%;\n    -webkit-box-flex: 1;\n    -ms-flex-positive: 1;\n    flex-grow: 1;\n    max-width: 100%; }\n  .col-lg-auto {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 auto;\n    flex: 0 0 auto;\n    width: auto;\n    max-width: none; }\n  .col-lg-1 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 8.333333%;\n    flex: 0 0 8.333333%;\n    max-width: 8.333333%; }\n  .col-lg-2 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 16.666667%;\n    flex: 0 0 16.666667%;\n    max-width: 16.666667%; }\n  .col-lg-3 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 25%;\n    flex: 0 0 25%;\n    max-width: 25%; }\n  .col-lg-4 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 33.333333%;\n    flex: 0 0 33.333333%;\n    max-width: 33.333333%; }\n  .col-lg-5 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 41.666667%;\n    flex: 0 0 41.666667%;\n    max-width: 41.666667%; }\n  .col-lg-6 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 50%;\n    flex: 0 0 50%;\n    max-width: 50%; }\n  .col-lg-7 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 58.333333%;\n    flex: 0 0 58.333333%;\n    max-width: 58.333333%; }\n  .col-lg-8 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 66.666667%;\n    flex: 0 0 66.666667%;\n    max-width: 66.666667%; }\n  .col-lg-9 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 75%;\n    flex: 0 0 75%;\n    max-width: 75%; }\n  .col-lg-10 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 83.333333%;\n    flex: 0 0 83.333333%;\n    max-width: 83.333333%; }\n  .col-lg-11 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 91.666667%;\n    flex: 0 0 91.666667%;\n    max-width: 91.666667%; }\n  .col-lg-12 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 100%;\n    flex: 0 0 100%;\n    max-width: 100%; } }\n\n@media (min-width: 1200px) {\n  .col-xl {\n    -ms-flex-preferred-size: 0;\n    flex-basis: 0%;\n    -webkit-box-flex: 1;\n    -ms-flex-positive: 1;\n    flex-grow: 1;\n    max-width: 100%; }\n  .col-xl-auto {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 auto;\n    flex: 0 0 auto;\n    width: auto;\n    max-width: none; }\n  .col-xl-1 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 8.333333%;\n    flex: 0 0 8.333333%;\n    max-width: 8.333333%; }\n  .col-xl-2 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 16.666667%;\n    flex: 0 0 16.666667%;\n    max-width: 16.666667%; }\n  .col-xl-3 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 25%;\n    flex: 0 0 25%;\n    max-width: 25%; }\n  .col-xl-4 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 33.333333%;\n    flex: 0 0 33.333333%;\n    max-width: 33.333333%; }\n  .col-xl-5 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 41.666667%;\n    flex: 0 0 41.666667%;\n    max-width: 41.666667%; }\n  .col-xl-6 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 50%;\n    flex: 0 0 50%;\n    max-width: 50%; }\n  .col-xl-7 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 58.333333%;\n    flex: 0 0 58.333333%;\n    max-width: 58.333333%; }\n  .col-xl-8 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 66.666667%;\n    flex: 0 0 66.666667%;\n    max-width: 66.666667%; }\n  .col-xl-9 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 75%;\n    flex: 0 0 75%;\n    max-width: 75%; } }\n\nbody {\n  background-color: #EEEEEE;\n  padding: 0;\n  font-family: sans-serif;\n  margin: 0; }\n\n@media (max-width: 425px) {\n  .no-padd-phone {\n    padding: 0 !important; }\n  .text-align-center-phone {\n    text-align: center; }\n  .w-100-phone {\n    width: 100% !important; } }\n\n@media (max-width: 320px) {\n  .no-padd-xs-phone {\n    padding: 0 !important; } }\n", "", {"version":3,"sources":["C:/Users/HP/Desktop/dev/Mercado Libre/dev/front/styles/navbar.scss"],"names":[],"mappings":"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","file":"navbar.scss","sourcesContent":["@-ms-viewport {\n  width: device-width; }\n\nhtml {\n  box-sizing: border-box;\n  -ms-overflow-style: scrollbar; }\n\n*, ::after, ::before {\n  box-sizing: inherit; }\n\n.container {\n  width: 100%;\n  padding-right: 15px;\n  padding-left: 15px;\n  margin-right: auto;\n  margin-left: auto; }\n\n@media (min-width: 576px) {\n  .container {\n    max-width: 540px; } }\n\n@media (min-width: 768px) {\n  .container {\n    max-width: 720px; } }\n\n@media (min-width: 992px) {\n  .container {\n    max-width: 960px; } }\n\n@media (min-width: 1200px) {\n  .container {\n    max-width: 1140px; } }\n\n.container-fluid {\n  width: 100%;\n  padding-right: 15px;\n  padding-left: 15px;\n  margin-right: auto;\n  margin-left: auto; }\n\n.row {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -ms-flex-wrap: wrap;\n  flex-wrap: wrap;\n  margin-right: -15px;\n  margin-left: -15px; }\n\n.no-gutters {\n  margin-right: 0;\n  margin-left: 0; }\n\n.no-gutters > .col, .no-gutters > [class*=col-] {\n  padding-right: 0;\n  padding-left: 0; }\n\n.col, .col-1, .col-10, .col-11, .col-12, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-auto, .col-lg, .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-auto, .col-md, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-auto, .col-sm, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-auto, .col-xl, .col-xl-1, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-auto {\n  position: relative;\n  width: 100%;\n  min-height: 1px;\n  padding-right: 15px;\n  padding-left: 15px; }\n\n.col {\n  -ms-flex-preferred-size: 0;\n  flex-basis: 0%;\n  -webkit-box-flex: 1;\n  -ms-flex-positive: 1;\n  flex-grow: 1;\n  max-width: 100%; }\n\n.col-auto {\n  -webkit-box-flex: 0;\n  -ms-flex: 0 0 auto;\n  flex: 0 0 auto;\n  width: auto;\n  max-width: none; }\n\n.col-1 {\n  -webkit-box-flex: 0;\n  -ms-flex: 0 0 8.333333%;\n  flex: 0 0 8.333333%;\n  max-width: 8.333333%; }\n\n.col-2 {\n  -webkit-box-flex: 0;\n  -ms-flex: 0 0 16.666667%;\n  flex: 0 0 16.666667%;\n  max-width: 16.666667%; }\n\n.col-3 {\n  -webkit-box-flex: 0;\n  -ms-flex: 0 0 25%;\n  flex: 0 0 25%;\n  max-width: 25%; }\n\n.col-4 {\n  -webkit-box-flex: 0;\n  -ms-flex: 0 0 33.333333%;\n  flex: 0 0 33.333333%;\n  max-width: 33.333333%; }\n\n.col-5 {\n  -webkit-box-flex: 0;\n  -ms-flex: 0 0 41.666667%;\n  flex: 0 0 41.666667%;\n  max-width: 41.666667%; }\n\n.col-6 {\n  -webkit-box-flex: 0;\n  -ms-flex: 0 0 50%;\n  flex: 0 0 50%;\n  max-width: 50%; }\n\n.col-7 {\n  -webkit-box-flex: 0;\n  -ms-flex: 0 0 58.333333%;\n  flex: 0 0 58.333333%;\n  max-width: 58.333333%; }\n\n.col-8 {\n  -webkit-box-flex: 0;\n  -ms-flex: 0 0 66.666667%;\n  flex: 0 0 66.666667%;\n  max-width: 66.666667%; }\n\n.col-9 {\n  -webkit-box-flex: 0;\n  -ms-flex: 0 0 75%;\n  flex: 0 0 75%;\n  max-width: 75%; }\n\n.col-10 {\n  -webkit-box-flex: 0;\n  -ms-flex: 0 0 83.333333%;\n  flex: 0 0 83.333333%;\n  max-width: 83.333333%; }\n\n.col-11 {\n  -webkit-box-flex: 0;\n  -ms-flex: 0 0 91.666667%;\n  flex: 0 0 91.666667%;\n  max-width: 91.666667%; }\n\n.col-12 {\n  -webkit-box-flex: 0;\n  -ms-flex: 0 0 100%;\n  flex: 0 0 100%;\n  max-width: 100%; }\n\n@media (min-width: 576px) {\n  .col-sm {\n    -ms-flex-preferred-size: 0;\n    flex-basis: 0%;\n    -webkit-box-flex: 1;\n    -ms-flex-positive: 1;\n    flex-grow: 1;\n    max-width: 100%; }\n  .col-sm-auto {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 auto;\n    flex: 0 0 auto;\n    width: auto;\n    max-width: none; }\n  .col-sm-1 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 8.333333%;\n    flex: 0 0 8.333333%;\n    max-width: 8.333333%; }\n  .col-sm-2 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 16.666667%;\n    flex: 0 0 16.666667%;\n    max-width: 16.666667%; }\n  .col-sm-3 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 25%;\n    flex: 0 0 25%;\n    max-width: 25%; }\n  .col-sm-4 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 33.333333%;\n    flex: 0 0 33.333333%;\n    max-width: 33.333333%; }\n  .col-sm-5 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 41.666667%;\n    flex: 0 0 41.666667%;\n    max-width: 41.666667%; }\n  .col-sm-6 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 50%;\n    flex: 0 0 50%;\n    max-width: 50%; }\n  .col-sm-7 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 58.333333%;\n    flex: 0 0 58.333333%;\n    max-width: 58.333333%; }\n  .col-sm-8 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 66.666667%;\n    flex: 0 0 66.666667%;\n    max-width: 66.666667%; }\n  .col-sm-9 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 75%;\n    flex: 0 0 75%;\n    max-width: 75%; }\n  .col-sm-10 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 83.333333%;\n    flex: 0 0 83.333333%;\n    max-width: 83.333333%; }\n  .col-sm-11 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 91.666667%;\n    flex: 0 0 91.666667%;\n    max-width: 91.666667%; }\n  .col-sm-12 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 100%;\n    flex: 0 0 100%;\n    max-width: 100%; } }\n\n@media (min-width: 768px) {\n  .col-md {\n    -ms-flex-preferred-size: 0;\n    flex-basis: 0%;\n    -webkit-box-flex: 1;\n    -ms-flex-positive: 1;\n    flex-grow: 1;\n    max-width: 100%; }\n  .col-md-auto {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 auto;\n    flex: 0 0 auto;\n    width: auto;\n    max-width: none; }\n  .col-md-1 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 8.333333%;\n    flex: 0 0 8.333333%;\n    max-width: 8.333333%; }\n  .col-md-2 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 16.666667%;\n    flex: 0 0 16.666667%;\n    max-width: 16.666667%; }\n  .col-md-3 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 25%;\n    flex: 0 0 25%;\n    max-width: 25%; }\n  .col-md-4 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 33.333333%;\n    flex: 0 0 33.333333%;\n    max-width: 33.333333%; }\n  .col-md-5 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 41.666667%;\n    flex: 0 0 41.666667%;\n    max-width: 41.666667%; }\n  .col-md-6 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 50%;\n    flex: 0 0 50%;\n    max-width: 50%; }\n  .col-md-7 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 58.333333%;\n    flex: 0 0 58.333333%;\n    max-width: 58.333333%; }\n  .col-md-8 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 66.666667%;\n    flex: 0 0 66.666667%;\n    max-width: 66.666667%; }\n  .col-md-9 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 75%;\n    flex: 0 0 75%;\n    max-width: 75%; }\n  .col-md-10 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 83.333333%;\n    flex: 0 0 83.333333%;\n    max-width: 83.333333%; }\n  .col-md-11 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 91.666667%;\n    flex: 0 0 91.666667%;\n    max-width: 91.666667%; }\n  .col-md-12 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 100%;\n    flex: 0 0 100%;\n    max-width: 100%; } }\n\n@media (min-width: 992px) {\n  .col-lg {\n    -ms-flex-preferred-size: 0;\n    flex-basis: 0%;\n    -webkit-box-flex: 1;\n    -ms-flex-positive: 1;\n    flex-grow: 1;\n    max-width: 100%; }\n  .col-lg-auto {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 auto;\n    flex: 0 0 auto;\n    width: auto;\n    max-width: none; }\n  .col-lg-1 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 8.333333%;\n    flex: 0 0 8.333333%;\n    max-width: 8.333333%; }\n  .col-lg-2 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 16.666667%;\n    flex: 0 0 16.666667%;\n    max-width: 16.666667%; }\n  .col-lg-3 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 25%;\n    flex: 0 0 25%;\n    max-width: 25%; }\n  .col-lg-4 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 33.333333%;\n    flex: 0 0 33.333333%;\n    max-width: 33.333333%; }\n  .col-lg-5 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 41.666667%;\n    flex: 0 0 41.666667%;\n    max-width: 41.666667%; }\n  .col-lg-6 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 50%;\n    flex: 0 0 50%;\n    max-width: 50%; }\n  .col-lg-7 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 58.333333%;\n    flex: 0 0 58.333333%;\n    max-width: 58.333333%; }\n  .col-lg-8 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 66.666667%;\n    flex: 0 0 66.666667%;\n    max-width: 66.666667%; }\n  .col-lg-9 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 75%;\n    flex: 0 0 75%;\n    max-width: 75%; }\n  .col-lg-10 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 83.333333%;\n    flex: 0 0 83.333333%;\n    max-width: 83.333333%; }\n  .col-lg-11 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 91.666667%;\n    flex: 0 0 91.666667%;\n    max-width: 91.666667%; }\n  .col-lg-12 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 100%;\n    flex: 0 0 100%;\n    max-width: 100%; } }\n\n@media (min-width: 1200px) {\n  .col-xl {\n    -ms-flex-preferred-size: 0;\n    flex-basis: 0%;\n    -webkit-box-flex: 1;\n    -ms-flex-positive: 1;\n    flex-grow: 1;\n    max-width: 100%; }\n  .col-xl-auto {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 auto;\n    flex: 0 0 auto;\n    width: auto;\n    max-width: none; }\n  .col-xl-1 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 8.333333%;\n    flex: 0 0 8.333333%;\n    max-width: 8.333333%; }\n  .col-xl-2 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 16.666667%;\n    flex: 0 0 16.666667%;\n    max-width: 16.666667%; }\n  .col-xl-3 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 25%;\n    flex: 0 0 25%;\n    max-width: 25%; }\n  .col-xl-4 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 33.333333%;\n    flex: 0 0 33.333333%;\n    max-width: 33.333333%; }\n  .col-xl-5 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 41.666667%;\n    flex: 0 0 41.666667%;\n    max-width: 41.666667%; }\n  .col-xl-6 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 50%;\n    flex: 0 0 50%;\n    max-width: 50%; }\n  .col-xl-7 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 58.333333%;\n    flex: 0 0 58.333333%;\n    max-width: 58.333333%; }\n  .col-xl-8 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 66.666667%;\n    flex: 0 0 66.666667%;\n    max-width: 66.666667%; }\n  .col-xl-9 {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 75%;\n    flex: 0 0 75%;\n    max-width: 75%; } }\n\nbody {\n  background-color: #EEEEEE;\n  padding: 0;\n  font-family: sans-serif;\n  margin: 0; }\n\n@media (max-width: 425px) {\n  .no-padd-phone {\n    padding: 0 !important; }\n  .text-align-center-phone {\n    text-align: center; }\n  .w-100-phone {\n    width: 100% !important; } }\n\n@media (max-width: 320px) {\n  .no-padd-xs-phone {\n    padding: 0 !important; } }\n"],"sourceRoot":""}]);
 
 // exports
 
@@ -4759,19 +4612,6 @@ module.exports = function hoistNonReactStatics(targetComponent, sourceComponent,
 
     return targetComponent;
 };
-
-
-/***/ }),
-
-/***/ "./node_modules/isomorphic-fetch/fetch-npm-browserify.js":
-/***/ (function(module, exports, __webpack_require__) {
-
-// the whatwg-fetch polyfill installs the fetch() function
-// on the global object (window or self)
-//
-// Return that as the export for use in Webpack, Browserify etc.
-__webpack_require__("./node_modules/whatwg-fetch/fetch.js");
-module.exports = self.fetch.bind(self);
 
 
 /***/ }),
@@ -13520,492 +13360,15 @@ module.exports = function(module) {
 
 /***/ }),
 
-/***/ "./node_modules/whatwg-fetch/fetch.js":
-/***/ (function(module, exports) {
-
-(function(self) {
-  'use strict';
-
-  if (self.fetch) {
-    return
-  }
-
-  var support = {
-    searchParams: 'URLSearchParams' in self,
-    iterable: 'Symbol' in self && 'iterator' in Symbol,
-    blob: 'FileReader' in self && 'Blob' in self && (function() {
-      try {
-        new Blob()
-        return true
-      } catch(e) {
-        return false
-      }
-    })(),
-    formData: 'FormData' in self,
-    arrayBuffer: 'ArrayBuffer' in self
-  }
-
-  if (support.arrayBuffer) {
-    var viewClasses = [
-      '[object Int8Array]',
-      '[object Uint8Array]',
-      '[object Uint8ClampedArray]',
-      '[object Int16Array]',
-      '[object Uint16Array]',
-      '[object Int32Array]',
-      '[object Uint32Array]',
-      '[object Float32Array]',
-      '[object Float64Array]'
-    ]
-
-    var isDataView = function(obj) {
-      return obj && DataView.prototype.isPrototypeOf(obj)
-    }
-
-    var isArrayBufferView = ArrayBuffer.isView || function(obj) {
-      return obj && viewClasses.indexOf(Object.prototype.toString.call(obj)) > -1
-    }
-  }
-
-  function normalizeName(name) {
-    if (typeof name !== 'string') {
-      name = String(name)
-    }
-    if (/[^a-z0-9\-#$%&'*+.\^_`|~]/i.test(name)) {
-      throw new TypeError('Invalid character in header field name')
-    }
-    return name.toLowerCase()
-  }
-
-  function normalizeValue(value) {
-    if (typeof value !== 'string') {
-      value = String(value)
-    }
-    return value
-  }
-
-  // Build a destructive iterator for the value list
-  function iteratorFor(items) {
-    var iterator = {
-      next: function() {
-        var value = items.shift()
-        return {done: value === undefined, value: value}
-      }
-    }
-
-    if (support.iterable) {
-      iterator[Symbol.iterator] = function() {
-        return iterator
-      }
-    }
-
-    return iterator
-  }
-
-  function Headers(headers) {
-    this.map = {}
-
-    if (headers instanceof Headers) {
-      headers.forEach(function(value, name) {
-        this.append(name, value)
-      }, this)
-    } else if (Array.isArray(headers)) {
-      headers.forEach(function(header) {
-        this.append(header[0], header[1])
-      }, this)
-    } else if (headers) {
-      Object.getOwnPropertyNames(headers).forEach(function(name) {
-        this.append(name, headers[name])
-      }, this)
-    }
-  }
-
-  Headers.prototype.append = function(name, value) {
-    name = normalizeName(name)
-    value = normalizeValue(value)
-    var oldValue = this.map[name]
-    this.map[name] = oldValue ? oldValue+','+value : value
-  }
-
-  Headers.prototype['delete'] = function(name) {
-    delete this.map[normalizeName(name)]
-  }
-
-  Headers.prototype.get = function(name) {
-    name = normalizeName(name)
-    return this.has(name) ? this.map[name] : null
-  }
-
-  Headers.prototype.has = function(name) {
-    return this.map.hasOwnProperty(normalizeName(name))
-  }
-
-  Headers.prototype.set = function(name, value) {
-    this.map[normalizeName(name)] = normalizeValue(value)
-  }
-
-  Headers.prototype.forEach = function(callback, thisArg) {
-    for (var name in this.map) {
-      if (this.map.hasOwnProperty(name)) {
-        callback.call(thisArg, this.map[name], name, this)
-      }
-    }
-  }
-
-  Headers.prototype.keys = function() {
-    var items = []
-    this.forEach(function(value, name) { items.push(name) })
-    return iteratorFor(items)
-  }
-
-  Headers.prototype.values = function() {
-    var items = []
-    this.forEach(function(value) { items.push(value) })
-    return iteratorFor(items)
-  }
-
-  Headers.prototype.entries = function() {
-    var items = []
-    this.forEach(function(value, name) { items.push([name, value]) })
-    return iteratorFor(items)
-  }
-
-  if (support.iterable) {
-    Headers.prototype[Symbol.iterator] = Headers.prototype.entries
-  }
-
-  function consumed(body) {
-    if (body.bodyUsed) {
-      return Promise.reject(new TypeError('Already read'))
-    }
-    body.bodyUsed = true
-  }
-
-  function fileReaderReady(reader) {
-    return new Promise(function(resolve, reject) {
-      reader.onload = function() {
-        resolve(reader.result)
-      }
-      reader.onerror = function() {
-        reject(reader.error)
-      }
-    })
-  }
-
-  function readBlobAsArrayBuffer(blob) {
-    var reader = new FileReader()
-    var promise = fileReaderReady(reader)
-    reader.readAsArrayBuffer(blob)
-    return promise
-  }
-
-  function readBlobAsText(blob) {
-    var reader = new FileReader()
-    var promise = fileReaderReady(reader)
-    reader.readAsText(blob)
-    return promise
-  }
-
-  function readArrayBufferAsText(buf) {
-    var view = new Uint8Array(buf)
-    var chars = new Array(view.length)
-
-    for (var i = 0; i < view.length; i++) {
-      chars[i] = String.fromCharCode(view[i])
-    }
-    return chars.join('')
-  }
-
-  function bufferClone(buf) {
-    if (buf.slice) {
-      return buf.slice(0)
-    } else {
-      var view = new Uint8Array(buf.byteLength)
-      view.set(new Uint8Array(buf))
-      return view.buffer
-    }
-  }
-
-  function Body() {
-    this.bodyUsed = false
-
-    this._initBody = function(body) {
-      this._bodyInit = body
-      if (!body) {
-        this._bodyText = ''
-      } else if (typeof body === 'string') {
-        this._bodyText = body
-      } else if (support.blob && Blob.prototype.isPrototypeOf(body)) {
-        this._bodyBlob = body
-      } else if (support.formData && FormData.prototype.isPrototypeOf(body)) {
-        this._bodyFormData = body
-      } else if (support.searchParams && URLSearchParams.prototype.isPrototypeOf(body)) {
-        this._bodyText = body.toString()
-      } else if (support.arrayBuffer && support.blob && isDataView(body)) {
-        this._bodyArrayBuffer = bufferClone(body.buffer)
-        // IE 10-11 can't handle a DataView body.
-        this._bodyInit = new Blob([this._bodyArrayBuffer])
-      } else if (support.arrayBuffer && (ArrayBuffer.prototype.isPrototypeOf(body) || isArrayBufferView(body))) {
-        this._bodyArrayBuffer = bufferClone(body)
-      } else {
-        throw new Error('unsupported BodyInit type')
-      }
-
-      if (!this.headers.get('content-type')) {
-        if (typeof body === 'string') {
-          this.headers.set('content-type', 'text/plain;charset=UTF-8')
-        } else if (this._bodyBlob && this._bodyBlob.type) {
-          this.headers.set('content-type', this._bodyBlob.type)
-        } else if (support.searchParams && URLSearchParams.prototype.isPrototypeOf(body)) {
-          this.headers.set('content-type', 'application/x-www-form-urlencoded;charset=UTF-8')
-        }
-      }
-    }
-
-    if (support.blob) {
-      this.blob = function() {
-        var rejected = consumed(this)
-        if (rejected) {
-          return rejected
-        }
-
-        if (this._bodyBlob) {
-          return Promise.resolve(this._bodyBlob)
-        } else if (this._bodyArrayBuffer) {
-          return Promise.resolve(new Blob([this._bodyArrayBuffer]))
-        } else if (this._bodyFormData) {
-          throw new Error('could not read FormData body as blob')
-        } else {
-          return Promise.resolve(new Blob([this._bodyText]))
-        }
-      }
-
-      this.arrayBuffer = function() {
-        if (this._bodyArrayBuffer) {
-          return consumed(this) || Promise.resolve(this._bodyArrayBuffer)
-        } else {
-          return this.blob().then(readBlobAsArrayBuffer)
-        }
-      }
-    }
-
-    this.text = function() {
-      var rejected = consumed(this)
-      if (rejected) {
-        return rejected
-      }
-
-      if (this._bodyBlob) {
-        return readBlobAsText(this._bodyBlob)
-      } else if (this._bodyArrayBuffer) {
-        return Promise.resolve(readArrayBufferAsText(this._bodyArrayBuffer))
-      } else if (this._bodyFormData) {
-        throw new Error('could not read FormData body as text')
-      } else {
-        return Promise.resolve(this._bodyText)
-      }
-    }
-
-    if (support.formData) {
-      this.formData = function() {
-        return this.text().then(decode)
-      }
-    }
-
-    this.json = function() {
-      return this.text().then(JSON.parse)
-    }
-
-    return this
-  }
-
-  // HTTP methods whose capitalization should be normalized
-  var methods = ['DELETE', 'GET', 'HEAD', 'OPTIONS', 'POST', 'PUT']
-
-  function normalizeMethod(method) {
-    var upcased = method.toUpperCase()
-    return (methods.indexOf(upcased) > -1) ? upcased : method
-  }
-
-  function Request(input, options) {
-    options = options || {}
-    var body = options.body
-
-    if (input instanceof Request) {
-      if (input.bodyUsed) {
-        throw new TypeError('Already read')
-      }
-      this.url = input.url
-      this.credentials = input.credentials
-      if (!options.headers) {
-        this.headers = new Headers(input.headers)
-      }
-      this.method = input.method
-      this.mode = input.mode
-      if (!body && input._bodyInit != null) {
-        body = input._bodyInit
-        input.bodyUsed = true
-      }
-    } else {
-      this.url = String(input)
-    }
-
-    this.credentials = options.credentials || this.credentials || 'omit'
-    if (options.headers || !this.headers) {
-      this.headers = new Headers(options.headers)
-    }
-    this.method = normalizeMethod(options.method || this.method || 'GET')
-    this.mode = options.mode || this.mode || null
-    this.referrer = null
-
-    if ((this.method === 'GET' || this.method === 'HEAD') && body) {
-      throw new TypeError('Body not allowed for GET or HEAD requests')
-    }
-    this._initBody(body)
-  }
-
-  Request.prototype.clone = function() {
-    return new Request(this, { body: this._bodyInit })
-  }
-
-  function decode(body) {
-    var form = new FormData()
-    body.trim().split('&').forEach(function(bytes) {
-      if (bytes) {
-        var split = bytes.split('=')
-        var name = split.shift().replace(/\+/g, ' ')
-        var value = split.join('=').replace(/\+/g, ' ')
-        form.append(decodeURIComponent(name), decodeURIComponent(value))
-      }
-    })
-    return form
-  }
-
-  function parseHeaders(rawHeaders) {
-    var headers = new Headers()
-    rawHeaders.split(/\r?\n/).forEach(function(line) {
-      var parts = line.split(':')
-      var key = parts.shift().trim()
-      if (key) {
-        var value = parts.join(':').trim()
-        headers.append(key, value)
-      }
-    })
-    return headers
-  }
-
-  Body.call(Request.prototype)
-
-  function Response(bodyInit, options) {
-    if (!options) {
-      options = {}
-    }
-
-    this.type = 'default'
-    this.status = 'status' in options ? options.status : 200
-    this.ok = this.status >= 200 && this.status < 300
-    this.statusText = 'statusText' in options ? options.statusText : 'OK'
-    this.headers = new Headers(options.headers)
-    this.url = options.url || ''
-    this._initBody(bodyInit)
-  }
-
-  Body.call(Response.prototype)
-
-  Response.prototype.clone = function() {
-    return new Response(this._bodyInit, {
-      status: this.status,
-      statusText: this.statusText,
-      headers: new Headers(this.headers),
-      url: this.url
-    })
-  }
-
-  Response.error = function() {
-    var response = new Response(null, {status: 0, statusText: ''})
-    response.type = 'error'
-    return response
-  }
-
-  var redirectStatuses = [301, 302, 303, 307, 308]
-
-  Response.redirect = function(url, status) {
-    if (redirectStatuses.indexOf(status) === -1) {
-      throw new RangeError('Invalid status code')
-    }
-
-    return new Response(null, {status: status, headers: {location: url}})
-  }
-
-  self.Headers = Headers
-  self.Request = Request
-  self.Response = Response
-
-  self.fetch = function(input, init) {
-    return new Promise(function(resolve, reject) {
-      var request = new Request(input, init)
-      var xhr = new XMLHttpRequest()
-
-      xhr.onload = function() {
-        var options = {
-          status: xhr.status,
-          statusText: xhr.statusText,
-          headers: parseHeaders(xhr.getAllResponseHeaders() || '')
-        }
-        options.url = 'responseURL' in xhr ? xhr.responseURL : options.headers.get('X-Request-URL')
-        var body = 'response' in xhr ? xhr.response : xhr.responseText
-        resolve(new Response(body, options))
-      }
-
-      xhr.onerror = function() {
-        reject(new TypeError('Network request failed'))
-      }
-
-      xhr.ontimeout = function() {
-        reject(new TypeError('Network request failed'))
-      }
-
-      xhr.open(request.method, request.url, true)
-
-      if (request.credentials === 'include') {
-        xhr.withCredentials = true
-      }
-
-      if ('responseType' in xhr && support.blob) {
-        xhr.responseType = 'blob'
-      }
-
-      request.headers.forEach(function(value, name) {
-        xhr.setRequestHeader(name, value)
-      })
-
-      xhr.send(typeof request._bodyInit === 'undefined' ? null : request._bodyInit)
-    })
-  }
-  self.fetch.polyfill = true
-})(typeof self !== 'undefined' ? self : this);
-
-
-/***/ }),
-
-/***/ "./pages/items.js":
+/***/ "./pages/index.js":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* WEBPACK VAR INJECTION */(function(module) {/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_regenerator__ = __webpack_require__("./node_modules/babel-runtime/regenerator/index.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_regenerator___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_babel_runtime_regenerator__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react__ = __webpack_require__("./node_modules/react/cjs/react.development.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_react__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_isomorphic_fetch__ = __webpack_require__("./node_modules/isomorphic-fetch/fetch-npm-browserify.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_isomorphic_fetch___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_isomorphic_fetch__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_layouts_PrincipalLayout__ = __webpack_require__("./components/layouts/PrincipalLayout.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__configFile__ = __webpack_require__("./configFile.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__components_items_dumbs_CategoryBox__ = __webpack_require__("./components/items/dumbs/CategoryBox.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__styles_Item_scss__ = __webpack_require__("./styles/Item.scss");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__styles_Item_scss___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6__styles_Item_scss__);
-
-var _jsxFileName = 'C:\\Users\\HP\\Desktop\\dev\\Mercado Libre\\dev\\front\\pages\\items.js';
+/* WEBPACK VAR INJECTION */(function(module) {/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__("./node_modules/react/cjs/react.development.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__components_layouts_PrincipalLayout__ = __webpack_require__("./components/layouts/PrincipalLayout.js");
+var _jsxFileName = "C:\\Users\\HP\\Desktop\\dev\\Mercado Libre\\dev\\front\\pages\\index.js";
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
@@ -14017,19 +13380,11 @@ var _createClass = function () { function defineProperties(target, props) { for 
     enterModule && enterModule(module);
 })();
 
-function _asyncToGenerator(fn) { return function () { var gen = fn.apply(this, arguments); return new Promise(function (resolve, reject) { function step(key, arg) { try { var info = gen[key](arg); var value = info.value; } catch (error) { reject(error); return; } if (info.done) { resolve(value); } else { return Promise.resolve(value).then(function (value) { step("next", value); }, function (err) { step("throw", err); }); } } return step("next"); }); }; }
-
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
 function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-
-
-
-
-
 
 
 
@@ -14043,283 +13398,23 @@ var _default = function (_React$Component) {
     }
 
     _createClass(_default, [{
-        key: 'render',
+        key: "render",
         value: function render() {
-            var item = this.props.dataItem;
-            return __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(
-                __WEBPACK_IMPORTED_MODULE_3__components_layouts_PrincipalLayout__["a" /* default */],
-                { title: 'Mercadolibre - ' + item.title, __source: {
-                        fileName: _jsxFileName,
-                        lineNumber: 29
-                    }
-                },
-                this.props.dataItem ? __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(
-                    'div',
-                    {
-                        __source: {
-                            fileName: _jsxFileName,
-                            lineNumber: 31
-                        }
-                    },
-                    __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(
-                        'div',
-                        { className: 'row', __source: {
-                                fileName: _jsxFileName,
-                                lineNumber: 34
-                            }
-                        },
-                        __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(
-                            'div',
-                            { className: 'col-12 no-padd-phone', __source: {
-                                    fileName: _jsxFileName,
-                                    lineNumber: 35
-                                }
-                            },
-                            __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_5__components_items_dumbs_CategoryBox__["a" /* CategoryBox */], { categories: this.props.dataItem.categories, __source: {
-                                    fileName: _jsxFileName,
-                                    lineNumber: 36
-                                }
-                            })
-                        )
-                    ),
-                    __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(
-                        'div',
-                        { className: 'row', __source: {
-                                fileName: _jsxFileName,
-                                lineNumber: 40
-                            }
-                        },
-                        __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(
-                            'div',
-                            { className: 'col-12', id: 'content-item', __source: {
-                                    fileName: _jsxFileName,
-                                    lineNumber: 41
-                                }
-                            },
-                            __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(
-                                'div',
-                                { id: 'content-image-and-price', __source: {
-                                        fileName: _jsxFileName,
-                                        lineNumber: 42
-                                    }
-                                },
-                                __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(
-                                    'div',
-                                    {
-                                        __source: {
-                                            fileName: _jsxFileName,
-                                            lineNumber: 43
-                                        }
-                                    },
-                                    __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement('img', { src: item.picture, alt: item.title, className: 'w-100-phone img-item', __source: {
-                                            fileName: _jsxFileName,
-                                            lineNumber: 44
-                                        }
-                                    })
-                                ),
-                                __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(
-                                    'div',
-                                    { id: 'box-data-item', __source: {
-                                            fileName: _jsxFileName,
-                                            lineNumber: 46
-                                        }
-                                    },
-                                    __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(
-                                        'div',
-                                        { id: 'sub-box-data-item', className: 'w-100-phone', __source: {
-                                                fileName: _jsxFileName,
-                                                lineNumber: 47
-                                            }
-                                        },
-                                        __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(
-                                            'div',
-                                            { id: 'box-condition-and-selled-item', __source: {
-                                                    fileName: _jsxFileName,
-                                                    lineNumber: 49
-                                                }
-                                            },
-                                            item.condition,
-                                            ' - ',
-                                            item.sold_quantity,
-                                            ' Vendidos'
-                                        ),
-                                        __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(
-                                            'div',
-                                            { id: 'box-title-item', __source: {
-                                                    fileName: _jsxFileName,
-                                                    lineNumber: 52
-                                                }
-                                            },
-                                            item.title
-                                        ),
-                                        __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(
-                                            'div',
-                                            { id: 'box-price-item', __source: {
-                                                    fileName: _jsxFileName,
-                                                    lineNumber: 55
-                                                }
-                                            },
-                                            __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(
-                                                'span',
-                                                {
-                                                    __source: {
-                                                        fileName: _jsxFileName,
-                                                        lineNumber: 56
-                                                    }
-                                                },
-                                                '$ ',
-                                                item.price.amount,
-                                                ' ',
-                                                __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(
-                                                    'span',
-                                                    {
-                                                        __source: {
-                                                            fileName: _jsxFileName,
-                                                            lineNumber: 57
-                                                        }
-                                                    },
-                                                    item.price.decimals
-                                                )
-                                            )
-                                        )
-                                    ),
-                                    __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(
-                                        'div',
-                                        {
-                                            __source: {
-                                                fileName: _jsxFileName,
-                                                lineNumber: 63
-                                            }
-                                        },
-                                        __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(
-                                            'button',
-                                            { id: 'btn-buy-item', __source: {
-                                                    fileName: _jsxFileName,
-                                                    lineNumber: 64
-                                                }
-                                            },
-                                            'Comprar'
-                                        )
-                                    )
-                                )
-                            ),
-                            item.description ? __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(
-                                'div',
-                                { id: 'box-description-item', className: 'w-100-phone img-item', __source: {
-                                        fileName: _jsxFileName,
-                                        lineNumber: 69
-                                    }
-                                },
-                                __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(
-                                    'div',
-                                    {
-                                        __source: {
-                                            fileName: _jsxFileName,
-                                            lineNumber: 70
-                                        }
-                                    },
-                                    __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(
-                                        'div',
-                                        {
-                                            __source: {
-                                                fileName: _jsxFileName,
-                                                lineNumber: 71
-                                            }
-                                        },
-                                        __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(
-                                            'div',
-                                            { id: 'title-description-item', __source: {
-                                                    fileName: _jsxFileName,
-                                                    lineNumber: 72
-                                                }
-                                            },
-                                            'Descripci\xF3n del producto'
-                                        )
-                                    ),
-                                    __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(
-                                        'div',
-                                        {
-                                            __source: {
-                                                fileName: _jsxFileName,
-                                                lineNumber: 74
-                                            }
-                                        },
-                                        __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(
-                                            'div',
-                                            { id: 'content-description-item', cl: true, __source: {
-                                                    fileName: _jsxFileName,
-                                                    lineNumber: 75
-                                                }
-                                            },
-                                            item.description
-                                        )
-                                    )
-                                )
-                            ) : __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(
-                                'div',
-                                {
-                                    __source: {
-                                        fileName: _jsxFileName,
-                                        lineNumber: 80
-                                    }
-                                },
-                                'Este producto no tiene descripcion'
-                            )
-                        )
-                    )
-                ) : "problem"
-            );
+            return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1__components_layouts_PrincipalLayout__["a" /* default */], { title: "Mercadolibre", __source: {
+                    fileName: _jsxFileName,
+                    lineNumber: 6
+                }
+            });
         }
     }, {
-        key: '__reactstandin__regenerateByEval',
+        key: "__reactstandin__regenerateByEval",
         value: function __reactstandin__regenerateByEval(key, code) {
             this[key] = eval(code);
         }
-    }], [{
-        key: 'getInitialProps',
-        value: function () {
-            var _ref = _asyncToGenerator( /*#__PURE__*/__WEBPACK_IMPORTED_MODULE_0_babel_runtime_regenerator___default.a.mark(function _callee(request) {
-                var idItem, req, dataItem;
-                return __WEBPACK_IMPORTED_MODULE_0_babel_runtime_regenerator___default.a.wrap(function _callee$(_context) {
-                    while (1) {
-                        switch (_context.prev = _context.next) {
-                            case 0:
-                                idItem = request.query.id;
-                                _context.next = 3;
-                                return fetch(__WEBPACK_IMPORTED_MODULE_4__configFile__["a" /* default */].apiExpress + '/api/items/' + idItem);
-
-                            case 3:
-                                req = _context.sent;
-                                _context.next = 6;
-                                return req.json();
-
-                            case 6:
-                                dataItem = _context.sent;
-
-                                console.log(dataItem);
-                                if (req.status !== 200) {
-                                    dataItem = false;
-                                }
-                                return _context.abrupt('return', { dataItem: dataItem });
-
-                            case 10:
-                            case 'end':
-                                return _context.stop();
-                        }
-                    }
-                }, _callee, this);
-            }));
-
-            function getInitialProps(_x) {
-                return _ref.apply(this, arguments);
-            }
-
-            return getInitialProps;
-        }()
     }]);
 
     return _default;
-}(__WEBPACK_IMPORTED_MODULE_1_react___default.a.Component);
+}(__WEBPACK_IMPORTED_MODULE_0_react___default.a.Component);
 
 /* harmony default export */ __webpack_exports__["default"] = (_default);
 ;
@@ -14333,7 +13428,7 @@ var _default = function (_React$Component) {
         return;
     }
 
-    reactHotLoader.register(_default, 'default', 'C:/Users/HP/Desktop/dev/Mercado Libre/dev/front/pages/items.js');
+    reactHotLoader.register(_default, "default", "C:/Users/HP/Desktop/dev/Mercado Libre/dev/front/pages/index.js");
     leaveModule(module);
 })();
 
@@ -14354,7 +13449,7 @@ var _default = function (_React$Component) {
           next.router.update(r, Component)
         }
       }
-    })(typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__.default : (module.exports.default || module.exports), "/items")
+    })(typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__.default : (module.exports.default || module.exports), "/")
   
 /* WEBPACK VAR INJECTION */}.call(__webpack_exports__, __webpack_require__("./node_modules/webpack/buildin/harmony-module.js")(module)))
 
@@ -14391,70 +13486,6 @@ module.exports = routes;
 
 ;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__("./node_modules/webpack/buildin/module.js")(module)))
-
-/***/ }),
-
-/***/ "./styles/Item.scss":
-/***/ (function(module, exports, __webpack_require__) {
-
-// style-loader: Adds some css to the DOM by adding a <style> tag
-
-// load the styles
-var content = __webpack_require__("./node_modules/css-loader/index.js?{\"modules\":false,\"minimize\":false,\"sourceMap\":true,\"importLoaders\":1}!./node_modules/sass-loader/lib/loader.js!./styles/Item.scss");
-if(typeof content === 'string') content = [[module.i, content, '']];
-// Prepare cssTransformation
-var transform;
-
-var options = {"sourceMap":true,"importLoaders":1,"hmr":true}
-options.transform = transform
-// add the styles to the DOM
-var update = __webpack_require__("./node_modules/style-loader/lib/addStyles.js")(content, options);
-if(content.locals) module.exports = content.locals;
-// Hot Module Replacement
-if(true) {
-	// When the styles change, update the <style> tags
-	if(!content.locals) {
-		module.hot.accept("./node_modules/css-loader/index.js?{\"modules\":false,\"minimize\":false,\"sourceMap\":true,\"importLoaders\":1}!./node_modules/sass-loader/lib/loader.js!./styles/Item.scss", function() {
-			var newContent = __webpack_require__("./node_modules/css-loader/index.js?{\"modules\":false,\"minimize\":false,\"sourceMap\":true,\"importLoaders\":1}!./node_modules/sass-loader/lib/loader.js!./styles/Item.scss");
-			if(typeof newContent === 'string') newContent = [[module.i, newContent, '']];
-			update(newContent);
-		});
-	}
-	// When the module is disposed, remove the <style> tags
-	module.hot.dispose(function() { update(); });
-}
-
-/***/ }),
-
-/***/ "./styles/categoryBox.scss":
-/***/ (function(module, exports, __webpack_require__) {
-
-// style-loader: Adds some css to the DOM by adding a <style> tag
-
-// load the styles
-var content = __webpack_require__("./node_modules/css-loader/index.js?{\"modules\":false,\"minimize\":false,\"sourceMap\":true,\"importLoaders\":1}!./node_modules/sass-loader/lib/loader.js!./styles/categoryBox.scss");
-if(typeof content === 'string') content = [[module.i, content, '']];
-// Prepare cssTransformation
-var transform;
-
-var options = {"sourceMap":true,"importLoaders":1,"hmr":true}
-options.transform = transform
-// add the styles to the DOM
-var update = __webpack_require__("./node_modules/style-loader/lib/addStyles.js")(content, options);
-if(content.locals) module.exports = content.locals;
-// Hot Module Replacement
-if(true) {
-	// When the styles change, update the <style> tags
-	if(!content.locals) {
-		module.hot.accept("./node_modules/css-loader/index.js?{\"modules\":false,\"minimize\":false,\"sourceMap\":true,\"importLoaders\":1}!./node_modules/sass-loader/lib/loader.js!./styles/categoryBox.scss", function() {
-			var newContent = __webpack_require__("./node_modules/css-loader/index.js?{\"modules\":false,\"minimize\":false,\"sourceMap\":true,\"importLoaders\":1}!./node_modules/sass-loader/lib/loader.js!./styles/categoryBox.scss");
-			if(typeof newContent === 'string') newContent = [[module.i, newContent, '']];
-			update(newContent);
-		});
-	}
-	// When the module is disposed, remove the <style> tags
-	module.hot.dispose(function() { update(); });
-}
 
 /***/ }),
 
@@ -14525,7 +13556,7 @@ if(true) {
 /***/ 2:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__("./pages/items.js");
+module.exports = __webpack_require__("./pages/index.js");
 
 
 /***/ })
@@ -14534,4 +13565,4 @@ module.exports = __webpack_require__("./pages/items.js");
           return { page: comp.default }
         })
       ;
-//# sourceMappingURL=items.js.map
+//# sourceMappingURL=index.js.map

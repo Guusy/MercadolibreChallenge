@@ -35,3 +35,44 @@
   align-items: center;
 }
 
+@media (max-width: $break-tablet) {
+  .content-picture-item > img{width: auto;}
+  #price-item-box-list{
+    font-size:$pixel14;
+    margin-bottom: $pixel16;
+
+  }
+  #title-item-box-list{
+
+    font-size:13px;
+  }
+}
+
+@media (max-width: $break-big-phone) {
+
+  .content-picture-item>img{
+    width: auto;
+  }
+  #price-item-box-list{
+    font-size:$pixel14;
+    margin-bottom: 5px;
+
+  }
+  #title-item-box-list{
+
+    font-size:13px;}
+
+  #adrress-item-box-list{
+   font-size: 12px;
+  }
+}
+@media (max-width: $break-small-phone){
+  .content-picture-item{
+    padding-left: 0px!important;
+  }
+  #title-item-box-list{
+    font-size:11px;
+  }
+}
+
+

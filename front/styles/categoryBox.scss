@@ -9,3 +9,7 @@
   background-color: $bodyColor;
 }
 
+@media (max-width: $break-big-phone) {
+  #box-category-list {
+    font-size: 10px;}
+}

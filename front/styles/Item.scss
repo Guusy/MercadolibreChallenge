@@ -63,8 +63,30 @@ font-weight: bold;
   .img-item {
     width: 100%!important;
   }
+  #box-data-item{
+    width: 50%;
+  }
+  #sub-content-image{
+    width: 50%;
+  }
+}
+@media (max-width: 990px){
+  #box-price-item > span > span{font-size: 16px;}
+  #box-price-item{
+    font-size: $pixel24;
+  }
+
+  #box-title-item{font-size: $pixel16}
 }
 @media (max-width: $break-big-phone){
+  #content-item{padding: 10px;}
+  #box-data-item{
+    width: 100%;
+  }
+  #sub-content-image{
+    width: 100%;
+  }
+
   #sub-box-data-item{
     max-width: 100%;
   }

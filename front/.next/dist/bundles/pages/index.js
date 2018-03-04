@@ -72,61 +72,6 @@ module.exports =
 /************************************************************************/
 /******/ ({
 
-/***/ "./components/items/dumbs/CategoryBox.js":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return CategoryBox; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__("react");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__styles_categoryBox_scss__ = __webpack_require__("./styles/categoryBox.scss");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__styles_categoryBox_scss___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__styles_categoryBox_scss__);
-var _jsxFileName = 'C:\\Users\\HP\\Desktop\\dev\\Mercado Libre\\dev\\front\\components\\items\\dumbs\\CategoryBox.js';
-
-
-
-
-var CategoryBox = function CategoryBox(props) {
-    var arrayLength = props.categories.length;
-    var i = 0;
-    return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-        'div',
-        { id: 'box-category-list', className: 'text-align-center-phone', __source: {
-                fileName: _jsxFileName,
-                lineNumber: 9
-            }
-        },
-        props.categories.map(function (category) {
-            var htmlReturn = __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                'span',
-                { id: 'normal-category', __source: {
-                        fileName: _jsxFileName,
-                        lineNumber: 13
-                    }
-                },
-                category,
-                ' > '
-            );
-            if (i === arrayLength - 1) {
-                htmlReturn = __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                    'span',
-                    { id: 'selected-category', __source: {
-                            fileName: _jsxFileName,
-                            lineNumber: 15
-                        }
-                    },
-                    category,
-                    ' '
-                );
-            }
-            i++;
-            return htmlReturn;
-        })
-    );
-};
-
-/***/ }),
-
 /***/ "./components/layouts/PrincipalLayout.js":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -319,7 +264,7 @@ var SearchNavbar = function SearchNavbar(props) {
                         __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(
                             'div',
                             {
-                                className: 'jsx-1180220344' + ' ' + ' col-2 col-sm-2 col-md-1',
+                                className: 'jsx-1180220344' + ' ' + ' col-3 col-sm-2 col-md-1 no-padd-xs-phone',
                                 __source: {
                                     fileName: _jsxFileName,
                                     lineNumber: 15
@@ -352,7 +297,7 @@ var SearchNavbar = function SearchNavbar(props) {
                         __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(
                             'div',
                             {
-                                className: 'jsx-1180220344' + ' ' + ' col-10 col-sm-10 col-md-11',
+                                className: 'jsx-1180220344' + ' ' + ' col-9 col-sm-10 col-md-11 no-padd-xs-phone',
                                 __source: {
                                     fileName: _jsxFileName,
                                     lineNumber: 23
@@ -371,7 +316,7 @@ var SearchNavbar = function SearchNavbar(props) {
         ),
         __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_0_styled_jsx_style___default.a, {
             styleId: '1180220344',
-            css: '#box-logo-navbar.jsx-1180220344{margin-right:15px;}#navbar-ml.jsx-1180220344{background-color:yellow;width:100%;padding:12px;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImNvbXBvbmVudHNcXG5hdmJhclxcZHVtYnNcXFNlYXJjaE5hdmJhci5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFxQ2dCLEFBRXFCLEFBR00sa0JBSEwsTUFJUixXQUNFLGFBQUMiLCJmaWxlIjoiY29tcG9uZW50c1xcbmF2YmFyXFxkdW1ic1xcU2VhcmNoTmF2YmFyLmpzIiwic291cmNlUm9vdCI6IkM6L1VzZXJzL0hQL0Rlc2t0b3AvZGV2L01lcmNhZG8gTGlicmUvZGV2L2Zyb250Iiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IFJlYWN0IGZyb20gXCJyZWFjdFwiO1xyXG5pbXBvcnQgSW5wdXRTZWFyY2hOYXZiYXIgZnJvbSAnLi4vc21hcnRzL0lucHV0U2VhcmNoTmF2YmFyJztcclxuaW1wb3J0ICcuLi8uLi8uLi9zdHlsZXMvbmF2YmFyLnNjc3MnO1xyXG5pbXBvcnQge1ByZXR0eUxpbmt9IGZyb20gJy4uLy4uL3Rvb2xzL1ByZXR0eUxpbmsnO1xyXG5leHBvcnQgY29uc3QgU2VhcmNoTmF2YmFyID0gKHByb3BzKSA9PiB7XHJcblxyXG4gICAgcmV0dXJuIChcclxuXHJcbiAgICAgICAgPG5hdiBpZD1cIm5hdmJhci1tbFwiPlxyXG4gICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cImNvbnRhaW5lclwiPlxyXG4gICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJyb3dcIj5cclxuICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cImNvbC0xMlwiPlxyXG5cclxuICAgICAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJyb3dcIj5cclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwiIGNvbC0yIGNvbC1zbS0yIGNvbC1tZC0xXCI+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPFByZXR0eUxpbmsgaHJlZj0nLyc+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPGRpdiBpZD0nYm94LWxvZ28tbmF2YmFyJz5cclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPGltZyBzcmM9XCIuLi9zdGF0aWMvTG9nb19NTC5wbmdcIi8+XHJcblxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvZGl2PlxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvUHJldHR5TGluaz5cclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvZGl2PlxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCIgY29sLTEwIGNvbC1zbS0xMCBjb2wtbWQtMTFcIj5cclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8SW5wdXRTZWFyY2hOYXZiYXIvPlxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9kaXY+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgIDwvZGl2PlxyXG4gICAgICAgICAgICAgICAgICAgIDwvZGl2PlxyXG4gICAgICAgICAgICAgICAgPC9kaXY+XHJcblxyXG5cclxuXHJcblxyXG4gICAgICAgICAgICA8L2Rpdj5cclxuXHJcblxyXG4gICAgICAgICAgICA8c3R5bGUganN4PntcclxuXHJcbiAgICAgICAgICAgICAgICBgXHJcbiAgICAgICAgICAgICNib3gtbG9nby1uYXZiYXJ7XHJcbiAgICAgICAgICAgIG1hcmdpbi1yaWdodDoxNXB4fVxyXG4jbmF2YmFyLW1sIHtcclxuICBiYWNrZ3JvdW5kLWNvbG9yOiB5ZWxsb3c7XHJcbiAgd2lkdGg6MTAwJTtcclxuICBwYWRkaW5nOjEycHg7XHJcbn1cclxuXHJcblxyXG4gICAgICAgICAgICBgfVxyXG4gICAgICAgICAgICA8L3N0eWxlPlxyXG4gICAgICAgIDwvbmF2PlxyXG5cclxuXHJcbiAgICApXHJcblxyXG5cclxufTsiXX0= */\n/*@ sourceURL=components\\navbar\\dumbs\\SearchNavbar.js */'
+            css: '#box-logo-navbar.jsx-1180220344{margin-right:15px;}#navbar-ml.jsx-1180220344{background-color:yellow;width:100%;padding:12px;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImNvbXBvbmVudHNcXG5hdmJhclxcZHVtYnNcXFNlYXJjaE5hdmJhci5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFxQ2dCLEFBRXFCLEFBR00sa0JBSEwsTUFJUixXQUNFLGFBQUMiLCJmaWxlIjoiY29tcG9uZW50c1xcbmF2YmFyXFxkdW1ic1xcU2VhcmNoTmF2YmFyLmpzIiwic291cmNlUm9vdCI6IkM6L1VzZXJzL0hQL0Rlc2t0b3AvZGV2L01lcmNhZG8gTGlicmUvZGV2L2Zyb250Iiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IFJlYWN0IGZyb20gXCJyZWFjdFwiO1xyXG5pbXBvcnQgSW5wdXRTZWFyY2hOYXZiYXIgZnJvbSAnLi4vc21hcnRzL0lucHV0U2VhcmNoTmF2YmFyJztcclxuaW1wb3J0ICcuLi8uLi8uLi9zdHlsZXMvbmF2YmFyLnNjc3MnO1xyXG5pbXBvcnQge1ByZXR0eUxpbmt9IGZyb20gJy4uLy4uL3Rvb2xzL1ByZXR0eUxpbmsnO1xyXG5leHBvcnQgY29uc3QgU2VhcmNoTmF2YmFyID0gKHByb3BzKSA9PiB7XHJcblxyXG4gICAgcmV0dXJuIChcclxuXHJcbiAgICAgICAgPG5hdiBpZD1cIm5hdmJhci1tbFwiPlxyXG4gICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cImNvbnRhaW5lclwiPlxyXG4gICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJyb3dcIj5cclxuICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cImNvbC0xMlwiPlxyXG5cclxuICAgICAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJyb3dcIj5cclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwiIGNvbC0zIGNvbC1zbS0yIGNvbC1tZC0xIG5vLXBhZGQteHMtcGhvbmVcIj5cclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8UHJldHR5TGluayBocmVmPScvJz5cclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGlkPSdib3gtbG9nby1uYXZiYXInPlxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8aW1nIHNyYz1cIi4uL3N0YXRpYy9Mb2dvX01MLnBuZ1wiLz5cclxuXHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9kaXY+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9QcmV0dHlMaW5rPlxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9kaXY+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cIiBjb2wtOSBjb2wtc20tMTAgY29sLW1kLTExIG5vLXBhZGQteHMtcGhvbmVcIj5cclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8SW5wdXRTZWFyY2hOYXZiYXIvPlxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9kaXY+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgIDwvZGl2PlxyXG4gICAgICAgICAgICAgICAgICAgIDwvZGl2PlxyXG4gICAgICAgICAgICAgICAgPC9kaXY+XHJcblxyXG5cclxuXHJcblxyXG4gICAgICAgICAgICA8L2Rpdj5cclxuXHJcblxyXG4gICAgICAgICAgICA8c3R5bGUganN4PntcclxuXHJcbiAgICAgICAgICAgICAgICBgXHJcbiAgICAgICAgICAgICNib3gtbG9nby1uYXZiYXJ7XHJcbiAgICAgICAgICAgIG1hcmdpbi1yaWdodDoxNXB4fVxyXG4jbmF2YmFyLW1sIHtcclxuICBiYWNrZ3JvdW5kLWNvbG9yOiB5ZWxsb3c7XHJcbiAgd2lkdGg6MTAwJTtcclxuICBwYWRkaW5nOjEycHg7XHJcbn1cclxuXHJcblxyXG4gICAgICAgICAgICBgfVxyXG4gICAgICAgICAgICA8L3N0eWxlPlxyXG4gICAgICAgIDwvbmF2PlxyXG5cclxuXHJcbiAgICApXHJcblxyXG5cclxufTsiXX0= */\n/*@ sourceURL=components\\navbar\\dumbs\\SearchNavbar.js */'
         })
     );
 };
@@ -542,55 +487,25 @@ var PrettyLink = function PrettyLink(props) {
 
 /***/ }),
 
-/***/ "./configFile.js":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-var config = {
-    apiExpress: "http://localhost:4000"
-
-};
-
-/* harmony default export */ __webpack_exports__["a"] = (config);
-
-/***/ }),
-
-/***/ "./pages/items.js":
+/***/ "./pages/index.js":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_regenerator__ = __webpack_require__("babel-runtime/regenerator");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_regenerator___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_babel_runtime_regenerator__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react__ = __webpack_require__("react");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_react__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_isomorphic_fetch__ = __webpack_require__("isomorphic-fetch");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_isomorphic_fetch___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_isomorphic_fetch__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_layouts_PrincipalLayout__ = __webpack_require__("./components/layouts/PrincipalLayout.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__configFile__ = __webpack_require__("./configFile.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__components_items_dumbs_CategoryBox__ = __webpack_require__("./components/items/dumbs/CategoryBox.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__styles_Item_scss__ = __webpack_require__("./styles/Item.scss");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__styles_Item_scss___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6__styles_Item_scss__);
-
-var _jsxFileName = 'C:\\Users\\HP\\Desktop\\dev\\Mercado Libre\\dev\\front\\pages\\items.js';
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__("react");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__components_layouts_PrincipalLayout__ = __webpack_require__("./components/layouts/PrincipalLayout.js");
+var _jsxFileName = "C:\\Users\\HP\\Desktop\\dev\\Mercado Libre\\dev\\front\\pages\\index.js";
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
 
-
-function _asyncToGenerator(fn) { return function () { var gen = fn.apply(this, arguments); return new Promise(function (resolve, reject) { function step(key, arg) { try { var info = gen[key](arg); var value = info.value; } catch (error) { reject(error); return; } if (info.done) { resolve(value); } else { return Promise.resolve(value).then(function (value) { step("next", value); }, function (err) { step("throw", err); }); } } return step("next"); }); }; }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
 function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-
-
-
-
-
 
 
 
@@ -604,278 +519,18 @@ var _class = function (_React$Component) {
     }
 
     _createClass(_class, [{
-        key: 'render',
+        key: "render",
         value: function render() {
-            var item = this.props.dataItem;
-            return __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(
-                __WEBPACK_IMPORTED_MODULE_3__components_layouts_PrincipalLayout__["a" /* default */],
-                { title: 'Mercadolibre - ' + item.title, __source: {
-                        fileName: _jsxFileName,
-                        lineNumber: 29
-                    }
-                },
-                this.props.dataItem ? __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(
-                    'div',
-                    {
-                        __source: {
-                            fileName: _jsxFileName,
-                            lineNumber: 31
-                        }
-                    },
-                    __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(
-                        'div',
-                        { className: 'row', __source: {
-                                fileName: _jsxFileName,
-                                lineNumber: 34
-                            }
-                        },
-                        __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(
-                            'div',
-                            { className: 'col-12 no-padd-phone', __source: {
-                                    fileName: _jsxFileName,
-                                    lineNumber: 35
-                                }
-                            },
-                            __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_5__components_items_dumbs_CategoryBox__["a" /* CategoryBox */], { categories: this.props.dataItem.categories, __source: {
-                                    fileName: _jsxFileName,
-                                    lineNumber: 36
-                                }
-                            })
-                        )
-                    ),
-                    __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(
-                        'div',
-                        { className: 'row', __source: {
-                                fileName: _jsxFileName,
-                                lineNumber: 40
-                            }
-                        },
-                        __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(
-                            'div',
-                            { className: 'col-12', id: 'content-item', __source: {
-                                    fileName: _jsxFileName,
-                                    lineNumber: 41
-                                }
-                            },
-                            __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(
-                                'div',
-                                { id: 'content-image-and-price', __source: {
-                                        fileName: _jsxFileName,
-                                        lineNumber: 42
-                                    }
-                                },
-                                __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(
-                                    'div',
-                                    {
-                                        __source: {
-                                            fileName: _jsxFileName,
-                                            lineNumber: 43
-                                        }
-                                    },
-                                    __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement('img', { src: item.picture, alt: item.title, className: 'w-100-phone img-item', __source: {
-                                            fileName: _jsxFileName,
-                                            lineNumber: 44
-                                        }
-                                    })
-                                ),
-                                __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(
-                                    'div',
-                                    { id: 'box-data-item', __source: {
-                                            fileName: _jsxFileName,
-                                            lineNumber: 46
-                                        }
-                                    },
-                                    __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(
-                                        'div',
-                                        { id: 'sub-box-data-item', className: 'w-100-phone', __source: {
-                                                fileName: _jsxFileName,
-                                                lineNumber: 47
-                                            }
-                                        },
-                                        __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(
-                                            'div',
-                                            { id: 'box-condition-and-selled-item', __source: {
-                                                    fileName: _jsxFileName,
-                                                    lineNumber: 49
-                                                }
-                                            },
-                                            item.condition,
-                                            ' - ',
-                                            item.sold_quantity,
-                                            ' Vendidos'
-                                        ),
-                                        __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(
-                                            'div',
-                                            { id: 'box-title-item', __source: {
-                                                    fileName: _jsxFileName,
-                                                    lineNumber: 52
-                                                }
-                                            },
-                                            item.title
-                                        ),
-                                        __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(
-                                            'div',
-                                            { id: 'box-price-item', __source: {
-                                                    fileName: _jsxFileName,
-                                                    lineNumber: 55
-                                                }
-                                            },
-                                            __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(
-                                                'span',
-                                                {
-                                                    __source: {
-                                                        fileName: _jsxFileName,
-                                                        lineNumber: 56
-                                                    }
-                                                },
-                                                '$ ',
-                                                item.price.amount,
-                                                ' ',
-                                                __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(
-                                                    'span',
-                                                    {
-                                                        __source: {
-                                                            fileName: _jsxFileName,
-                                                            lineNumber: 57
-                                                        }
-                                                    },
-                                                    item.price.decimals
-                                                )
-                                            )
-                                        )
-                                    ),
-                                    __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(
-                                        'div',
-                                        {
-                                            __source: {
-                                                fileName: _jsxFileName,
-                                                lineNumber: 63
-                                            }
-                                        },
-                                        __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(
-                                            'button',
-                                            { id: 'btn-buy-item', __source: {
-                                                    fileName: _jsxFileName,
-                                                    lineNumber: 64
-                                                }
-                                            },
-                                            'Comprar'
-                                        )
-                                    )
-                                )
-                            ),
-                            item.description ? __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(
-                                'div',
-                                { id: 'box-description-item', className: 'w-100-phone img-item', __source: {
-                                        fileName: _jsxFileName,
-                                        lineNumber: 69
-                                    }
-                                },
-                                __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(
-                                    'div',
-                                    {
-                                        __source: {
-                                            fileName: _jsxFileName,
-                                            lineNumber: 70
-                                        }
-                                    },
-                                    __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(
-                                        'div',
-                                        {
-                                            __source: {
-                                                fileName: _jsxFileName,
-                                                lineNumber: 71
-                                            }
-                                        },
-                                        __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(
-                                            'div',
-                                            { id: 'title-description-item', __source: {
-                                                    fileName: _jsxFileName,
-                                                    lineNumber: 72
-                                                }
-                                            },
-                                            'Descripci\xF3n del producto'
-                                        )
-                                    ),
-                                    __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(
-                                        'div',
-                                        {
-                                            __source: {
-                                                fileName: _jsxFileName,
-                                                lineNumber: 74
-                                            }
-                                        },
-                                        __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(
-                                            'div',
-                                            { id: 'content-description-item', cl: true, __source: {
-                                                    fileName: _jsxFileName,
-                                                    lineNumber: 75
-                                                }
-                                            },
-                                            item.description
-                                        )
-                                    )
-                                )
-                            ) : __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(
-                                'div',
-                                {
-                                    __source: {
-                                        fileName: _jsxFileName,
-                                        lineNumber: 80
-                                    }
-                                },
-                                'Este producto no tiene descripcion'
-                            )
-                        )
-                    )
-                ) : "problem"
-            );
+            return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1__components_layouts_PrincipalLayout__["a" /* default */], { title: "Mercadolibre", __source: {
+                    fileName: _jsxFileName,
+                    lineNumber: 6
+                }
+            });
         }
-    }], [{
-        key: 'getInitialProps',
-        value: function () {
-            var _ref = _asyncToGenerator( /*#__PURE__*/__WEBPACK_IMPORTED_MODULE_0_babel_runtime_regenerator___default.a.mark(function _callee(request) {
-                var idItem, req, dataItem;
-                return __WEBPACK_IMPORTED_MODULE_0_babel_runtime_regenerator___default.a.wrap(function _callee$(_context) {
-                    while (1) {
-                        switch (_context.prev = _context.next) {
-                            case 0:
-                                idItem = request.query.id;
-                                _context.next = 3;
-                                return fetch(__WEBPACK_IMPORTED_MODULE_4__configFile__["a" /* default */].apiExpress + '/api/items/' + idItem);
-
-                            case 3:
-                                req = _context.sent;
-                                _context.next = 6;
-                                return req.json();
-
-                            case 6:
-                                dataItem = _context.sent;
-
-                                console.log(dataItem);
-                                if (req.status !== 200) {
-                                    dataItem = false;
-                                }
-                                return _context.abrupt('return', { dataItem: dataItem });
-
-                            case 10:
-                            case 'end':
-                                return _context.stop();
-                        }
-                    }
-                }, _callee, this);
-            }));
-
-            function getInitialProps(_x) {
-                return _ref.apply(this, arguments);
-            }
-
-            return getInitialProps;
-        }()
     }]);
 
     return _class;
-}(__WEBPACK_IMPORTED_MODULE_1_react___default.a.Component);
+}(__WEBPACK_IMPORTED_MODULE_0_react___default.a.Component);
 
 /* harmony default export */ __webpack_exports__["default"] = (_class);
 
@@ -889,20 +544,6 @@ var routes = __webpack_require__("next-routes")();
 routes.add('itemsSearch', '/items', 'itemsSearch').add('items', '/items/:id', 'items');
 
 module.exports = routes;
-
-/***/ }),
-
-/***/ "./styles/Item.scss":
-/***/ (function(module, exports) {
-
-
-
-/***/ }),
-
-/***/ "./styles/categoryBox.scss":
-/***/ (function(module, exports) {
-
-
 
 /***/ }),
 
@@ -923,22 +564,8 @@ module.exports = routes;
 /***/ 2:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__("./pages/items.js");
+module.exports = __webpack_require__("./pages/index.js");
 
-
-/***/ }),
-
-/***/ "babel-runtime/regenerator":
-/***/ (function(module, exports) {
-
-module.exports = require("babel-runtime/regenerator");
-
-/***/ }),
-
-/***/ "isomorphic-fetch":
-/***/ (function(module, exports) {
-
-module.exports = require("isomorphic-fetch");
 
 /***/ }),
 
@@ -978,4 +605,4 @@ module.exports = require("styled-jsx/style");
 /***/ })
 
 /******/ });
-//# sourceMappingURL=items.js.map
+//# sourceMappingURL=index.js.map

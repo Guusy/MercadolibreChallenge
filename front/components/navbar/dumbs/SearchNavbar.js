@@ -12,7 +12,7 @@ export const SearchNavbar = (props) => {
                     <div className="col-12">
 
                         <div className="row">
-                            <div className=" col-2 col-sm-2 col-md-1">
+                            <div className=" col-3 col-sm-2 col-md-1 no-padd-xs-phone">
                                 <PrettyLink href='/'>
                                 <div id='box-logo-navbar'>
                                     <img src="../static/Logo_ML.png"/>
@@ -20,7 +20,7 @@ export const SearchNavbar = (props) => {
                                 </div>
                                 </PrettyLink>
                             </div>
-                            <div className=" col-10 col-sm-10 col-md-11">
+                            <div className=" col-9 col-sm-10 col-md-11 no-padd-xs-phone">
                                 <InputSearchNavbar/>
                             </div>
                         </div>

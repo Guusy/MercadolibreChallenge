@@ -40,7 +40,7 @@ export default class extends React.Component {
                     <div className="row">
                         <div className="col-12" id="content-item">
                             <div id="content-image-and-price">
-                                <div>
+                                <div id="sub-content-image">
                                     <img  src={item.picture} alt={item.title} className="w-100-phone img-item"/>
                                 </div>
                                 <div id='box-data-item'>
