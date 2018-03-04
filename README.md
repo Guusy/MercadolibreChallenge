@@ -3,12 +3,15 @@
   - [Setup](#setup)
 
 [Views](#views)
-    -[Search Item](#search-item)
+  - [Search Item](#search-item)
+
 [Technologies](#technologies)
   - [Back End](#back-end)
   - [Front End](#front-end)
 
 [Comments](#Comments)
+
+
 ## How to use
 
 ### Setup
@@ -48,9 +51,9 @@ NodeJs,Express
 React,Next,Sass
 ```
 
-##Views
+## Views
 
-###Search Item
+### Search Item
 
 > ![01](./readme-files/responsive-search.gif)
 

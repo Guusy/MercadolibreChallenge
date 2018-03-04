@@ -2,30 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b30cc216-b7bb-4381-b7b6-0ae993a74ff8" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change beforePath="$PROJECT_DIR$/front/.next/5.c43cf2f3a959ccd7aa36.hot-update.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/front/.next/5.c43cf2f3a959ccd7aa36.hot-update.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/front/.next/app.js" afterPath="$PROJECT_DIR$/front/.next/app.js" />
-      <change beforePath="$PROJECT_DIR$/front/.next/bundles/pages/index.js" afterPath="$PROJECT_DIR$/front/.next/bundles/pages/index.js" />
-      <change beforePath="$PROJECT_DIR$/front/.next/bundles/pages/index.js.map" afterPath="$PROJECT_DIR$/front/.next/bundles/pages/index.js.map" />
-      <change beforePath="$PROJECT_DIR$/front/.next/bundles/pages/itemsSearch.js" afterPath="$PROJECT_DIR$/front/.next/bundles/pages/itemsSearch.js" />
-      <change beforePath="$PROJECT_DIR$/front/.next/bundles/pages/itemsSearch.js.map" afterPath="$PROJECT_DIR$/front/.next/bundles/pages/itemsSearch.js.map" />
-      <change beforePath="$PROJECT_DIR$/front/.next/c43cf2f3a959ccd7aa36.hot-update.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/front/.next/dist/bundles/pages/index.js" afterPath="$PROJECT_DIR$/front/.next/dist/bundles/pages/index.js" />
-      <change beforePath="$PROJECT_DIR$/front/.next/dist/bundles/pages/index.js.map" afterPath="$PROJECT_DIR$/front/.next/dist/bundles/pages/index.js.map" />
-      <change beforePath="$PROJECT_DIR$/front/.next/dist/bundles/pages/itemsSearch.js" afterPath="$PROJECT_DIR$/front/.next/dist/bundles/pages/itemsSearch.js" />
-      <change beforePath="$PROJECT_DIR$/front/.next/dist/bundles/pages/itemsSearch.js.map" afterPath="$PROJECT_DIR$/front/.next/dist/bundles/pages/itemsSearch.js.map" />
-      <change beforePath="$PROJECT_DIR$/front/.next/manifest.js" afterPath="$PROJECT_DIR$/front/.next/manifest.js" />
-      <change beforePath="$PROJECT_DIR$/front/.next/manifest.js.map" afterPath="$PROJECT_DIR$/front/.next/manifest.js.map" />
-      <change beforePath="$PROJECT_DIR$/front/pages/index.js" afterPath="$PROJECT_DIR$/front/pages/index.js" />
-      <change beforePath="$PROJECT_DIR$/front/pages/items.js" afterPath="$PROJECT_DIR$/front/pages/items.js" />
-      <change beforePath="$PROJECT_DIR$/front/pages/itemsSearch.js" afterPath="$PROJECT_DIR$/front/pages/itemsSearch.js" />
-      <change beforePath="$PROJECT_DIR$/front/styles/Item.scss" afterPath="$PROJECT_DIR$/front/styles/Item.scss" />
-      <change beforePath="$PROJECT_DIR$/front/styles/categoryBox.scss" afterPath="$PROJECT_DIR$/front/styles/categoryBox.scss" />
-      <change beforePath="$PROJECT_DIR$/front/styles/gridSystem.scss" afterPath="$PROJECT_DIR$/front/styles/gridSystem.scss" />
-      <change beforePath="$PROJECT_DIR$/front/styles/layouts.scss" afterPath="$PROJECT_DIR$/front/styles/layouts.scss" />
-      <change beforePath="$PROJECT_DIR$/front/styles/variables.scss" afterPath="$PROJECT_DIR$/front/styles/variables.scss" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -127,8 +104,8 @@
       <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
-              <caret line="52" column="14" lean-forward="true" selection-start-line="52" selection-start-column="14" selection-end-line="52" selection-end-column="14" />
+            <state relative-caret-position="272">
+              <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -369,12 +346,12 @@
       <workItem from="1520030719872" duration="1911000" />
       <workItem from="1520085384309" duration="32840000" />
       <workItem from="1520173601453" duration="3507000" />
-      <workItem from="1520189174616" duration="6268000" />
+      <workItem from="1520189174616" duration="6623000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64995000" />
+    <option name="totallyTimeSpent" value="65350000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -745,8 +722,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="52" column="14" lean-forward="true" selection-start-line="52" selection-start-column="14" selection-end-line="52" selection-end-column="14" />
+        <state relative-caret-position="272">
+          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding />
         </state>
       </provider>
