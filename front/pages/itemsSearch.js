@@ -6,7 +6,7 @@ import configFile from '../configFile';
 import {PrettyLink} from '../components/tools/PrettyLink'
 import {BoxitemList} from '../components/items/dumbs/BoxItemList';
 import {CategoryBox} from '../components/items/dumbs/CategoryBox';
-
+import '../styles/itemSearch.scss';
 import {Router} from '../routes';
 
 
@@ -41,7 +41,7 @@ export default class itemSearch extends React.Component {
 
                 <div>
                     <div className='row'>
-                        <div className="col-12">
+                        <div className="col-12 no-padd-phone">
                             <CategoryBox categories={this.props.search.categories}/>
                         </div>
                     </div>

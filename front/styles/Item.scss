@@ -7,7 +7,7 @@ $width-image-item:680px;
 }
 
 #content-item{background-color:white;padding:$pixel32;}
-#img-item{
+.img-item{
   width:$width-image-item;
 }
 #box-condition-and-selled-item{
@@ -57,4 +57,18 @@ font-weight: bold;
   color: $lightGray;
   padding-top: $pixel32;
   padding-bottom: $pixel32;
+}
+
+@media (max-width: $laptop-xs){
+  .img-item {
+    width: 100%!important;
+  }
+}
+@media (max-width: $break-big-phone){
+  #sub-box-data-item{
+    max-width: 100%;
+  }
+  #box-data-item{
+    padding-left: 0px;
+  }
 }

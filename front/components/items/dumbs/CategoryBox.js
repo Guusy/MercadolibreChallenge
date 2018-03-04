@@ -6,7 +6,7 @@ export const CategoryBox = (props) => {
     let arrayLength = props.categories.length;
     let i = 0;
     return (
-        <div id='box-category-list'>
+        <div id='box-category-list' className="text-align-center-phone">
             {
 
                 props.categories.map(category => {

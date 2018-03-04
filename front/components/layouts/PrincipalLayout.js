@@ -1,7 +1,7 @@
 import Head from 'next/head';
 import {SearchNavbar} from "../navbar/dumbs/SearchNavbar";
 
-import '../../styles/style.scss';
+import '../../styles/layouts.scss';
 
 export default class PrincipalLayout extends React.Component{
 
@@ -13,7 +13,8 @@ export default class PrincipalLayout extends React.Component{
                <meta name="viewport" content="width=device-width; initial-scale=1.0;"/>
             <link rel="shortcut icon" href="../../static/favicon2.ico" type="image/x-icon"/>
                 <link rel="icon" href="../../static/favicon2.ico" type="image/x-icon"/>
-               <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"/>
+               {/*<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"/>*/}
+
 
             </Head>
             <SearchNavbar/>
@@ -28,21 +29,6 @@ export default class PrincipalLayout extends React.Component{
 
             </div>
 
-
-
-            <style jsx global>
-
-                {
-                    `
-
-
-            body{
-                background-color:#EEEEEE;
-            }
-
-            `
-                }
-            </style>
 
 
          

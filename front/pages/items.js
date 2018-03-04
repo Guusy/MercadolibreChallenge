@@ -32,7 +32,7 @@ export default class extends React.Component {
 
 
                     <div className='row'>
-                        <div className="col-12">
+                        <div className="col-12 no-padd-phone">
                             <CategoryBox categories={this.props.dataItem.categories}/>
                         </div>
                     </div>
@@ -41,10 +41,10 @@ export default class extends React.Component {
                         <div className="col-12" id="content-item">
                             <div id="content-image-and-price">
                                 <div>
-                                    <img id="img-item" src={item.picture} alt=""/>
+                                    <img  src={item.picture} alt={item.title} className="w-100-phone img-item"/>
                                 </div>
                                 <div id='box-data-item'>
-                                    <div id="sub-box-data-item">
+                                    <div id="sub-box-data-item" className="w-100-phone">
 
                                         <div id="box-condition-and-selled-item">
                                             {item.condition} - {item.sold_quantity} Vendidos
@@ -66,13 +66,13 @@ export default class extends React.Component {
                                 </div>
                             </div>
                             {item.description ?
-                                <div  id="box-description-item">
+                                <div  id="box-description-item" className="w-100-phone img-item">
                                     <div  >
                                         <div >
                                             <div  id='title-description-item'>Descripci&oacute;n del producto</div>
                                         </div>
                                         <div >
-                                            <div  id="content-description-item">
+                                            <div  id="content-description-item" cl>
                                                 {item.description}
                                             </div>
                                         </div>

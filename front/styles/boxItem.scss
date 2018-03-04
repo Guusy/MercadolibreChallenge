@@ -5,6 +5,9 @@
   margin-bottom:$pixel32;
 }
 #title-item-box-list{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
   font-size:$pixel18;}
 #box-item-list{
   position: relative;
@@ -13,8 +16,7 @@
   margin-right:5px;
   border-bottom: 2px solid $bodyColor;
 }
-#box-item-list>div{
-  display:inline-block;}
+
 
 .content-picture-item{
   padding:$pixel16;
@@ -29,7 +31,7 @@
 }
 #adrress-item-box-list{
   color:black;
-  position: absolute;
-  top: 45px;
-  right: 50px;
+  display: flex;
+  align-items: center;
 }
+

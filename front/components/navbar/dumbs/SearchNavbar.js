@@ -1,6 +1,6 @@
 import React from "react";
 import InputSearchNavbar from '../smarts/InputSearchNavbar';
-import '../../../styles/style.scss';
+import '../../../styles/navbar.scss';
 import {PrettyLink} from '../../tools/PrettyLink';
 export const SearchNavbar = (props) => {
 
@@ -12,7 +12,7 @@ export const SearchNavbar = (props) => {
                     <div className="col-12">
 
                         <div className="row">
-                            <div className="col-1">
+                            <div className=" col-2 col-sm-2 col-md-1">
                                 <PrettyLink href='/'>
                                 <div id='box-logo-navbar'>
                                     <img src="../static/Logo_ML.png"/>
@@ -20,7 +20,7 @@ export const SearchNavbar = (props) => {
                                 </div>
                                 </PrettyLink>
                             </div>
-                            <div className="col-11">
+                            <div className=" col-10 col-sm-10 col-md-11">
                                 <InputSearchNavbar/>
                             </div>
                         </div>

@@ -1,3 +1,9 @@
+@import "gridSystem";
+
+//Media Queries
+$break-big-phone:425px;
+$laptop-xs:1024px;
+
 //Pixels
 $pixel32:32px;
 $pixel16:16px;
@@ -16,3 +22,12 @@ $blackLetters:#333333;
 $bodyColor:#EEEEEE;
 $yellowColor:#FFE600;
 $whiteColor: white;
+//globalStylesheets
+body{
+  background-color:$bodyColor ;
+  padding: 0;
+  font-family: sans-serif;
+  margin: 0;
+}
+
+@import "mediaQueries";
