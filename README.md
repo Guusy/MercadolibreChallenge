@@ -2,9 +2,11 @@
 [How to use](#how-to-use)
   - [Setup](#setup)
 
-[Technologies](#Technologies)
-  - [Back End](#backend)
-  - [Front End](#frontend)
+[Views](#views)
+    -[Search Item](#search-item)
+[Technologies](#technologies)
+  - [Back End](#back-end)
+  - [Front End](#front-end)
 
 [Comments](#Comments)
 ## How to use
@@ -46,6 +48,13 @@ NodeJs,Express
 React,Next,Sass
 ```
 
+##Views
+
+###Search Item
+
+> ![01](./readme-files/responsive-search.gif)
+
+
 # Comments
 
 SEO:
@@ -58,4 +67,7 @@ En cuanto al enrutamiento de Nextjs a los links generados en la busqueda le agre
 para que al acceder la carga sea mucho mas rapida y tener un mejor experiencia de usuario
 
 Mensajes de error:
-http://localhost:3000/items?search=asjdiqiod
+http://localhost:3000/items?search=asjdiqiod (busqueda invalida)
+
+http://localhost:3000/items/MLA6218270596 (id invalido)
+

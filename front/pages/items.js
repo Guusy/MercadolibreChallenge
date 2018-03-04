@@ -3,6 +3,7 @@ import 'isomorphic-fetch';
 import PrincipalLayout from '../components/layouts/PrincipalLayout';
 import configFile from "../configFile";
 import {CategoryBox} from '../components/items/dumbs/CategoryBox';
+import {MessageError} from '../components/tools/MessageError';
 
 import '../styles/Item.scss';
 
@@ -11,15 +12,24 @@ export default class extends React.Component {
     static async getInitialProps(request) {
         const idItem = request.query.id;
 
-        let req = await fetch(`${configFile.apiExpress}/api/items/${idItem}`);
+        let req = await fetch(`${configFile.apiExpress}/api/items/${idItem}`),
+            dataItem = await req.json(),
+            problem404=false,
+            problem500=false;
 
-
-        let dataItem = await req.json();
-        console.log(dataItem)
+        console.log(req.status)
+        console
         if(req.status!==200){
+
+            if(dataItem.statusCode===404){
+                problem404=true
+            }else{
+                problem500=true
+            }
             dataItem=false;
         }
-        return {dataItem: dataItem}
+
+        return {dataItem: dataItem,problem500:problem500,problem404:problem404,idItem:idItem}
 
 
     }
@@ -72,7 +82,8 @@ export default class extends React.Component {
                                             <div  id='title-description-item'>Descripci&oacute;n del producto</div>
                                         </div>
                                         <div >
-                                            <div  id="content-description-item" cl>
+                                            <div  id="content-description-item" >
+
                                                 {item.description}
                                             </div>
                                         </div>
@@ -86,7 +97,8 @@ export default class extends React.Component {
                 </div>
 
 
-                :"problem"}
+                : this.props.problem404 ?<MessageError message={`El producto con el id ${this.props.idItem} no existe`}/>
+                   :'500'}
 
 
 

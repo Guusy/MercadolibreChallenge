@@ -8,6 +8,7 @@ import {BoxitemList} from '../components/items/dumbs/BoxItemList';
 import {CategoryBox} from '../components/items/dumbs/CategoryBox';
 import '../styles/itemSearch.scss';
 import {Router} from '../routes';
+import {MessageError} from "../components/tools/MessageError";
 
 
 export default class itemSearch extends React.Component {
@@ -63,11 +64,7 @@ export default class itemSearch extends React.Component {
 
                 :
 
-                <div>
-                    <div id="box-item-not-found">
-                        Lo sentimos, no encontramos ningun resultado para la busqueda : {this.props.querySearch}
-                    </div>
-                </div>
+                <MessageError message={`Lo sentimos, no encontramos ningun resultado para la busqueda : ${this.props.querySearch}`}/>
 
 
             }

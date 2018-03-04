@@ -7,9 +7,7 @@ $width-image-item:680px;
 }
 
 #content-item{background-color:white;padding:$pixel32;}
-.img-item{
-  width:$width-image-item;
-}
+
 #box-condition-and-selled-item{
   margin-top:$pixel32;
   margin-bottom:$pixel16;
@@ -59,6 +57,12 @@ font-weight: bold;
   padding-bottom: $pixel32;
 }
 
+@media (min-width: 1202px){
+  .img-item{
+    width:$width-image-item;
+  }
+}
+
 @media (max-width: $laptop-xs){
   .img-item {
     width: 100%!important;
@@ -77,6 +81,10 @@ font-weight: bold;
   }
 
   #box-title-item{font-size: $pixel16}
+}
+@media (max-width: $break-tablet) {
+  #sub-box-data-item{max-width: 100%}
+
 }
 @media (max-width: $break-big-phone){
   #content-item{padding: 10px;}
