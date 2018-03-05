@@ -4,31 +4,30 @@ import React from "react";
 export const PrettyLink = (props) => {
 
 
-        return (
-            <Link prefetch  href={props.href}>
-                <a>
-                    {props.children}
+    return (
+        <Link prefetch href={props.href}>
+            <a>
+                {props.children}
 
-                    <style jsx>{
-                        `
+                <style jsx>{
+                    `
         a{
             text-decoration:none;
             color:transparent;
         }
-        a:hove{
+        a:hover{
         color:transparent;
         }
 
 
             `
-                    }
+                }
 
-                    </style>
-                </a>
+                </style>
+            </a>
 
-            </Link>
-        )
-
+        </Link>
+    )
 
 
 }

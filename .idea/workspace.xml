@@ -2,19 +2,94 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b30cc216-b7bb-4381-b7b6-0ae993a74ff8" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/front/.next/94b0f49e130e02b7da9e.hot-update.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/front/node_modules/.cache/babel-loader/00e9bd8eeacde9ac1626272c72c5433b87be4ce4.json.gz" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/front/node_modules/.cache/babel-loader/0d4917cc313fdd85f771b89aeefcf89d939b6bc3.json.gz" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/front/node_modules/.cache/babel-loader/108391f6b29b97be406eda83cb167b39fca9829b.json.gz" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/front/node_modules/.cache/babel-loader/10fa8c17eedc496c53d11b54b005c9ef1a8e87fe.json.gz" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/front/node_modules/.cache/babel-loader/12a241bef6b1fb53262d3124410ae0dab6783cf9.json.gz" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/front/node_modules/.cache/babel-loader/133f228f374140a3606c3035bb300d8b355461fe.json.gz" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/front/node_modules/.cache/babel-loader/1487414d750f3f2c5e1890593b384972b8ef920d.json.gz" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/front/node_modules/.cache/babel-loader/15c3f6fff24c4652753f6c640680dfa7c1c6d3a9.json.gz" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/front/node_modules/.cache/babel-loader/17eca21d49f7f3c7c63bc8369927a98cefbf6dc7.json.gz" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/front/node_modules/.cache/babel-loader/18d2d6b19c1553b0162099430edb789df063b635.json.gz" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/front/node_modules/.cache/babel-loader/1e81c1c24630514d667b1f0c39c3b3c0770bf5d6.json.gz" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/front/node_modules/.cache/babel-loader/1f7d9b894d0a65cb893cdc284a1b8d81595a7bc3.json.gz" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/front/node_modules/.cache/babel-loader/20521e792d02a4beaf85da16ce906ee37c2b7e3a.json.gz" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/front/node_modules/.cache/babel-loader/207658bb36819913372c16389ed80f537715fd13.json.gz" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/front/node_modules/.cache/babel-loader/226a651caacbe8c5f4fc6861c23ad49419e649e1.json.gz" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/front/node_modules/.cache/babel-loader/290ba0db35bc03daf149f87ca771f1d4690ddd74.json.gz" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/front/node_modules/.cache/babel-loader/2ac326e0d0a3967716c7a8714a917d7756a72029.json.gz" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/front/node_modules/.cache/babel-loader/2c19058b1b0a2f7988b198d038bfec107172dc10.json.gz" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/front/node_modules/.cache/babel-loader/2f1b89ea3b514ae1f83c0be7206e5c7bb7062bd4.json.gz" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/front/node_modules/.cache/babel-loader/3a96f592f5a28286562b52782a9c8059e5badcfa.json.gz" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/front/node_modules/.cache/babel-loader/45c19598d5d5620ada969d18425c41e1965282d7.json.gz" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/front/node_modules/.cache/babel-loader/479a6b82236f7852b18e45d766a77e2fb27da6d3.json.gz" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/front/node_modules/.cache/babel-loader/4e1827fc55e86e973c8a6b98f4bcbabb421d5755.json.gz" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/front/node_modules/.cache/babel-loader/4e8ea9045f0f74fe5ab72db9e64a60146429269a.json.gz" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/front/node_modules/.cache/babel-loader/56f38d96aeeaf9f08dc7d065552b60e553353250.json.gz" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/front/node_modules/.cache/babel-loader/5a0ec17b07456f9e4b12a1d34a5eb8a0e61f1b32.json.gz" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/front/node_modules/.cache/babel-loader/5d27e0f81fdfa1ef7d1bdd9db2bf2af120a0fd8e.json.gz" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/front/node_modules/.cache/babel-loader/64dc8a1173c5ab3b8a6b08ca9603202fd95bbfcc.json.gz" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/front/node_modules/.cache/babel-loader/67213cfb67d3d68e5e33c898dfe59906195d92c6.json.gz" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/front/node_modules/.cache/babel-loader/68e0963278dbb06886429de642339e66d64389c8.json.gz" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/front/node_modules/.cache/babel-loader/7cd4c0c03ceb240b705aae92553317ed1fa0f91a.json.gz" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/front/node_modules/.cache/babel-loader/86700f11b4cf3b5593dbbb413fed1c43f49be648.json.gz" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/front/node_modules/.cache/babel-loader/8deb161f6501ca600b06841dfd8524a34798f02e.json.gz" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/front/node_modules/.cache/babel-loader/8e935a898382e9fcd38d7ea8a07ce0e3620946ed.json.gz" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/front/node_modules/.cache/babel-loader/a52a259c164dcf025cae3e9094abc166528acdbd.json.gz" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/front/node_modules/.cache/babel-loader/a8737bc85b6987e82b5da11336adad758fdb035a.json.gz" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/front/node_modules/.cache/babel-loader/a9db34f3e3511bff4e9e54c56fcc8fde063f5c8d.json.gz" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/front/node_modules/.cache/babel-loader/ab4cf95f276f4d750369c4fb04c5540f4f35ca18.json.gz" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/front/node_modules/.cache/babel-loader/b7fce2b1459cebbb7f7f006def56515a92173021.json.gz" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/front/node_modules/.cache/babel-loader/bd01fcae73b544f46ed62f28abb6e0ff7ecce15e.json.gz" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/front/node_modules/.cache/babel-loader/bfbd1c5c10ba6611c2296967de351d086db8e0fb.json.gz" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/front/node_modules/.cache/babel-loader/bfcd5013348f21ee3f95b39a9d473fec0d11fc47.json.gz" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/front/node_modules/.cache/babel-loader/c6357865e5430d64458d9f9ccaa9d2a83d59ded9.json.gz" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/front/node_modules/.cache/babel-loader/c67e7e8fc9a410b2124004e2603ece3b5bdc9a09.json.gz" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/front/node_modules/.cache/babel-loader/d1cf82092ad978cd7d766fe2df6d7d7c463b5f27.json.gz" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/front/node_modules/.cache/babel-loader/d33d1af3322508f64f14b7e550dd7267e7147aa8.json.gz" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/front/node_modules/.cache/babel-loader/d4c887df91f36322a2bf73081ff35c8568dc5e19.json.gz" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/front/node_modules/.cache/babel-loader/d6991dfed2e0821554c39afd9bcce8e92c673f74.json.gz" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/front/node_modules/.cache/babel-loader/e28a59c0f678a8b7a95bcb4deacccd3a85abde1d.json.gz" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/front/node_modules/.cache/babel-loader/e3b780302558af3136aa91bf27353b8f0e025e6b.json.gz" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/front/node_modules/.cache/babel-loader/e54909aba8922bd8f08a955b6cefb20d908d3dbc.json.gz" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/front/node_modules/.cache/babel-loader/e70f0b7331c8a61717e839baddaf4f380965e697.json.gz" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/front/node_modules/.cache/babel-loader/ee51e3a3073253c86ae975226ce8036bddffaab8.json.gz" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/front/node_modules/.cache/babel-loader/eefa3bfc5304a075eb253ae76194b2568e49a45a.json.gz" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/front/node_modules/.cache/babel-loader/f1e9920834edcf583ed7815d11d1babb8a6076b1.json.gz" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/front/node_modules/.cache/babel-loader/f1fa648713158be886d15544ea7933e55f666122.json.gz" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/front/node_modules/.cache/babel-loader/f49a2460465c1b42bf1de00ff2a50ad511bba0f5.json.gz" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/front/node_modules/.cache/babel-loader/f64dca40983dfc99586a273b5f1c85d9fc76e165.json.gz" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/front/styles/searchNavbar.scss" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change beforePath="$PROJECT_DIR$/front/.next/6.97f7344f7da8bc3fe0e3.hot-update.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/front/.next/6.97f7344f7da8bc3fe0e3.hot-update.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/front/.next/97f7344f7da8bc3fe0e3.hot-update.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/backend/routes/api.js" afterPath="$PROJECT_DIR$/backend/routes/api.js" />
+      <change beforePath="$PROJECT_DIR$/front/.next/4.cf8799ea956a0edf4f2b.hot-update.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/front/.next/4.cf8799ea956a0edf4f2b.hot-update.js.map" afterPath="" />
       <change beforePath="$PROJECT_DIR$/front/.next/app.js" afterPath="$PROJECT_DIR$/front/.next/app.js" />
-      <change beforePath="$PROJECT_DIR$/front/.next/bundles/pages/index.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/front/.next/bundles/pages/index.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/front/.next/dist/bundles/pages/index.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/front/.next/dist/bundles/pages/index.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/front/.next/bundles/pages/items.js" afterPath="$PROJECT_DIR$/front/.next/bundles/pages/items.js" />
+      <change beforePath="$PROJECT_DIR$/front/.next/bundles/pages/items.js.map" afterPath="$PROJECT_DIR$/front/.next/bundles/pages/items.js.map" />
+      <change beforePath="$PROJECT_DIR$/front/.next/bundles/pages/itemsSearch.js" afterPath="$PROJECT_DIR$/front/.next/bundles/pages/itemsSearch.js" />
+      <change beforePath="$PROJECT_DIR$/front/.next/bundles/pages/itemsSearch.js.map" afterPath="$PROJECT_DIR$/front/.next/bundles/pages/itemsSearch.js.map" />
+      <change beforePath="$PROJECT_DIR$/front/.next/cf8799ea956a0edf4f2b.hot-update.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/front/.next/dist/bundles/pages/items.js" afterPath="$PROJECT_DIR$/front/.next/dist/bundles/pages/items.js" />
+      <change beforePath="$PROJECT_DIR$/front/.next/dist/bundles/pages/items.js.map" afterPath="$PROJECT_DIR$/front/.next/dist/bundles/pages/items.js.map" />
+      <change beforePath="$PROJECT_DIR$/front/.next/dist/bundles/pages/itemsSearch.js" afterPath="$PROJECT_DIR$/front/.next/dist/bundles/pages/itemsSearch.js" />
+      <change beforePath="$PROJECT_DIR$/front/.next/dist/bundles/pages/itemsSearch.js.map" afterPath="$PROJECT_DIR$/front/.next/dist/bundles/pages/itemsSearch.js.map" />
       <change beforePath="$PROJECT_DIR$/front/.next/manifest.js" afterPath="$PROJECT_DIR$/front/.next/manifest.js" />
       <change beforePath="$PROJECT_DIR$/front/.next/manifest.js.map" afterPath="$PROJECT_DIR$/front/.next/manifest.js.map" />
-      <change beforePath="$PROJECT_DIR$/front/styles/Item.scss" afterPath="$PROJECT_DIR$/front/styles/Item.scss" />
+      <change beforePath="$PROJECT_DIR$/front/components/items/dumbs/CategoryBox.js" afterPath="$PROJECT_DIR$/front/components/items/dumbs/CategoryBox.js" />
+      <change beforePath="$PROJECT_DIR$/front/components/layouts/PrincipalLayout.js" afterPath="$PROJECT_DIR$/front/components/layouts/PrincipalLayout.js" />
+      <change beforePath="$PROJECT_DIR$/front/components/navbar/dumbs/SearchNavbar.js" afterPath="$PROJECT_DIR$/front/components/navbar/dumbs/SearchNavbar.js" />
+      <change beforePath="$PROJECT_DIR$/front/components/navbar/smarts/InputSearchNavbar.js" afterPath="$PROJECT_DIR$/front/components/navbar/smarts/InputSearchNavbar.js" />
+      <change beforePath="$PROJECT_DIR$/front/components/tools/MessageError.js" afterPath="$PROJECT_DIR$/front/components/tools/MessageError.js" />
+      <change beforePath="$PROJECT_DIR$/front/components/tools/PrettyLink.js" afterPath="$PROJECT_DIR$/front/components/tools/PrettyLink.js" />
+      <change beforePath="$PROJECT_DIR$/front/pages/items.js" afterPath="$PROJECT_DIR$/front/pages/items.js" />
+      <change beforePath="$PROJECT_DIR$/front/pages/itemsSearch.js" afterPath="$PROJECT_DIR$/front/pages/itemsSearch.js" />
+      <change beforePath="$PROJECT_DIR$/front/pages/test.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/front/styles/itemSearch.scss" afterPath="$PROJECT_DIR$/front/styles/itemSearch.scss" />
+      <change beforePath="$PROJECT_DIR$/front/styles/navbar.scss" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -31,21 +106,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="variables.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/front/styles/variables.scss">
+      <file leaf-file-name="itemsSearch.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/front/pages/itemsSearch.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="96">
+              <caret line="16" column="19" lean-forward="false" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="19" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="items.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/front/pages/items.js">
+      <file leaf-file-name="MessageError.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/front/components/tools/MessageError.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="99" column="121" lean-forward="false" selection-start-line="99" selection-start-column="121" selection-end-line="99" selection-end-column="121" />
+            <state relative-caret-position="256">
+              <caret line="16" column="20" lean-forward="false" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PrettyLink.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/front/components/tools/PrettyLink.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="213">
+              <caret line="17" column="15" lean-forward="false" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="15" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SearchNavbar.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/front/components/navbar/dumbs/SearchNavbar.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="368">
+              <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -53,11 +148,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="categoryBox.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/front/styles/categoryBox.scss">
+      <file leaf-file-name="items.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/front/pages/items.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="24" column="17" lean-forward="false" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
+            <state relative-caret-position="139">
+              <caret line="35" column="12" lean-forward="false" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="searchNavbar.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/front/styles/searchNavbar.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="32">
+              <caret line="2" column="19" lean-forward="false" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="InputSearchNavbar.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/front/components/navbar/smarts/InputSearchNavbar.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="64">
+              <caret line="43" column="143" lean-forward="false" selection-start-line="43" selection-start-column="143" selection-end-line="43" selection-end-column="143" />
               <folding />
             </state>
           </provider>
@@ -66,48 +181,18 @@
       <file leaf-file-name="api.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/backend/routes/api.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1829">
-              <caret line="125" column="102" lean-forward="false" selection-start-line="125" selection-start-column="102" selection-end-line="125" selection-end-column="102" />
+            <state relative-caret-position="139">
+              <caret line="114" column="8" lean-forward="false" selection-start-line="114" selection-start-column="8" selection-end-line="114" selection-end-column="8" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="gridSystem.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/front/styles/gridSystem.scss">
+      <file leaf-file-name="CategoryBox.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/front/components/items/dumbs/CategoryBox.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="263" lean-forward="false" selection-start-line="0" selection-start-column="263" selection-end-line="0" selection-end-column="263" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="layouts.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/front/styles/layouts.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="21" lean-forward="false" selection-start-line="0" selection-start-column="21" selection-end-line="0" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Item.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/front/styles/Item.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="57" column="19" lean-forward="false" selection-start-line="57" selection-start-column="19" selection-end-line="57" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="itemsSearch.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/front/pages/itemsSearch.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="66" column="105" lean-forward="false" selection-start-line="66" selection-start-column="105" selection-end-line="66" selection-end-column="105" />
+            <state relative-caret-position="256">
+              <caret line="18" column="94" lean-forward="false" selection-start-line="18" selection-start-column="94" selection-end-line="18" selection-end-column="94" />
               <folding />
             </state>
           </provider>
@@ -116,8 +201,8 @@
       <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="65" column="38" lean-forward="false" selection-start-line="65" selection-start-column="38" selection-end-line="65" selection-end-column="38" />
+            <state relative-caret-position="365">
+              <caret line="120" column="49" lean-forward="true" selection-start-line="120" selection-start-column="49" selection-end-line="120" selection-end-column="49" />
               <folding />
             </state>
           </provider>
@@ -135,6 +220,8 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>container</find>
+      <find>console</find>
+      <find>realize</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -151,34 +238,35 @@
         <option value="$PROJECT_DIR$/front/next.config.js" />
         <option value="$PROJECT_DIR$/front/.babelrc.js" />
         <option value="$PROJECT_DIR$/front/pages/test.js" />
-        <option value="$PROJECT_DIR$/front/components/tools/PrettyLink.js" />
         <option value="$PROJECT_DIR$/front/routes.js" />
         <option value="$PROJECT_DIR$/front/.babelrc" />
         <option value="$PROJECT_DIR$/front/configFile.js" />
         <option value="$PROJECT_DIR$/backend/config/configFile.js" />
         <option value="$PROJECT_DIR$/front/styles/_test.scss" />
         <option value="$PROJECT_DIR$/front/pages/_document.js" />
-        <option value="$PROJECT_DIR$/front/components/navbar/smarts/InputSearchNavbar.js" />
-        <option value="$PROJECT_DIR$/front/components/items/dumbs/CategoryBox.js" />
         <option value="$PROJECT_DIR$/front/styles/style.scss" />
-        <option value="$PROJECT_DIR$/front/styles/itemSearch.scss" />
         <option value="$PROJECT_DIR$/front/styles/navbar.scss" />
-        <option value="$PROJECT_DIR$/front/components/layouts/PrincipalLayout.js" />
         <option value="$PROJECT_DIR$/front/styles/mediaQueries.scss" />
-        <option value="$PROJECT_DIR$/front/components/navbar/dumbs/SearchNavbar.js" />
         <option value="$PROJECT_DIR$/front/components/items/dumbs/BoxItemList.js" />
         <option value="$PROJECT_DIR$/front/styles/boxItem.scss" />
         <option value="$PROJECT_DIR$/front/pages/index.js" />
         <option value="$PROJECT_DIR$/front/components/tools/messageError.js" />
-        <option value="$PROJECT_DIR$/front/pages/items.js" />
-        <option value="$PROJECT_DIR$/front/components/tools/MessageError.js" />
-        <option value="$PROJECT_DIR$/front/pages/itemsSearch.js" />
-        <option value="$PROJECT_DIR$/backend/routes/api.js" />
-        <option value="$PROJECT_DIR$/front/styles/variables.scss" />
         <option value="$PROJECT_DIR$/front/styles/layouts.scss" />
         <option value="$PROJECT_DIR$/front/styles/gridSystem.scss" />
         <option value="$PROJECT_DIR$/front/styles/categoryBox.scss" />
         <option value="$PROJECT_DIR$/front/styles/Item.scss" />
+        <option value="$PROJECT_DIR$/front/styles/variables.scss" />
+        <option value="$PROJECT_DIR$/front/pages/items.js" />
+        <option value="$PROJECT_DIR$/front/components/layouts/PrincipalLayout.js" />
+        <option value="$PROJECT_DIR$/front/styles/itemSearch.scss" />
+        <option value="$PROJECT_DIR$/front/styles/searchNavbar.scss" />
+        <option value="$PROJECT_DIR$/front/components/navbar/dumbs/SearchNavbar.js" />
+        <option value="$PROJECT_DIR$/front/components/tools/PrettyLink.js" />
+        <option value="$PROJECT_DIR$/front/components/tools/MessageError.js" />
+        <option value="$PROJECT_DIR$/front/pages/itemsSearch.js" />
+        <option value="$PROJECT_DIR$/front/components/navbar/smarts/InputSearchNavbar.js" />
+        <option value="$PROJECT_DIR$/front/components/items/dumbs/CategoryBox.js" />
+        <option value="$PROJECT_DIR$/backend/routes/api.js" />
         <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
@@ -194,7 +282,7 @@
     <handled-path value="$PROJECT_DIR$/front/node_modules" />
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="676" />
     <option name="width" value="697" />
     <option name="height" value="735" />
@@ -229,6 +317,12 @@
               <item name="dev" type="b2602c69:ProjectViewProjectNode" />
               <item name="dev" type="462c0819:PsiDirectoryNode" />
               <item name="backend" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dev" type="462c0819:PsiDirectoryNode" />
+              <item name="backend" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="dev" type="b2602c69:ProjectViewProjectNode" />
@@ -358,24 +452,25 @@
       <workItem from="1520030719872" duration="1911000" />
       <workItem from="1520085384309" duration="32840000" />
       <workItem from="1520173601453" duration="3507000" />
-      <workItem from="1520189174616" duration="7596000" />
+      <workItem from="1520189174616" duration="15525000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="66323000" />
+    <option name="totallyTimeSpent" value="74252000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1552" height="840" extended-state="7" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14787701" sideWeight="0.47487438" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13151042" sideWeight="0.47487438" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36925516" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3204952" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14860907" sideWeight="0.5251256" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -400,14 +495,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/front/components/navbar/dumbs/SearchNavbar.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="26" column="33" lean-forward="false" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/front/pages/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="864">
@@ -462,6 +549,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="48">
           <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="33" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -510,32 +598,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/front/.babelrc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="13" column="1" lean-forward="false" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/front/configFile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="16">
-          <caret line="1" column="39" lean-forward="true" selection-start-line="1" selection-start-column="39" selection-end-line="1" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/front/routes.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="64">
           <caret line="4" column="36" lean-forward="false" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/config/configFile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="6" column="14" lean-forward="false" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
         </state>
       </provider>
     </entry>
@@ -544,13 +610,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-480">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/front/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="24" column="3" lean-forward="false" selection-start-line="24" selection-start-column="3" selection-end-line="24" selection-end-column="3" />
         </state>
       </provider>
     </entry>
@@ -563,36 +622,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/front/components/navbar/smarts/InputSearchNavbar.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="53" column="32" lean-forward="false" selection-start-line="53" selection-start-column="32" selection-end-line="53" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/front/components/items/dumbs/CategoryBox.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="8" column="70" lean-forward="false" selection-start-line="8" selection-start-column="70" selection-end-line="8" selection-end-column="70" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/front/styles/style.scss" />
-    <entry file="file://$PROJECT_DIR$/front/styles/navbar.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/front/components/layouts/PrincipalLayout.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/backend/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -610,94 +640,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/front/styles/itemSearch.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/front/styles/boxItem.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-125">
-          <caret line="47" column="2" lean-forward="false" selection-start-line="47" selection-start-column="2" selection-end-line="47" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/front/pages/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/front/components/tools/PrettyLink.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="27" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="33" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#29#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/front/components/tools/MessageError.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="17" column="94" lean-forward="false" selection-start-line="17" selection-start-column="94" selection-end-line="17" selection-end-column="94" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/front/components/navbar/dumbs/SearchNavbar.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="14" column="85" lean-forward="false" selection-start-line="14" selection-start-column="85" selection-end-line="14" selection-end-column="85" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/front/pages/itemsSearch.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="66" column="105" lean-forward="false" selection-start-line="66" selection-start-column="105" selection-end-line="66" selection-end-column="105" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/front/pages/items.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="99" column="121" lean-forward="false" selection-start-line="99" selection-start-column="121" selection-end-line="99" selection-end-column="121" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/front/styles/variables.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/front/styles/layouts.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="21" lean-forward="false" selection-start-line="0" selection-start-column="21" selection-end-line="0" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/front/styles/gridSystem.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="263" lean-forward="false" selection-start-line="0" selection-start-column="263" selection-end-line="0" selection-end-column="263" />
           <folding />
         </state>
       </provider>
@@ -715,26 +661,180 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backend/routes/api.js">
+    <entry file="file://$PROJECT_DIR$/front/styles/boxItem.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1829">
-          <caret line="125" column="102" lean-forward="false" selection-start-line="125" selection-start-column="102" selection-end-line="125" selection-end-column="102" />
+        <state relative-caret-position="752">
+          <caret line="47" column="2" lean-forward="false" selection-start-line="47" selection-start-column="2" selection-end-line="47" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/configFile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16">
+          <caret line="1" column="39" lean-forward="false" selection-start-line="1" selection-start-column="39" selection-end-line="1" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/config/configFile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="2" column="49" lean-forward="false" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/styles/variables.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-429">
+          <caret line="2" column="1" lean-forward="false" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/components/layouts/PrincipalLayout.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="24" column="3" lean-forward="false" selection-start-line="24" selection-start-column="3" selection-end-line="24" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/pages/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/front/styles/Item.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
+        <state relative-caret-position="659">
           <caret line="57" column="19" lean-forward="false" selection-start-line="57" selection-start-column="19" selection-end-line="57" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/styles/gridSystem.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="47" lean-forward="false" selection-start-line="0" selection-start-column="43" selection-end-line="0" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/styles/itemSearch.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="20" lean-forward="false" selection-start-line="0" selection-start-column="20" selection-end-line="0" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/.babelrc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="13" column="1" lean-forward="false" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/styles/navbar.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/styles/searchNavbar.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="2" column="19" lean-forward="false" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/components/navbar/smarts/InputSearchNavbar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="43" column="143" lean-forward="false" selection-start-line="43" selection-start-column="143" selection-end-line="43" selection-end-column="143" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/components/items/dumbs/CategoryBox.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="18" column="94" lean-forward="false" selection-start-line="18" selection-start-column="94" selection-end-line="18" selection-end-column="94" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/routes/api.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="114" column="8" lean-forward="false" selection-start-line="114" selection-start-column="8" selection-end-line="114" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/pages/items.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="35" column="12" lean-forward="false" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/components/navbar/dumbs/SearchNavbar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/components/tools/PrettyLink.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="17" column="15" lean-forward="false" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/components/tools/MessageError.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="16" column="20" lean-forward="false" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/pages/itemsSearch.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="16" column="19" lean-forward="false" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="65" column="38" lean-forward="false" selection-start-line="65" selection-start-column="38" selection-end-line="65" selection-end-column="38" />
+        <state relative-caret-position="365">
+          <caret line="120" column="49" lean-forward="true" selection-start-line="120" selection-start-column="49" selection-end-line="120" selection-end-column="49" />
           <folding />
         </state>
       </provider>

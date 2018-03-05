@@ -12,10 +12,9 @@ export const MessageError = (props) => {
             </div>
 
 
-
             <style jsx>{
                 `
-       #box-item-not-found{background-color:white;padding:15px;text-align:center;margin-top:2%}
+                    #box-item-not-found{background-color:white;padding:15px;text-align:center;margin-top:2%}
             `
             }
 
@@ -24,9 +23,7 @@ export const MessageError = (props) => {
         </div>
 
 
-
     )
-
 
 
 };

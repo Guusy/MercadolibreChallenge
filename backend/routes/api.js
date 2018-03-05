@@ -3,65 +3,71 @@ const config = require("../config/configFile");
 const express = require('express');
 const router = express.Router();
 const requestPromise = require('request-promise');
-const accessTokenMercadolibre= 'APP_USR-8465775776257699-030310-f0c776fe9c385bd2c0db11f4c684af56__M_G__-192554493';
-const aceptableSizeImage='499';
-const parsePrice = (amount,currency) =>{
-
-   let arrayAmount=amount.toString().split(".");
 
 
-    return{
-        currency:currency,
-        amount:arrayAmount[0].replace(/(\d)(?=(\d{3})+(?!\d))/g, "$1."),
-        decimals:(arrayAmount[1]===undefined) ? '00':arrayAmount[1]
+const aceptableSizeImage = '499';
+const numberOfLimitResults='4';
+
+//function to get decimals in specific item
+const parsePrice = (amount, currency) => {
+
+    let arrayAmount = amount.toString().split(".");
+    return {
+        currency: currency,
+        amount: arrayAmount[0].replace(/(\d)(?=(\d{3})+(?!\d))/g, "$1."),
+        decimals: (arrayAmount[1] === undefined) ? '00' : arrayAmount[1]
     }
 };
-const getTheBestPicture = (arrayPictures) =>{
 
-  let niceImage=  arrayPictures.find(picture=>{
-     let arraySize =picture.size.split("x");
+//function to get the resolution picture for a specific item
+const getTheBestPicture = (arrayPictures) => {
+
+    let niceImage = arrayPictures.find(picture => {
+        let arraySize = picture.size.split("x");
         return arraySize[0] > aceptableSizeImage && arraySize[1] > aceptableSizeImage
-});
-    if(niceImage===undefined){
+    });
+    if (niceImage === undefined) {
         return arrayPictures[0].secure_url
-    }else{
+    } else {
         return niceImage.secure_url
 
     }
 
 };
 
-const formatItem =  (arrayToGetData,individualItem) =>{
+//function to format object to return at front end.
+const formatItem = (arrayToGetData, individualItem) => {
 
-    return{
-    author:{
-        name: '',
-        lastname: ''
-    },
+    return {
+        author: {
+            name: '',
+            lastname: ''
+        },
         id: arrayToGetData.id,
         title: arrayToGetData.title,
-        price: parsePrice(arrayToGetData.price,arrayToGetData.currency_id),
+        price: parsePrice(arrayToGetData.price, arrayToGetData.currency_id),
         picture: (individualItem) ? getTheBestPicture(arrayToGetData.pictures) : arrayToGetData.thumbnail,
-        condition: (arrayToGetData.condition==='new')? "Nuevo" : (arrayToGetData.condition==='used' ) ? "Usado":"No especificado",
-        sold_quantity:arrayToGetData.sold_quantity,
+        condition: (arrayToGetData.condition === 'new') ? "Nuevo" : (arrayToGetData.condition === 'used') ? "Usado" : "No especificado",
+        sold_quantity: arrayToGetData.sold_quantity,
         free_shipping: arrayToGetData.shipping.free_shipping,
-        state_name: (!individualItem) ? arrayToGetData.address.state_name :''
+        state_name: (!individualItem) ? arrayToGetData.address.state_name : ''
 
     }
 };
 
-const disarmCategories = (arrayCategories) =>arrayCategories.map(category=> category.name);
+//function to disarm array of categories
+const disarmCategories = (arrayCategories) => arrayCategories.map(category => category.name);
 
-
+//get list of items about a query
 router.get('/items', function (req, res) {
     const item = req.query.q;
-    
+
     if (item === undefined) {
         res.status(400).json("Bad Request")
     } else {
         let optionsRequestPromise = {
             method: 'GET',
-            uri: `${config.apiMercadoLibre}/sites/MLA/search?q=${item}`,
+            uri: `${config.apiMercadoLibre}/sites/MLA/search?q=${item}&limit=${numberOfLimitResults}`,
             resolveWithFullResponse: true
         };
         requestPromise(optionsRequestPromise)
@@ -69,12 +75,19 @@ router.get('/items', function (req, res) {
                 //go to map result and get a new object to send to the front
 
                 const bodyRequest = JSON.parse(resultQuerySearchItem.body)
-                if (bodyRequest.results.length>0) {
 
-                    
-                    let objectCategories = bodyRequest.filters.find(filter => filter.id === 'category');
+                if (bodyRequest.results.length > 0) {
 
-                    let arrayCategories = objectCategories.values.map(value =>disarmCategories(value.path_from_root));
+                    let objectCategories='',
+                    arrayCategories=[false];
+
+                    if(bodyRequest.filters.length>0){
+
+                        objectCategories = bodyRequest.filters.find(filter => filter.id === 'category');
+
+                         arrayCategories = objectCategories.values.map(value => disarmCategories(value.path_from_root));
+                    }
+
 
                     let objectReturn = {
                         author: {
@@ -82,10 +95,10 @@ router.get('/items', function (req, res) {
                             lastname: ''
                         },
                         categories: arrayCategories[0],
-                        items :bodyRequest.results.map(item => formatItem(item,false))
+                        items: bodyRequest.results.map(item => formatItem(item, false))
                     };
 
-                    
+
                     res.status(200).json(objectReturn);
                 } else {
                     res.status(404).json("Not found")
@@ -96,8 +109,10 @@ router.get('/items', function (req, res) {
     }
 
 });
+
+//get information of item
 router.get('/items/:id', function (req, res) {
-    const id = (req.params.id).replace(/ /g,'');
+    const id = (req.params.id).replace(/ /g, '');
 
     if (id === undefined) {
         res.status(400).json("Bad Request")
@@ -110,27 +125,24 @@ router.get('/items/:id', function (req, res) {
         };
 
 
-
         requestPromise(optionsFirstPromise)
             .then(principalDataItem => {
-
 
                 const principalDataItemJson = JSON.parse(principalDataItem.body);
 
                 if (principalDataItem.statusCode === 200) {
 
-
-                    let dataReturn =formatItem(principalDataItemJson,true),
-                        optionsSecondPromiseCategories ={
-                        method: 'GET',
-                        uri: `${config.apiMercadoLibre}/categories/${principalDataItemJson.category_id}`,
-                        resolveWithFullResponse: true
-                    },
+                    let dataReturn = formatItem(principalDataItemJson, true),
+                        optionsSecondPromiseCategories = {
+                            method: 'GET',
+                            uri: `${config.apiMercadoLibre}/categories/${principalDataItemJson.category_id}`,
+                            resolveWithFullResponse: true
+                        },
                         optionsThirdPromiseDescription = {
-                        method: 'GET',
-                        uri: `${config.apiMercadoLibre}/items/${id}/description`,
-                        resolveWithFullResponse: true
-                    };
+                            method: 'GET',
+                            uri: `${config.apiMercadoLibre}/items/${id}/description`,
+                            resolveWithFullResponse: true
+                        };
 
 
                     requestPromise(optionsSecondPromiseCategories)
@@ -148,11 +160,11 @@ router.get('/items/:id', function (req, res) {
 
                                     if (descriptionDataItem.statusCode === 200) {
 
-                                        dataReturn.description= descriptionDataJson.plain_text;
+                                        dataReturn.description = descriptionDataJson.plain_text;
 
                                         res.status(200).json(dataReturn);
                                     } else {
-                                        dataReturn.description=false;
+                                        dataReturn.description = false;
 
                                         res.status(200).json(dataReturn);
                                     }
@@ -163,11 +175,7 @@ router.get('/items/:id', function (req, res) {
                         })
 
 
-
-
-
-                    
-                } else if(principalDataItem.statusCode===404){
+                } else if (principalDataItem.statusCode === 404) {
                     res.status(404).json("not found")
                 }
 

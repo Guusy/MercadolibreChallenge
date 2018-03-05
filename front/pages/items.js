@@ -17,8 +17,6 @@ export default class extends React.Component {
             problem404=false,
             problem500=false;
 
-        console.log(req.status)
-        console
         if(req.status!==200){
 
             if(dataItem.statusCode===404){
@@ -98,7 +96,7 @@ export default class extends React.Component {
 
 
                 : this.props.problem404 ?<MessageError message={`El producto con el id ${this.props.idItem} no existe`}/>
-                   :'500'}
+                   :<MessageError message='Lo sentimos, hubo un problema interno del servidor, estamos trabajando en ello, volve a intentarlo en unos instantes'/>}
 
 
 

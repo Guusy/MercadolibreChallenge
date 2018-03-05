@@ -9,14 +9,14 @@ export const CategoryBox = (props) => {
         <div id='box-category-list' className="text-align-center-phone">
             {
 
-                props.categories.map(category => {
-                    let htmlReturn = <span id="normal-category">{category} > </span>
+                props.categories ?  props.categories.map(category => {
+                    let htmlReturn = <span key={category+1} id="normal-category">{category} > </span>
                     if (i === arrayLength - 1) {
-                        htmlReturn = <span id="selected-category">{category} </span>
+                        htmlReturn = <span key={category+1} id="selected-category">{category} </span>
                     }
                     i++;
                     return htmlReturn
-                })}
+                }) : <span id="normal-category">No existe categoria este resultado de busqueda</span>}
 
         </div>
     )

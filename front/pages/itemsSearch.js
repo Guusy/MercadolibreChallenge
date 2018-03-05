@@ -16,21 +16,25 @@ export default class itemSearch extends React.Component {
     static async getInitialProps(request) {
         const search = request.query.search;
 
+        let req = await fetch(`${configFile.apiExpress}/api/items?q=${search}`),
+            dataSearch = await req.json(),
+            problem500 = false,
+            problem404 = false;
 
-
-        let req = await fetch(`${configFile.apiExpress}/api/items?q=${search}`);
-
-
-        let dataSearch = await req.json();
-        if(req.status!==200){
+        if (req.status !== 200) {
             dataSearch = false;
+            if (req.status === 404) {
+                problem404 = true;
+            } else {
+                problem500 = true;
+            }
         }
 
-        return {search: dataSearch,querySearch:search}
+        return {search: dataSearch, querySearch: search, problem500: problem500, problem404: problem404}
     }
 
-    componentDidMount(){
-        if(this.props.querySearch===undefined){
+    componentDidMount() {
+        if (this.props.querySearch === undefined) {
             Router.pushRoute(`/`)
         }
     }
@@ -50,9 +54,9 @@ export default class itemSearch extends React.Component {
                     <div className="row">
                         <div id="super-box-list-items-search">
 
-                            {this.props.search.items.slice(1,5).map(item=>
+                            {this.props.search.items.map(item =>
 
-                                <PrettyLink href={`/items/${item.id}`}>
+                                <PrettyLink key={item.id} href={`/items/${item.id}`}>
 
                                     <BoxitemList {...item}/>
 
@@ -62,33 +66,17 @@ export default class itemSearch extends React.Component {
                     </div>
                 </div>
 
-                :
+                : this.props.problem404 ?
 
-                <MessageError message={`Lo sentimos, no encontramos ningun resultado para la busqueda : ${this.props.querySearch}`}/>
+                    <MessageError
+                        message={`Lo sentimos, no encontramos ningun resultado para la busqueda : ${this.props.querySearch}`}/>
+
+                    :
+                    <MessageError
+                        message='Lo sentimos, hubo un problema interno del servidor, estamos trabajando en ello, volve a intentarlo en unos instantes'/>
 
 
             }
-
-
-
-            <style jsx>{
-                `
-
-                #box-item-not-found{background-color:white;padding:15px;text-align:center;margin-top:2%}
-
-        #super-box-list-items-search{
-        background: white;
-
-    width: 100%;
-
-    padding-right: 15px;
-    padding-left: 15px;}
-            
-            
-            `
-            }
-
-            </style>
 
 
         </PrincipalLayout>
