@@ -30,6 +30,11 @@ export const Loader = () => {
     0% { transform: rotate(0deg); }
     100% { transform: rotate(360deg); }
 }
+@media(max-width:425px){
+.loader{
+    width: 70px;
+    height: 70px;}
+}
             `
                 }
 

@@ -2,23 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b30cc216-b7bb-4381-b7b6-0ae993a74ff8" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/front/node_modules/.cache/babel-loader/201502c91d4bad4ad6081747973c8ec02f42c8ab.json.gz" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/front/node_modules/.cache/babel-loader/240f6cd979cbf8b68f8d6e4fb97723e8f57ddb2e.json.gz" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change beforePath="$PROJECT_DIR$/front/.next/94b0f49e130e02b7da9e.hot-update.json" afterPath="" />
       <change beforePath="$PROJECT_DIR$/front/.next/app.js" afterPath="$PROJECT_DIR$/front/.next/app.js" />
-      <change beforePath="$PROJECT_DIR$/front/.next/bundles/pages/items.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/front/.next/bundles/pages/items.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/front/.next/b7dedb814ed1ae4e2a80.hot-update.json" afterPath="" />
       <change beforePath="$PROJECT_DIR$/front/.next/bundles/pages/itemsSearch.js" afterPath="$PROJECT_DIR$/front/.next/bundles/pages/itemsSearch.js" />
       <change beforePath="$PROJECT_DIR$/front/.next/bundles/pages/itemsSearch.js.map" afterPath="$PROJECT_DIR$/front/.next/bundles/pages/itemsSearch.js.map" />
-      <change beforePath="$PROJECT_DIR$/front/.next/dist/bundles/pages/items.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/front/.next/dist/bundles/pages/items.js.map" afterPath="" />
       <change beforePath="$PROJECT_DIR$/front/.next/dist/bundles/pages/itemsSearch.js" afterPath="$PROJECT_DIR$/front/.next/dist/bundles/pages/itemsSearch.js" />
       <change beforePath="$PROJECT_DIR$/front/.next/dist/bundles/pages/itemsSearch.js.map" afterPath="$PROJECT_DIR$/front/.next/dist/bundles/pages/itemsSearch.js.map" />
       <change beforePath="$PROJECT_DIR$/front/.next/manifest.js" afterPath="$PROJECT_DIR$/front/.next/manifest.js" />
       <change beforePath="$PROJECT_DIR$/front/.next/manifest.js.map" afterPath="$PROJECT_DIR$/front/.next/manifest.js.map" />
-      <change beforePath="$PROJECT_DIR$/front/components/items/dumbs/BoxItemList.js" afterPath="$PROJECT_DIR$/front/components/items/dumbs/BoxItemList.js" />
-      <change beforePath="$PROJECT_DIR$/front/configFile.js" afterPath="$PROJECT_DIR$/front/configFile.js" />
-      <change beforePath="$PROJECT_DIR$/front/pages/itemsSearch.js" afterPath="$PROJECT_DIR$/front/pages/itemsSearch.js" />
+      <change beforePath="$PROJECT_DIR$/front/components/tools/Loader.js" afterPath="$PROJECT_DIR$/front/components/tools/Loader.js" />
       <change beforePath="$PROJECT_DIR$/front/styles/boxItem.scss" afterPath="$PROJECT_DIR$/front/styles/boxItem.scss" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -39,8 +34,8 @@
       <file leaf-file-name="boxItem.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/front/styles/boxItem.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="29" column="17" lean-forward="false" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
+            <state relative-caret-position="288">
+              <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -49,8 +44,8 @@
       <file leaf-file-name="Loader.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/front/components/tools/Loader.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="17" column="16" lean-forward="false" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
+            <state relative-caret-position="368">
+              <caret line="35" column="17" lean-forward="false" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -99,8 +94,8 @@
       <file leaf-file-name="BoxItemList.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/front/components/items/dumbs/BoxItemList.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="464">
-              <caret line="29" column="20" lean-forward="false" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
+            <state relative-caret-position="176">
+              <caret line="29" column="115" lean-forward="false" selection-start-line="29" selection-start-column="115" selection-end-line="29" selection-end-column="115" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -131,8 +126,8 @@
       <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="113" column="32" lean-forward="false" selection-start-line="113" selection-start-column="32" selection-end-line="113" selection-end-column="32" />
+            <state relative-caret-position="272">
+              <caret line="119" column="79" lean-forward="false" selection-start-line="119" selection-start-column="79" selection-end-line="119" selection-end-column="79" />
               <folding />
             </state>
           </provider>
@@ -195,10 +190,10 @@
         <option value="$PROJECT_DIR$/backend/routes/api.js" />
         <option value="$PROJECT_DIR$/front/configFile.js" />
         <option value="$PROJECT_DIR$/front/pages/itemsSearch.js" />
-        <option value="$PROJECT_DIR$/front/components/items/dumbs/BoxItemList.js" />
-        <option value="$PROJECT_DIR$/front/components/tools/Loader.js" />
-        <option value="$PROJECT_DIR$/front/styles/boxItem.scss" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/front/components/tools/Loader.js" />
+        <option value="$PROJECT_DIR$/front/components/items/dumbs/BoxItemList.js" />
+        <option value="$PROJECT_DIR$/front/styles/boxItem.scss" />
       </list>
     </option>
   </component>
@@ -383,26 +378,25 @@
       <workItem from="1520030719872" duration="1911000" />
       <workItem from="1520085384309" duration="32840000" />
       <workItem from="1520173601453" duration="3507000" />
-      <workItem from="1520189174616" duration="21026000" />
+      <workItem from="1520189174616" duration="21804000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="79753000" />
+    <option name="totallyTimeSpent" value="80531000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1552" height="840" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13151042" sideWeight="0.47487438" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13151042" sideWeight="0.4757085" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3204952" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14860907" sideWeight="0.5251256" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3204952" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13151042" sideWeight="0.5242915" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -715,29 +709,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/front/pages/itemsSearch.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="6" column="18" lean-forward="false" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/front/components/tools/PrettyLink.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="149">
           <caret line="13" column="10" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="32" selection-end-column="1" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/front/components/items/dumbs/BoxItemList.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="464">
-          <caret line="29" column="20" lean-forward="false" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -751,24 +727,42 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/front/components/tools/Loader.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="17" column="16" lean-forward="false" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
+        <state relative-caret-position="368">
+          <caret line="35" column="17" lean-forward="false" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/components/items/dumbs/BoxItemList.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="29" column="115" lean-forward="false" selection-start-line="29" selection-start-column="115" selection-end-line="29" selection-end-column="115" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/pages/itemsSearch.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="6" column="18" lean-forward="false" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/front/styles/boxItem.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="29" column="17" lean-forward="false" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
+        <state relative-caret-position="288">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="113" column="32" lean-forward="false" selection-start-line="113" selection-start-column="32" selection-end-line="113" selection-end-column="32" />
+        <state relative-caret-position="272">
+          <caret line="119" column="79" lean-forward="false" selection-start-line="119" selection-start-column="79" selection-end-line="119" selection-end-column="79" />
           <folding />
         </state>
       </provider>

@@ -67,163 +67,10 @@ module.exports =
 /******/ 	__webpack_require__.p = "";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 3);
+/******/ 	return __webpack_require__(__webpack_require__.s = 4);
 /******/ })
 /************************************************************************/
 /******/ ({
-
-/***/ "./components/items/dumbs/BoxItemList.js":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_styled_jsx_style__ = __webpack_require__("styled-jsx/style");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_styled_jsx_style___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_styled_jsx_style__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react__ = __webpack_require__("react");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_react__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__configFile__ = __webpack_require__("./configFile.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__styles_boxItem_scss__ = __webpack_require__("./styles/boxItem.scss");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__styles_boxItem_scss___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3__styles_boxItem_scss__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__tools_Loader__ = __webpack_require__("./components/tools/Loader.js");
-var _jsxFileName = 'C:\\Users\\HP\\Desktop\\dev\\Mercado Libre\\dev\\front\\components\\items\\dumbs\\BoxItemList.js';
-
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-
-
-
-
-
-var BoxitemList = function (_React$Component) {
-    _inherits(BoxitemList, _React$Component);
-
-    function BoxitemList(props) {
-        _classCallCheck(this, BoxitemList);
-
-        var _this = _possibleConstructorReturn(this, (BoxitemList.__proto__ || Object.getPrototypeOf(BoxitemList)).call(this, props));
-
-        _this.state = {
-            externalImage: false
-        };
-        return _this;
-    }
-
-    _createClass(BoxitemList, [{
-        key: 'componentDidMount',
-        value: function componentDidMount() {
-            var _this2 = this;
-
-            fetch(__WEBPACK_IMPORTED_MODULE_2__configFile__["a" /* default */].apiMercadoLibre + '/items/' + this.props.id).then(function (response) {
-                return response.json();
-            }).then(function (data) {
-                _this2.setState({
-                    externalImage: data.pictures
-                });
-            }).catch(function (e) {
-                return console.log(e);
-            });
-        }
-    }, {
-        key: 'render',
-        value: function render() {
-            return __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(
-                'div',
-                { id: 'box-item-list', className: 'jsx-785640662' + ' ' + 'row',
-                    __source: {
-                        fileName: _jsxFileName,
-                        lineNumber: 27
-                    }
-                },
-                __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(
-                    'div',
-                    {
-                        className: 'jsx-785640662' + ' ' + 'content-picture-item col-lg-3 col-md-4 col-sm-4 col-4',
-                        __source: {
-                            fileName: _jsxFileName,
-                            lineNumber: 28
-                        }
-                    },
-                    this.state.externalImage ? __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement('img', { src: this.state.externalImage[0].secure_url, alt: '', className: 'jsx-785640662',
-                        __source: {
-                            fileName: _jsxFileName,
-                            lineNumber: 30
-                        }
-                    }) : __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_4__tools_Loader__["a" /* Loader */], {
-                        __source: {
-                            fileName: _jsxFileName,
-                            lineNumber: 30
-                        }
-                    })
-                ),
-                __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(
-                    'div',
-                    { id: 'title-item-box-list', className: 'jsx-785640662' + ' ' + 'col-lg-7 col-md-6 col-sm-6 col-5',
-                        __source: {
-                            fileName: _jsxFileName,
-                            lineNumber: 33
-                        }
-                    },
-                    __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(
-                        'div',
-                        { id: 'price-item-box-list', className: 'jsx-785640662',
-                            __source: {
-                                fileName: _jsxFileName,
-                                lineNumber: 34
-                            }
-                        },
-                        '$ ',
-                        this.props.price.amount,
-                        ' ',
-                        this.props.free_shipping && __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement('img', { src: '../../../static/ic_shipping.png', alt: '', className: 'jsx-785640662',
-                            __source: {
-                                fileName: _jsxFileName,
-                                lineNumber: 34
-                            }
-                        })
-                    ),
-                    __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(
-                        'div',
-                        { id: 'title-item-box-list', className: 'jsx-785640662',
-                            __source: {
-                                fileName: _jsxFileName,
-                                lineNumber: 35
-                            }
-                        },
-                        this.props.title
-                    )
-                ),
-                __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(
-                    'div',
-                    { id: 'adrress-item-box-list', className: 'jsx-785640662' + ' ' + 'col-lg-2 col-sm-2 col-3',
-                        __source: {
-                            fileName: _jsxFileName,
-                            lineNumber: 40
-                        }
-                    },
-                    this.props.state_name
-                ),
-                __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_0_styled_jsx_style___default.a, {
-                    styleId: '785640662',
-                    css: '.jsx-785640662{' + __WEBPACK_IMPORTED_MODULE_3__styles_boxItem_scss___default.a + ';}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImNvbXBvbmVudHNcXGl0ZW1zXFxkdW1ic1xcQm94SXRlbUxpc3QuanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBMkNvQixBQUM2Qiw2QkFBQyIsImZpbGUiOiJjb21wb25lbnRzXFxpdGVtc1xcZHVtYnNcXEJveEl0ZW1MaXN0LmpzIiwic291cmNlUm9vdCI6IkM6L1VzZXJzL0hQL0Rlc2t0b3AvZGV2L01lcmNhZG8gTGlicmUvZGV2L2Zyb250Iiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IFJlYWN0IGZyb20gXCJyZWFjdFwiO1xyXG5pbXBvcnQgY29uZmlnIGZyb20gJy4uLy4uLy4uL2NvbmZpZ0ZpbGUnO1xyXG5pbXBvcnQgYm94SXRlbUNzcyBmcm9tICcuLi8uLi8uLi9zdHlsZXMvYm94SXRlbS5zY3NzJztcclxuaW1wb3J0IHtMb2FkZXJ9IGZyb20gXCIuLi8uLi90b29scy9Mb2FkZXJcIjtcclxuXHJcbmV4cG9ydCBkZWZhdWx0IGNsYXNzIEJveGl0ZW1MaXN0IGV4dGVuZHMgUmVhY3QuQ29tcG9uZW50IHtcclxuXHJcbiAgICBjb25zdHJ1Y3Rvcihwcm9wcyl7XHJcbiAgICAgICAgc3VwZXIocHJvcHMpXHJcbiAgICAgICAgdGhpcy5zdGF0ZT17XHJcbiAgICAgICAgICAgIGV4dGVybmFsSW1hZ2U6ZmFsc2VcclxuICAgICAgICB9XHJcbiAgICB9XHJcblxyXG4gICAgY29tcG9uZW50RGlkTW91bnQoKXtcclxuICAgICAgICBmZXRjaChgJHtjb25maWcuYXBpTWVyY2Fkb0xpYnJlfS9pdGVtcy8ke3RoaXMucHJvcHMuaWR9YClcclxuICAgICAgICAgICAgLnRoZW4ocmVzcG9uc2U9PnJlc3BvbnNlLmpzb24oKSlcclxuICAgICAgICAgICAgLnRoZW4oZGF0YT0+e1xyXG4gICAgICAgICAgICAgICAgdGhpcy5zZXRTdGF0ZSh7XHJcbiAgICAgICAgICAgICAgICAgICAgZXh0ZXJuYWxJbWFnZTpkYXRhLnBpY3R1cmVzXHJcbiAgICAgICAgICAgICAgICB9KVxyXG4gICAgICAgICAgICB9KVxyXG4gICAgICAgICAgICAuY2F0Y2goZT0+Y29uc29sZS5sb2coZSkpXHJcbiAgICB9XHJcbiAgICByZW5kZXIoKXtcclxuICAgICAgICByZXR1cm4gKFxyXG4gICAgICAgICAgICA8ZGl2IGlkPSdib3gtaXRlbS1saXN0JyBjbGFzc05hbWU9XCJyb3dcIj5cclxuICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwiY29udGVudC1waWN0dXJlLWl0ZW0gY29sLWxnLTMgY29sLW1kLTQgY29sLXNtLTQgY29sLTRcIj5cclxuXHJcbiAgICAgICAgICAgICAgICAgICAge3RoaXMuc3RhdGUuZXh0ZXJuYWxJbWFnZSA/IDxpbWcgc3JjPXt0aGlzLnN0YXRlLmV4dGVybmFsSW1hZ2VbMF0uc2VjdXJlX3VybH0gYWx0PVwiXCIvPiA6PExvYWRlci8+fVxyXG4gICAgICAgICAgICAgICAgPC9kaXY+XHJcblxyXG4gICAgICAgICAgICAgICAgPGRpdiBpZD1cInRpdGxlLWl0ZW0tYm94LWxpc3RcIiBjbGFzc05hbWU9J2NvbC1sZy03IGNvbC1tZC02IGNvbC1zbS02IGNvbC01Jz5cclxuICAgICAgICAgICAgICAgICAgICA8ZGl2IGlkPVwicHJpY2UtaXRlbS1ib3gtbGlzdFwiPiQge3RoaXMucHJvcHMucHJpY2UuYW1vdW50fSB7dGhpcy5wcm9wcy5mcmVlX3NoaXBwaW5nICYmIDxpbWcgc3JjPVwiLi4vLi4vLi4vc3RhdGljL2ljX3NoaXBwaW5nLnBuZ1wiIGFsdD1cIlwiLz59PC9kaXY+XHJcbiAgICAgICAgICAgICAgICAgICAgPGRpdiBpZD1cInRpdGxlLWl0ZW0tYm94LWxpc3RcIj57dGhpcy5wcm9wcy50aXRsZX08L2Rpdj5cclxuXHJcblxyXG4gICAgICAgICAgICAgICAgPC9kaXY+XHJcblxyXG4gICAgICAgICAgICAgICAgPGRpdiBpZD1cImFkcnJlc3MtaXRlbS1ib3gtbGlzdFwiIGNsYXNzTmFtZT1cImNvbC1sZy0yIGNvbC1zbS0yIGNvbC0zXCI+e3RoaXMucHJvcHMuc3RhdGVfbmFtZX08L2Rpdj5cclxuXHJcbiAgICAgICAgICAgICAgICA8c3R5bGUganN4IGxhbmc9XCJzY3NzXCIgc2NvcGVkPntcclxuXHJcbiAgICAgICAgICAgICAgICAgICAgYFxyXG4gICAgICAgICAgICAke2JveEl0ZW1Dc3N9XHJcbiAgICAgICAgICAgIGBcclxuICAgICAgICAgICAgICAgIH1cclxuXHJcbiAgICAgICAgICAgICAgICA8L3N0eWxlPlxyXG4gICAgICAgICAgICA8L2Rpdj5cclxuICAgICAgICApXHJcbiAgICB9XHJcblxyXG5cclxuXHJcbn07Il19 */\n/*@ sourceURL=components\\items\\dumbs\\BoxItemList.js */'
-                })
-            );
-        }
-    }]);
-
-    return BoxitemList;
-}(__WEBPACK_IMPORTED_MODULE_1_react___default.a.Component);
-
-/* harmony default export */ __webpack_exports__["a"] = (BoxitemList);
-;
-
-/***/ }),
 
 /***/ "./components/items/dumbs/CategoryBox.js":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -639,39 +486,6 @@ var InputSearchNavbar = function (_React$Component) {
 
 /***/ }),
 
-/***/ "./components/tools/Loader.js":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Loader; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_styled_jsx_style__ = __webpack_require__("styled-jsx/style");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_styled_jsx_style___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_styled_jsx_style__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react__ = __webpack_require__("react");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_react__);
-var _jsxFileName = "C:\\Users\\HP\\Desktop\\dev\\Mercado Libre\\dev\\front\\components\\tools\\Loader.js";
-
-
-
-var Loader = function Loader() {
-
-    return __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(
-        "div",
-        {
-            className: "jsx-1448734191" + " " + "loader",
-            __source: {
-                fileName: _jsxFileName,
-                lineNumber: 7
-            }
-        },
-        __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_0_styled_jsx_style___default.a, {
-            styleId: "1448734191",
-            css: ".loader.jsx-1448734191{border:16px solid #f3f3f3;border-radius:50%;border-top:16px solid #3498db;width:90px;height:90px;-webkit-animation:spin 1s linear infinite;-webkit-animation:spin-jsx-1448734191 1s linear infinite;animation:spin-jsx-1448734191 1s linear infinite;}@-webkit-keyframes spin{0%.jsx-1448734191{-webkit-transform:rotate(0deg);}100%.jsx-1448734191{-webkit-transform:rotate(360deg);}}@-webkit-keyframes spin-jsx-1448734191{0%{-webkit-transform:rotate(0deg);-ms-transform:rotate(0deg);transform:rotate(0deg);}100%{-webkit-transform:rotate(360deg);-ms-transform:rotate(360deg);transform:rotate(360deg);}}@keyframes spin-jsx-1448734191{0%{-webkit-transform:rotate(0deg);-ms-transform:rotate(0deg);transform:rotate(0deg);}100%{-webkit-transform:rotate(360deg);-ms-transform:rotate(360deg);transform:rotate(360deg);}}@media (max-width:425px){.loader.jsx-1448734191{width:70px;height:70px;}}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImNvbXBvbmVudHNcXHRvb2xzXFxMb2FkZXIuanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBV29CLEFBRTZCLEFBWU8sQUFFRSxBQUlWLEFBRUUsQUFJZCxXQUNDLFlBQUMsR0F4QkcsS0FXZ0IsRUFFRSxXQVpOLDhCQUNuQixPQWVlLElBZGQsRUFnQmdCLFVBZmMsMENBRVIsMEdBQUMiLCJmaWxlIjoiY29tcG9uZW50c1xcdG9vbHNcXExvYWRlci5qcyIsInNvdXJjZVJvb3QiOiJDOi9Vc2Vycy9IUC9EZXNrdG9wL2Rldi9NZXJjYWRvIExpYnJlL2Rldi9mcm9udCIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBSZWFjdCBmcm9tIFwicmVhY3RcIjtcclxuXHJcbmV4cG9ydCBjb25zdCBMb2FkZXIgPSAoKSA9PiB7XHJcblxyXG5cclxuICAgIHJldHVybiAoXHJcbiAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJsb2FkZXJcIj5cclxuXHJcblxyXG5cclxuICAgICAgICAgICAgICAgIDxzdHlsZSBqc3g+e1xyXG4gICAgICAgICAgICAgICAgICAgIGBcclxuICAgICAgIC5sb2FkZXIge1xyXG4gICAgYm9yZGVyOiAxNnB4IHNvbGlkICNmM2YzZjM7XHJcbiAgICBib3JkZXItcmFkaXVzOiA1MCU7XHJcbiAgICBib3JkZXItdG9wOiAxNnB4IHNvbGlkICMzNDk4ZGI7XHJcbiAgICB3aWR0aDogOTBweDtcclxuICAgIGhlaWdodDogOTBweDtcclxuICAgIC13ZWJraXQtYW5pbWF0aW9uOiBzcGluIDFzIGxpbmVhciBpbmZpbml0ZTsgLyogU2FmYXJpICovXHJcbiAgICBhbmltYXRpb246IHNwaW4gMXMgbGluZWFyIGluZmluaXRlO1xyXG59XHJcblxyXG4vKiBTYWZhcmkgKi9cclxuQC13ZWJraXQta2V5ZnJhbWVzIHNwaW4ge1xyXG4gICAgMCUgeyAtd2Via2l0LXRyYW5zZm9ybTogcm90YXRlKDBkZWcpOyB9XHJcbiAgICAxMDAlIHsgLXdlYmtpdC10cmFuc2Zvcm06IHJvdGF0ZSgzNjBkZWcpOyB9XHJcbn1cclxuXHJcbkBrZXlmcmFtZXMgc3BpbiB7XHJcbiAgICAwJSB7IHRyYW5zZm9ybTogcm90YXRlKDBkZWcpOyB9XHJcbiAgICAxMDAlIHsgdHJhbnNmb3JtOiByb3RhdGUoMzYwZGVnKTsgfVxyXG59XHJcbkBtZWRpYShtYXgtd2lkdGg6NDI1cHgpe1xyXG4ubG9hZGVye1xyXG4gICAgd2lkdGg6IDcwcHg7XHJcbiAgICBoZWlnaHQ6IDcwcHg7fVxyXG59XHJcbiAgICAgICAgICAgIGBcclxuICAgICAgICAgICAgICAgIH1cclxuXHJcbiAgICAgICAgICAgICAgICA8L3N0eWxlPlxyXG5cclxuXHJcbiAgICAgICAgPC9kaXY+XHJcbiAgICApXHJcblxyXG5cclxufSJdfQ== */\n/*@ sourceURL=components\\tools\\Loader.js */"
-        })
-    );
-};
-
-/***/ }),
-
 /***/ "./components/tools/MessageError.js":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -784,36 +598,29 @@ var config = {
 
 /***/ }),
 
-/***/ "./pages/itemsSearch.js":
+/***/ "./pages/items.js":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_regenerator__ = __webpack_require__("babel-runtime/regenerator");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_regenerator___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_babel_runtime_regenerator__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_isomorphic_fetch__ = __webpack_require__("isomorphic-fetch");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_isomorphic_fetch___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_isomorphic_fetch__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_next_link__ = __webpack_require__("next/link");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_next_link___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_next_link__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react__ = __webpack_require__("react");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_react__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_isomorphic_fetch__ = __webpack_require__("isomorphic-fetch");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_isomorphic_fetch___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_isomorphic_fetch__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_layouts_PrincipalLayout__ = __webpack_require__("./components/layouts/PrincipalLayout.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_react__ = __webpack_require__("react");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_react__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__configFile__ = __webpack_require__("./configFile.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__components_tools_PrettyLink__ = __webpack_require__("./components/tools/PrettyLink.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__components_items_dumbs_BoxItemList__ = __webpack_require__("./components/items/dumbs/BoxItemList.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__components_items_dumbs_CategoryBox__ = __webpack_require__("./components/items/dumbs/CategoryBox.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__styles_itemSearch_scss__ = __webpack_require__("./styles/itemSearch.scss");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__styles_itemSearch_scss___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_9__styles_itemSearch_scss__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__routes__ = __webpack_require__("./routes.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__routes___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_10__routes__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__components_tools_MessageError__ = __webpack_require__("./components/tools/MessageError.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__configFile__ = __webpack_require__("./configFile.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__components_items_dumbs_CategoryBox__ = __webpack_require__("./components/items/dumbs/CategoryBox.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__components_tools_MessageError__ = __webpack_require__("./components/tools/MessageError.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__styles_Item_scss__ = __webpack_require__("./styles/Item.scss");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__styles_Item_scss___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_7__styles_Item_scss__);
 
-
-var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
-
-var _jsxFileName = 'C:\\Users\\HP\\Desktop\\dev\\Mercado Libre\\dev\\front\\pages\\itemsSearch.js';
+var _jsxFileName = 'C:\\Users\\HP\\Desktop\\dev\\Mercado Libre\\dev\\front\\pages\\items.js';
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+
 
 function _asyncToGenerator(fn) { return function () { var gen = fn.apply(this, arguments); return new Promise(function (resolve, reject) { function step(key, arg) { try { var info = gen[key](arg); var value = info.value; } catch (error) { reject(error); return; } if (info.done) { resolve(value); } else { return Promise.resolve(value).then(function (value) { step("next", value); }, function (err) { step("throw", err); }); } } return step("next"); }); }; }
 
@@ -832,105 +639,246 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
 
 
 
+var _class = function (_React$Component) {
+    _inherits(_class, _React$Component);
 
+    function _class() {
+        _classCallCheck(this, _class);
 
-
-var itemSearch = function (_React$Component) {
-    _inherits(itemSearch, _React$Component);
-
-    function itemSearch() {
-        _classCallCheck(this, itemSearch);
-
-        return _possibleConstructorReturn(this, (itemSearch.__proto__ || Object.getPrototypeOf(itemSearch)).apply(this, arguments));
+        return _possibleConstructorReturn(this, (_class.__proto__ || Object.getPrototypeOf(_class)).apply(this, arguments));
     }
 
-    _createClass(itemSearch, [{
-        key: 'componentDidMount',
-        value: function componentDidMount() {
-            if (this.props.querySearch === undefined) {
-                __WEBPACK_IMPORTED_MODULE_10__routes__["Router"].pushRoute('/');
-            }
-        }
-    }, {
+    _createClass(_class, [{
         key: 'render',
         value: function render() {
-            return __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement(
+            var item = this.props.dataItem;
+            return __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(
                 __WEBPACK_IMPORTED_MODULE_3__components_layouts_PrincipalLayout__["a" /* default */],
-                { title: 'Mercadolibre - Busqueda de ' + this.props.querySearch, __source: {
+                { title: 'Mercadolibre - ' + item.title, __source: {
                         fileName: _jsxFileName,
-                        lineNumber: 43
+                        lineNumber: 37
                     }
                 },
-                this.props.search ? __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement(
+                this.props.dataItem ? __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(
                     'div',
                     {
                         __source: {
                             fileName: _jsxFileName,
-                            lineNumber: 47
+                            lineNumber: 39
                         }
                     },
-                    __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement(
+                    __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(
+                        'div',
+                        { className: 'row', __source: {
+                                fileName: _jsxFileName,
+                                lineNumber: 42
+                            }
+                        },
+                        __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(
+                            'div',
+                            { className: 'col-12 no-padd-phone', __source: {
+                                    fileName: _jsxFileName,
+                                    lineNumber: 43
+                                }
+                            },
+                            __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_5__components_items_dumbs_CategoryBox__["a" /* CategoryBox */], { categories: this.props.dataItem.categories, __source: {
+                                    fileName: _jsxFileName,
+                                    lineNumber: 44
+                                }
+                            })
+                        )
+                    ),
+                    __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(
                         'div',
                         { className: 'row', __source: {
                                 fileName: _jsxFileName,
                                 lineNumber: 48
                             }
                         },
-                        __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement(
+                        __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(
                             'div',
-                            { className: 'col-12 no-padd-phone', __source: {
+                            { className: 'col-12', id: 'content-item', __source: {
                                     fileName: _jsxFileName,
                                     lineNumber: 49
                                 }
                             },
-                            __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_8__components_items_dumbs_CategoryBox__["a" /* CategoryBox */], { categories: this.props.search.categories, __source: {
-                                    fileName: _jsxFileName,
-                                    lineNumber: 50
-                                }
-                            })
-                        )
-                    ),
-                    __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement(
-                        'div',
-                        { className: 'row', __source: {
-                                fileName: _jsxFileName,
-                                lineNumber: 54
-                            }
-                        },
-                        __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement(
-                            'div',
-                            { id: 'super-box-list-items-search', __source: {
-                                    fileName: _jsxFileName,
-                                    lineNumber: 55
-                                }
-                            },
-                            this.props.search.items.map(function (item) {
-                                return __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement(
-                                    __WEBPACK_IMPORTED_MODULE_6__components_tools_PrettyLink__["a" /* PrettyLink */],
-                                    { key: item.id, href: '/items/' + item.id, __source: {
+                            __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(
+                                'div',
+                                { id: 'content-image-and-price', __source: {
+                                        fileName: _jsxFileName,
+                                        lineNumber: 50
+                                    }
+                                },
+                                __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(
+                                    'div',
+                                    { id: 'sub-content-image', __source: {
                                             fileName: _jsxFileName,
-                                            lineNumber: 59
+                                            lineNumber: 51
                                         }
                                     },
-                                    __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_7__components_items_dumbs_BoxItemList__["a" /* default */], _extends({}, item, {
+                                    __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement('img', { src: item.picture, alt: item.title, className: 'w-100-phone img-item', __source: {
+                                            fileName: _jsxFileName,
+                                            lineNumber: 52
+                                        }
+                                    })
+                                ),
+                                __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(
+                                    'div',
+                                    { id: 'box-data-item', __source: {
+                                            fileName: _jsxFileName,
+                                            lineNumber: 54
+                                        }
+                                    },
+                                    __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(
+                                        'div',
+                                        { id: 'sub-box-data-item', className: 'w-100-phone', __source: {
+                                                fileName: _jsxFileName,
+                                                lineNumber: 55
+                                            }
+                                        },
+                                        __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(
+                                            'div',
+                                            { id: 'box-condition-and-selled-item', __source: {
+                                                    fileName: _jsxFileName,
+                                                    lineNumber: 57
+                                                }
+                                            },
+                                            item.condition,
+                                            ' - ',
+                                            item.sold_quantity,
+                                            ' Vendidos'
+                                        ),
+                                        __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(
+                                            'div',
+                                            { id: 'box-title-item', __source: {
+                                                    fileName: _jsxFileName,
+                                                    lineNumber: 60
+                                                }
+                                            },
+                                            item.title
+                                        ),
+                                        __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(
+                                            'div',
+                                            { id: 'box-price-item', __source: {
+                                                    fileName: _jsxFileName,
+                                                    lineNumber: 63
+                                                }
+                                            },
+                                            __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(
+                                                'span',
+                                                {
+                                                    __source: {
+                                                        fileName: _jsxFileName,
+                                                        lineNumber: 64
+                                                    }
+                                                },
+                                                '$ ',
+                                                item.price.amount,
+                                                ' ',
+                                                __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(
+                                                    'span',
+                                                    {
+                                                        __source: {
+                                                            fileName: _jsxFileName,
+                                                            lineNumber: 65
+                                                        }
+                                                    },
+                                                    item.price.decimals
+                                                )
+                                            )
+                                        )
+                                    ),
+                                    __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(
+                                        'div',
+                                        {
+                                            __source: {
+                                                fileName: _jsxFileName,
+                                                lineNumber: 71
+                                            }
+                                        },
+                                        __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(
+                                            'button',
+                                            { id: 'btn-buy-item', __source: {
+                                                    fileName: _jsxFileName,
+                                                    lineNumber: 72
+                                                }
+                                            },
+                                            'Comprar'
+                                        )
+                                    )
+                                )
+                            ),
+                            item.description ? __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(
+                                'div',
+                                { id: 'box-description-item', className: 'w-100-phone img-item', __source: {
+                                        fileName: _jsxFileName,
+                                        lineNumber: 77
+                                    }
+                                },
+                                __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(
+                                    'div',
+                                    {
                                         __source: {
                                             fileName: _jsxFileName,
-                                            lineNumber: 61
+                                            lineNumber: 78
                                         }
-                                    }))
-                                );
-                            })
+                                    },
+                                    __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(
+                                        'div',
+                                        {
+                                            __source: {
+                                                fileName: _jsxFileName,
+                                                lineNumber: 79
+                                            }
+                                        },
+                                        __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(
+                                            'div',
+                                            { id: 'title-description-item', __source: {
+                                                    fileName: _jsxFileName,
+                                                    lineNumber: 80
+                                                }
+                                            },
+                                            'Descripci\xF3n del producto'
+                                        )
+                                    ),
+                                    __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(
+                                        'div',
+                                        {
+                                            __source: {
+                                                fileName: _jsxFileName,
+                                                lineNumber: 82
+                                            }
+                                        },
+                                        __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(
+                                            'div',
+                                            { id: 'content-description-item', __source: {
+                                                    fileName: _jsxFileName,
+                                                    lineNumber: 83
+                                                }
+                                            },
+                                            item.description
+                                        )
+                                    )
+                                )
+                            ) : __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(
+                                'div',
+                                {
+                                    __source: {
+                                        fileName: _jsxFileName,
+                                        lineNumber: 89
+                                    }
+                                },
+                                'Este producto no tiene descripcion'
+                            )
                         )
                     )
-                ) : this.props.problem404 ? __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_11__components_tools_MessageError__["a" /* MessageError */], {
-                    message: 'Lo sentimos, no encontramos ningun resultado para la busqueda : ' + this.props.querySearch, __source: {
+                ) : this.props.problem404 ? __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_6__components_tools_MessageError__["a" /* MessageError */], { message: 'El producto con el id ' + this.props.idItem + ' no existe', __source: {
                         fileName: _jsxFileName,
-                        lineNumber: 71
+                        lineNumber: 98
                     }
-                }) : __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_11__components_tools_MessageError__["a" /* MessageError */], {
-                    message: 'Lo sentimos, hubo un problema interno del servidor, estamos trabajando en ello, volve a intentarlo en unos instantes', __source: {
+                }) : __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_6__components_tools_MessageError__["a" /* MessageError */], { message: 'Lo sentimos, hubo un problema interno del servidor, estamos trabajando en ello, volve a intentarlo en unos instantes', __source: {
                         fileName: _jsxFileName,
-                        lineNumber: 75
+                        lineNumber: 99
                     }
                 })
             );
@@ -939,14 +887,14 @@ var itemSearch = function (_React$Component) {
         key: 'getInitialProps',
         value: function () {
             var _ref = _asyncToGenerator( /*#__PURE__*/__WEBPACK_IMPORTED_MODULE_0_babel_runtime_regenerator___default.a.mark(function _callee(request) {
-                var search, req, dataSearch, problem500, problem404;
+                var idItem, req, dataItem, problem404, problem500;
                 return __WEBPACK_IMPORTED_MODULE_0_babel_runtime_regenerator___default.a.wrap(function _callee$(_context) {
                     while (1) {
                         switch (_context.prev = _context.next) {
                             case 0:
-                                search = request.query.search;
+                                idItem = request.query.id;
                                 _context.next = 3;
-                                return fetch(__WEBPACK_IMPORTED_MODULE_5__configFile__["a" /* default */].apiExpress + '/api/items?q=' + search);
+                                return fetch(__WEBPACK_IMPORTED_MODULE_4__configFile__["a" /* default */].apiExpress + '/api/items/' + idItem);
 
                             case 3:
                                 req = _context.sent;
@@ -954,21 +902,22 @@ var itemSearch = function (_React$Component) {
                                 return req.json();
 
                             case 6:
-                                dataSearch = _context.sent;
-                                problem500 = false;
+                                dataItem = _context.sent;
                                 problem404 = false;
+                                problem500 = false;
 
 
                                 if (req.status !== 200) {
-                                    dataSearch = false;
-                                    if (req.status === 404) {
+
+                                    if (dataItem.statusCode === 404) {
                                         problem404 = true;
                                     } else {
                                         problem500 = true;
                                     }
+                                    dataItem = false;
                                 }
 
-                                return _context.abrupt('return', { search: dataSearch, querySearch: search, problem500: problem500, problem404: problem404 });
+                                return _context.abrupt('return', { dataItem: dataItem, problem500: problem500, problem404: problem404, idItem: idItem });
 
                             case 11:
                             case 'end':
@@ -986,10 +935,10 @@ var itemSearch = function (_React$Component) {
         }()
     }]);
 
-    return itemSearch;
-}(__WEBPACK_IMPORTED_MODULE_4_react___default.a.Component);
+    return _class;
+}(__WEBPACK_IMPORTED_MODULE_1_react___default.a.Component);
 
-/* harmony default export */ __webpack_exports__["default"] = (itemSearch);
+/* harmony default export */ __webpack_exports__["default"] = (_class);
 
 /***/ }),
 
@@ -1004,7 +953,7 @@ module.exports = routes;
 
 /***/ }),
 
-/***/ "./styles/boxItem.scss":
+/***/ "./styles/Item.scss":
 /***/ (function(module, exports) {
 
 
@@ -1012,13 +961,6 @@ module.exports = routes;
 /***/ }),
 
 /***/ "./styles/categoryBox.scss":
-/***/ (function(module, exports) {
-
-
-
-/***/ }),
-
-/***/ "./styles/itemSearch.scss":
 /***/ (function(module, exports) {
 
 
@@ -1039,10 +981,10 @@ module.exports = routes;
 
 /***/ }),
 
-/***/ 3:
+/***/ 4:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__("./pages/itemsSearch.js");
+module.exports = __webpack_require__("./pages/items.js");
 
 
 /***/ }),
@@ -1097,4 +1039,4 @@ module.exports = require("styled-jsx/style");
 /***/ })
 
 /******/ });
-//# sourceMappingURL=itemsSearch.js.map
+//# sourceMappingURL=items.js.map
