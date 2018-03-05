@@ -5,8 +5,13 @@ const router = express.Router();
 const requestPromise = require('request-promise');
 
 
-const aceptableSizeImage = '499';
-const numberOfLimitResults='4';
+const aceptableSizeImage = '499',
+numberOfLimitResults='4',
+name="Gonzalo",
+    lastname="Gras Cantou"
+;
+
+
 
 //function to get decimals in specific item
 const parsePrice = (amount, currency) => {
@@ -38,21 +43,29 @@ const getTheBestPicture = (arrayPictures) => {
 //function to format object to return at front end.
 const formatItem = (arrayToGetData, individualItem) => {
 
-    return {
-        author: {
-            name: '',
-            lastname: ''
-        },
-        id: arrayToGetData.id,
-        title: arrayToGetData.title,
-        price: parsePrice(arrayToGetData.price, arrayToGetData.currency_id),
-        picture: (individualItem) ? getTheBestPicture(arrayToGetData.pictures) : arrayToGetData.thumbnail,
-        condition: (arrayToGetData.condition === 'new') ? "Nuevo" : (arrayToGetData.condition === 'used') ? "Usado" : "No especificado",
-        sold_quantity: arrayToGetData.sold_quantity,
-        free_shipping: arrayToGetData.shipping.free_shipping,
-        state_name: (!individualItem) ? arrayToGetData.address.state_name : ''
+    let objectItem =
+        {
+            id: arrayToGetData.id,
+            title: arrayToGetData.title,
+            price: parsePrice(arrayToGetData.price, arrayToGetData.currency_id),
+            picture: (individualItem) ? getTheBestPicture(arrayToGetData.pictures) : arrayToGetData.thumbnail,
+            condition: (arrayToGetData.condition === 'new') ? "Nuevo" : (arrayToGetData.condition === 'used') ? "Usado" : "No especificado",
+            sold_quantity: arrayToGetData.sold_quantity,
+            free_shipping: arrayToGetData.shipping.free_shipping,
+            state_name: (!individualItem) ? arrayToGetData.address.state_name : ''
 
+        };
+
+    if(individualItem){
+        objectItem.author= {
+
+                name: name,
+                lastname: lastname
+
+        }
     }
+
+    return objectItem
 };
 
 //function to disarm array of categories
@@ -91,8 +104,8 @@ router.get('/items', function (req, res) {
 
                     let objectReturn = {
                         author: {
-                            name: '',
-                            lastname: ''
+                            name: name,
+                            lastname: lastname
                         },
                         categories: arrayCategories[0],
                         items: bodyRequest.results.map(item => formatItem(item, false))
