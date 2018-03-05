@@ -1,6 +1,6 @@
 # Mercadolibre Challenge
 [Como Iniciar](#como-iniciar)
-  - [Setup](#setup)
+  - [Instalación](#instalacion)
 
 [Tecnologias](#Tecnologias)
   - [Back end](#back-end)
@@ -21,8 +21,8 @@
 
 Clonarlo:
 
-``` git clone
-https://github.com/Guusy/mercadolibreTest
+```
+git clone https://github.com/Guusy/mercadolibreTest
 ```
 
 Backend:
@@ -87,12 +87,31 @@ para que al acceder la carga sea mucho mas rapida y tener un mejor experiencia d
 
 ### Puntos de vista:
 
+#### Imagenes de la lista de productos:
+
+El requerimiento del challenge dice que las imagenes tienen que tener un ancho de 180px si bien la llamada a ```https://api.mercadolibre.com/sites/MLA/search?q={palabra de busqueda}``` te provee un thumbnail este es de 90x90,
+al estirarla queda algo de este estilo
+
+> ![02](./readme-files/pixel-image.PNG)
+
+Lo cual es muy pixeleado y ponerla como background-image de un div, dejaba la imagen muy chica.
+Estuve leyendo la documentación de su api http://developers.mercadolibre.com/es/items-y-busquedas/ y las unicas 2 maneras de acceder a las imagenes de la fotos es o bien con el picture_id
+el cual por lo visto solo se consigue obteniendo la data de ```https://api.mercadolibre.com/items/{item id}``` , pero cuando se consume ese entrypoint ya viene un array de pictures.
+La cuestion es que para retornar  la picture correcta desde express, esto me costaria hacer 4 request mas adentro del entrypoint, y tardaria mucho mas la respuesta
+por lo tanto la carga de estas imagenes las hago de forma asincronica desde react y antes de que carguen les agrego un loader.
+
+> ![02](./readme-files/loader-list-item.gif)
+
+#### Cantidad de productos en una busqueda
+
 ``` En la vista de caja de búsqueda, debería poder ingresar el producto a buscar y al enviar el
    formulario navegar a la vista de Resultados de búsqueda, visualizando solo 4 productos. Luego,
    al hacer click sobre uno de ellos, debería navegar a la vista de Detalle de Producto.
 ```
 
 Este es un requerimiento, el cual pide solo unicamente mostrar 4 productos cuando el usuario realiza una busqueda, se puede conseguir dandole la variable limit=4 a la url ```https://api.mercadolibre.com/sites/MLA/search?q={palabra de busqueda}?&limit=4```
+
+#### Vista de un item especifico
 
 ```
 Dado un id de producto, debería poder ingresar directamente a la vista de detalle de producto.
@@ -109,7 +128,7 @@ de la api (express).
 ### Resolución de imagenes
 
 En los Specs que se proveen en los archivos del challenge, dice que en la vista de un item especifico la imagen debe tener 680px de ancho, lo adopte como si fuese un requerimiento
-que unicamente se cumple cuando estamos un dispositivo desktop, por lo tanto al realice una funcion dentro de la api que busque entre las fotos, la primera que tenga una resolución mayor o
+que unicamente se cumple cuando estamos un dispositivo desktop, por lo tanto realicé una funcion dentro de la api que busque entre las fotos, la primera que tenga una resolución mayor o
 igual a 500px
 
 ### El title de la pagina se cambia dinamicamente depende en que pagina estes

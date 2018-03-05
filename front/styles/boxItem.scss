@@ -20,10 +20,14 @@
 
 .content-picture-item{
   padding:$pixel16;
+  justify-content: center;
+  display: flex;
+  align-items: center;
 }
 .content-picture-item>img{
   width:$pixel180;
   border-radius:$pixel4;
+  transition: 0.5s;
 }
 #title-item-box-list{
   color:black;
@@ -36,7 +40,7 @@
 }
 
 @media (max-width: $break-tablet) {
-  .content-picture-item > img{width: auto;}
+  .content-picture-item > img{width: 100%;}
   #price-item-box-list{
     font-size:$pixel14;
     margin-bottom: $pixel16;
@@ -51,7 +55,7 @@
 @media (max-width: $break-big-phone) {
 
   .content-picture-item>img{
-    width: auto;
+    width: 100%;
   }
   #price-item-box-list{
     font-size:$pixel14;

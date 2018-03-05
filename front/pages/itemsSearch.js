@@ -4,7 +4,7 @@ import PrincipalLayout from '../components/layouts/PrincipalLayout';
 import React from 'react'
 import configFile from '../configFile';
 import {PrettyLink} from '../components/tools/PrettyLink'
-import {BoxitemList} from '../components/items/dumbs/BoxItemList';
+import BoxitemList from '../components/items/dumbs/BoxItemList';
 import {CategoryBox} from '../components/items/dumbs/CategoryBox';
 import '../styles/itemSearch.scss';
 import {Router} from '../routes';
