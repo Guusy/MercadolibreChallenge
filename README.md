@@ -85,7 +85,7 @@ para poder ver nuestra pagina, esto le agrega tiempo de carga a la pagina pero s
 En cuanto al enrutamiento de Nextjs a los links generados en la busqueda le agrego la opción prefetch ```<Link prefetch>``` para que sus debidos assets y html sean precargados
 para que al acceder la carga sea mucho mas rapida y tener un mejor experiencia de usuario.
 
-### Puntos de vista:
+## Puntos de vista:
 
 #### Imagenes de la lista de productos:
 

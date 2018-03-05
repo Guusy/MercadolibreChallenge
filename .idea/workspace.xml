@@ -2,19 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b30cc216-b7bb-4381-b7b6-0ae993a74ff8" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/front/node_modules/.cache/babel-loader/201502c91d4bad4ad6081747973c8ec02f42c8ab.json.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/front/node_modules/.cache/babel-loader/240f6cd979cbf8b68f8d6e4fb97723e8f57ddb2e.json.gz" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change beforePath="$PROJECT_DIR$/front/.next/92fe6fead41ff7b0e148.hot-update.json" afterPath="" />
       <change beforePath="$PROJECT_DIR$/front/.next/app.js" afterPath="$PROJECT_DIR$/front/.next/app.js" />
-      <change beforePath="$PROJECT_DIR$/front/.next/b7dedb814ed1ae4e2a80.hot-update.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/front/.next/bundles/pages/itemsSearch.js" afterPath="$PROJECT_DIR$/front/.next/bundles/pages/itemsSearch.js" />
-      <change beforePath="$PROJECT_DIR$/front/.next/bundles/pages/itemsSearch.js.map" afterPath="$PROJECT_DIR$/front/.next/bundles/pages/itemsSearch.js.map" />
-      <change beforePath="$PROJECT_DIR$/front/.next/dist/bundles/pages/itemsSearch.js" afterPath="$PROJECT_DIR$/front/.next/dist/bundles/pages/itemsSearch.js" />
-      <change beforePath="$PROJECT_DIR$/front/.next/dist/bundles/pages/itemsSearch.js.map" afterPath="$PROJECT_DIR$/front/.next/dist/bundles/pages/itemsSearch.js.map" />
       <change beforePath="$PROJECT_DIR$/front/.next/manifest.js" afterPath="$PROJECT_DIR$/front/.next/manifest.js" />
       <change beforePath="$PROJECT_DIR$/front/.next/manifest.js.map" afterPath="$PROJECT_DIR$/front/.next/manifest.js.map" />
-      <change beforePath="$PROJECT_DIR$/front/components/tools/Loader.js" afterPath="$PROJECT_DIR$/front/components/tools/Loader.js" />
-      <change beforePath="$PROJECT_DIR$/front/styles/boxItem.scss" afterPath="$PROJECT_DIR$/front/styles/boxItem.scss" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -126,8 +118,8 @@
       <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="119" column="79" lean-forward="false" selection-start-line="119" selection-start-column="79" selection-end-line="119" selection-end-column="79" />
+            <state relative-caret-position="96">
+              <caret line="87" column="2" lean-forward="true" selection-start-line="87" selection-start-column="2" selection-end-line="87" selection-end-column="2" />
               <folding />
             </state>
           </provider>
@@ -190,10 +182,10 @@
         <option value="$PROJECT_DIR$/backend/routes/api.js" />
         <option value="$PROJECT_DIR$/front/configFile.js" />
         <option value="$PROJECT_DIR$/front/pages/itemsSearch.js" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/front/components/tools/Loader.js" />
         <option value="$PROJECT_DIR$/front/components/items/dumbs/BoxItemList.js" />
         <option value="$PROJECT_DIR$/front/styles/boxItem.scss" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -378,12 +370,12 @@
       <workItem from="1520030719872" duration="1911000" />
       <workItem from="1520085384309" duration="32840000" />
       <workItem from="1520173601453" duration="3507000" />
-      <workItem from="1520189174616" duration="21804000" />
+      <workItem from="1520189174616" duration="21959000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="80531000" />
+    <option name="totallyTimeSpent" value="80686000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1552" height="840" extended-state="6" />
@@ -761,8 +753,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="119" column="79" lean-forward="false" selection-start-line="119" selection-start-column="79" selection-end-line="119" selection-end-column="79" />
+        <state relative-caret-position="96">
+          <caret line="87" column="2" lean-forward="true" selection-start-line="87" selection-start-column="2" selection-end-line="87" selection-end-column="2" />
           <folding />
         </state>
       </provider>
